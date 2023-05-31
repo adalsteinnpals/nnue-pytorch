@@ -809,7 +809,7 @@ private:
     std::vector<std::thread> m_workers;
 };
 
-std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered, int random_fen_skipping, bool wld_filtered, int early_fen_skipping, int param_index)
+std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered, int random_fen_skipping, bool wld_filtered, int early_fen_skipping, int param_index, int train_setting)
 {
     if (filtered || random_fen_skipping || wld_filtered || early_fen_skipping)
     {
@@ -818,7 +818,8 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
             prob = double(random_fen_skipping) / (random_fen_skipping + 1),
             filtered,
             wld_filtered,
-            early_fen_skipping
+            early_fen_skipping,
+            train_setting
             ](const TrainingDataEntry& e){
 
             // VALUE_NONE from Stockfish.
@@ -851,6 +852,9 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
             static thread_local double piece_count_history_all_total = 0;
             static thread_local double piece_count_history_passed_total = 0;
 
+
+
+
             // max skipping rate
             static constexpr double max_skipping_rate = 10.0;
 
@@ -881,14 +885,43 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
                 return true;
 
 
+            // ----------------------------------------------------------------------------------------
+
+
+            // Custom Training Setting
+            // 0 = regular
+            // 1 = always with queens
+            // 2 = never only one with bishop pair
+
+
+            // static thread_local double train_setting = 1;
 
             // Return true if white or black is missing a queen
-            auto is_concept = [&]() {
+            auto both_have_queen = [&]() {
                 return (!e.blackHasQueen() || !e.whiteHasQueen());
             };
 
-            if (is_concept())
-                return true;
+
+            // Return true if only one player has bishop pair
+            auto only_one_has_bishop_pair = [&]() {
+                return (e.blackHasBishopPair() != e.whiteHasBishopPair());
+            };
+
+
+            if (train_setting == 1)
+                if (both_have_queen())
+                    return true;
+            if (train_setting == 2)
+                if (only_one_has_bishop_pair())
+                    return true;
+
+
+
+
+
+            // ----------------------------------------------------------------------------------------
+
+
 
 
             if (filtered && do_filter())
@@ -1006,9 +1039,9 @@ extern "C" {
     }
 
     // changing the signature needs matching changes in nnue_dataset.py
-    EXPORT FenBatchStream* CDECL create_fen_batch_stream(int concurrency, const char* filename, int batch_size, bool cyclic, bool filtered, int random_fen_skipping, bool wld_filtered, int early_fen_skipping, int param_index)
+    EXPORT FenBatchStream* CDECL create_fen_batch_stream(int concurrency, const char* filename, int batch_size, bool cyclic, bool filtered, int random_fen_skipping, bool wld_filtered, int early_fen_skipping, int param_index, int train_setting)
     {
-        auto skipPredicate = make_skip_predicate(filtered, random_fen_skipping, wld_filtered, early_fen_skipping, param_index);
+        auto skipPredicate = make_skip_predicate(filtered, random_fen_skipping, wld_filtered, early_fen_skipping, param_index, train_setting);
 
         return new FenBatchStream(concurrency, filename, batch_size, cyclic, skipPredicate);
     }
@@ -1020,9 +1053,9 @@ extern "C" {
 
     // changing the signature needs matching changes in nnue_dataset.py
     EXPORT Stream<SparseBatch>* CDECL create_sparse_batch_stream(const char* feature_set_c, int concurrency, const char* filename, int batch_size, bool cyclic,
-                                                                 bool filtered, int random_fen_skipping, bool wld_filtered, int early_fen_skipping, int param_index)
+                                                                 bool filtered, int random_fen_skipping, bool wld_filtered, int early_fen_skipping, int param_index, int train_setting)
     {
-        auto skipPredicate = make_skip_predicate(filtered, random_fen_skipping, wld_filtered, early_fen_skipping, param_index);
+        auto skipPredicate = make_skip_predicate(filtered, random_fen_skipping, wld_filtered, early_fen_skipping, param_index, train_setting);
 
         std::string_view feature_set(feature_set_c);
         if (feature_set == "HalfKP")
@@ -1093,7 +1126,7 @@ extern "C" {
 
 int main()
 {
-    auto stream = create_sparse_batch_stream("HalfKP", 4, "10m_d3_q_2.binpack", 8192, true, false, 0, false, -1, 0);
+    auto stream = create_sparse_batch_stream("HalfKP", 4, "10m_d3_q_2.binpack", 8192, true, false, 0, false, -1, 0, 0);
     auto t0 = std::chrono::high_resolution_clock::now();
     for (int i = 0; i < 1000; ++i)
     {

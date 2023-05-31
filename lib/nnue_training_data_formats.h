@@ -6864,6 +6864,25 @@ namespace binpack
         }
 
 
+        // Returns true if white has bishop pair
+        [[nodiscard]] bool whiteHasBishopPair() const
+        {
+            return pos.piecesBB(chess::whiteBishop).count() == 2;
+        }
+
+        // Returns true if black has bishop pair
+        [[nodiscard]] bool blackHasBishopPair() const
+        {
+            return pos.piecesBB(chess::blackBishop).count() == 2;
+        }
+
+
+
+
+
+
+
+
         // The win rate model returns the probability (per mille) of winning given an eval
         // and a game-ply. The model fits rather accurately the LTC fishtest statistics.
         std::tuple<double, double, double> win_rate_model() const {
