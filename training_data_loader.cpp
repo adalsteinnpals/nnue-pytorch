@@ -880,6 +880,17 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
             if (random_fen_skipping && do_skip())
                 return true;
 
+
+
+            // Return true if white or black is missing a queen
+            auto is_concept = [&]() {
+                return (!e.blackHasQueen() || !e.whiteHasQueen());
+            };
+
+            if (is_concept())
+                return true;
+
+
             if (filtered && do_filter())
                 return true;
 

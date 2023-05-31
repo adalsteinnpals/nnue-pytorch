@@ -6851,6 +6851,19 @@ namespace binpack
                    pos.pieceAt(move.to).color() != pos.pieceAt(move.from).color(); // Exclude castling
         }
 
+
+        // Returns true if Q is in fen string
+        [[nodiscard]] bool whiteHasQueen() const
+        {
+            return pos.fen().find("Q") != std::string::npos;
+        }
+        // Returns true if q is in fen string
+        [[nodiscard]] bool blackHasQueen() const
+        {
+            return pos.fen().find("q") != std::string::npos;
+        }
+
+
         // The win rate model returns the probability (per mille) of winning given an eval
         // and a game-ply. The model fits rather accurately the LTC fishtest statistics.
         std::tuple<double, double, double> win_rate_model() const {
