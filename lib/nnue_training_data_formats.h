@@ -6852,15 +6852,15 @@ namespace binpack
         }
 
 
-        // Returns true if Q is in fen string
+        // Returns true if white has queen
         [[nodiscard]] bool whiteHasQueen() const
         {
-            return pos.fen().find("Q") != std::string::npos;
+            return pos.piecesBB(chess::whiteQueen).count() == 1;
         }
-        // Returns true if q is in fen string
+        // Returns true if black has queen
         [[nodiscard]] bool blackHasQueen() const
         {
-            return pos.fen().find("q") != std::string::npos;
+            return pos.piecesBB(chess::blackQueen).count() == 1;
         }
 
 
