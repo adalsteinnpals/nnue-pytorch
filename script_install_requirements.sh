@@ -29,5 +29,9 @@ conda env create --file=environment.yml
 sh compile_data_loader.bat
 
 
+wget https://github.com/official-stockfish/books/blob/master/noob_3moves.epd.zip?raw=true -O noob_3moves.epd.zip
 
 
+# unzip noob_3moves.epd.zip
+
+unzip noob_3moves.epd.zip
