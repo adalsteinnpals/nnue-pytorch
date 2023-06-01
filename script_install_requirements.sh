@@ -35,3 +35,7 @@ wget https://github.com/official-stockfish/books/blob/master/noob_3moves.epd.zip
 # unzip noob_3moves.epd.zip
 
 unzip noob_3moves.epd.zip
+
+# remove noob_3moves.epd.zip
+
+rm -rf noob_3moves.epd.zip
