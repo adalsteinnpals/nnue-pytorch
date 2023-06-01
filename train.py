@@ -119,6 +119,7 @@ def main():
   print('Random fen skipping: {}'.format(args.random_fen_skipping))
   print('Skip early plies: {}'.format(args.early_fen_skipping))
   print('Param index: {}'.format(args.param_index))
+  print('Train Setting: {}'.format(args.train_setting))
 
   if args.threads > 0:
     print('limiting torch to {} threads.'.format(args.threads))
@@ -129,10 +130,9 @@ def main():
 
   tb_logger = pl_loggers.TensorBoardLogger(logdir)
   checkpoint_callback = pl.callbacks.ModelCheckpoint(save_last=args.save_last_network, every_n_epochs=args.network_save_period, save_top_k=-1)
-  trainer = pl.Trainer.from_argparse_args(args, callbacks=[checkpoint_callback], logger=tb_logger)
+  trainer = pl.Trainer.from_argparse_args(args, callbacks=[checkpoint_callback], logger=tb_logger, max_epochs=max_epoch)
 
   main_device = trainer.root_device if trainer.strategy.root_device.index is None else 'cuda:' + str(trainer.strategy.root_device.index)
-
   nnue.to(device=main_device)
 
   print('Using c++ data loader')
