@@ -908,11 +908,20 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
             };
 
 
+            // Return true if only one player has a queen
+            auto only_one_has_queen = [&]() {
+                return (e.blackHasQueen() != e.whiteHasQueen());
+            };
+
+
             if (train_setting == 1)
                 if (both_have_queen())
                     return true;
             if (train_setting == 2)
                 if (only_one_has_bishop_pair())
+                    return true;
+            if (train_setting == 3)
+                if (only_one_has_queen())
                     return true;
 
 
