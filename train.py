@@ -76,7 +76,7 @@ def main():
 
   start_lambda = args.start_lambda or args.lambda_
   end_lambda = args.end_lambda or args.lambda_
-  max_epoch = args.max_epochs or 800
+  max_epoch = args.max_epochs or 501
   if args.resume_from_model is None:
     nnue = M.NNUE(
       feature_set=feature_set,

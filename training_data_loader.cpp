@@ -913,6 +913,11 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
                 return (e.blackHasQueen() != e.whiteHasQueen());
             };
 
+            // Return true if only one player has knight pair
+            auto only_one_has_knight_pair = [&]() {
+                return (e.blackHasKnightPair() != e.whiteHasKnightPair());
+            };
+
 
             if (train_setting == 1)
                 if (both_have_queen())
@@ -922,6 +927,9 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
                     return true;
             if (train_setting == 3)
                 if (only_one_has_queen())
+                    return true;
+            if (train_setting == 4)
+                if (only_one_has_knight_pair())
                     return true;
 
 

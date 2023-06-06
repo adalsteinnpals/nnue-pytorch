@@ -6876,6 +6876,18 @@ namespace binpack
             return pos.piecesBB(chess::blackBishop).count() == 2;
         }
 
+        // Returns true if white has knight pair
+        [[nodiscard]] bool whiteHasKnightPair() const
+        {
+            return pos.piecesBB(chess::whiteKnight).count() == 2;
+        }
+
+        // Returns true if black has knight pair
+        [[nodiscard]] bool blackHasKnightPair() const
+        {
+            return pos.piecesBB(chess::blackKnight).count() == 2;
+        }
+
 
 
 
