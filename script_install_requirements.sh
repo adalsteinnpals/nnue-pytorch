@@ -17,7 +17,7 @@ rm -rf libtraining_data_loader.so
 
 # install requirements
 
-pip install requirements.txt
+pip install -r requirements.txt
 
 # build training_data_loader
 
