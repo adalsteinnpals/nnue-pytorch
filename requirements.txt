@@ -1,0 +1,4 @@
+gdown
+pytorch-lightning==1.9.0
+cupy
+python-chess==0.31.4
