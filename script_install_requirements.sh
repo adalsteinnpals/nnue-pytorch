@@ -17,12 +17,7 @@ rm -rf libtraining_data_loader.so
 
 # install requirements
 
-conda env create --file=environment.yml
-
-#conda init bash
-
-#conda activate nnuepytorch
-
+pip install requirements.txt
 
 # build training_data_loader
 
