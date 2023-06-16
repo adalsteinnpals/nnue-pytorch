@@ -892,6 +892,8 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
             // 0 = regular
             // 1 = always with queens
             // 2 = never only one with bishop pair
+            // 3 = never only one with queen
+            // 4 = never only one with knight pair
 
 
             // static thread_local double train_setting = 1;

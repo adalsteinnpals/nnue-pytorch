@@ -6855,12 +6855,12 @@ namespace binpack
         // Returns true if white has queen
         [[nodiscard]] bool whiteHasQueen() const
         {
-            return pos.piecesBB(chess::whiteQueen).count() == 1;
+            return pos.piecesBB(chess::whiteQueen).count() > 0;
         }
         // Returns true if black has queen
         [[nodiscard]] bool blackHasQueen() const
         {
-            return pos.piecesBB(chess::blackQueen).count() == 1;
+            return pos.piecesBB(chess::blackQueen).count() > 0;
         }
 
 
