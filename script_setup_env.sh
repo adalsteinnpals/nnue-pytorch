@@ -35,6 +35,6 @@ cd ..
 
 # download data
 cd nnue-pytorch
-python script_install_requirements.py
+bash script_install_requirements.sh
 
 
