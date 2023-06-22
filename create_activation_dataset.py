@@ -11,7 +11,6 @@ from scipy.sparse import lil_matrix, vstack
 import click
 import os
 import pickle as pkl
-import model as M
 
 logging.basicConfig(format='%(asctime)s — %(name)s — %(levelname)s — %(message)s', 
                     datefmt='%d-%b-%y %H:%M:%S',
@@ -68,17 +67,28 @@ def get_single_activation(model, forward_mode, feature_set, fens):
 @click.command()
 @click.option('--start', default=0, help='Start index')
 @click.option('--length', default=100, help='Length of dataset')
-def main(start, length):
+@click.option('--model_string', default="version_19_setting_0", help='Name of log for model')
+@click.option('--model_file', default="model_single_bucket", help='Name of log for model')
+@click.option('--ckpt_name', default="epoch=499-step=3052000.ckpt", help='Name of log for model')
+def main(start, length, model_string, model_file, ckpt_name):
+
+    if model_file == "model_single_bucket":
+        import model_single_bucket as M
+    elif model_file == "model":
+        import model as M
     
-    db_name = "stockfish_data_fens_03_queen"
+    db_name = f"stockfish_data_fens_{model_string}"
     dir_name = f"/media/ap/storage/stockfish_data/{db_name}"
+
+
 
     # make dir if not exists
     if not os.path.exists(dir_name):
         os.mkdir(dir_name)
 
     # load df
-    df = pd.read_pickle(f"{dir_name}/concept_df.pkl")
+    concept_df_path = f"/media/ap/storage/stockfish_data/stockfish_data_fens_01/concept_df.pkl"
+    df = pd.read_pickle(concept_df_path)
 
     # if start is larger than length of df, return
     if start > df.shape[0]:
@@ -90,7 +100,7 @@ def main(start, length):
     feature_set = features.get_feature_set_from_name(features_name)
 
     nnue = M.NNUE(feature_set)
-    nnue.load_from_checkpoint('logs/default/version_11/checkpoints/epoch=499-step=3051999.ckpt', feature_set=feature_set)
+    nnue.load_from_checkpoint(f'logs/lightning_logs/{model_string}/checkpoints/{ckpt_name}', feature_set=feature_set)
 
     #nnue = torch.load('logs/default/version_11/checkpoints/epoch=499-step=3051999.ckpt')
 
@@ -100,20 +110,7 @@ def main(start, length):
     print('running')
 
 
-    forward_modes = [
-                    #10, # input 
-                    #1, # after first layer
-                    #2, # cat(L1, L1_fact)
-                    #3, # L1_fact
-                    #4, # L1(ind)
-                    #5, # L2(ind)
-                    #6, # ind
-                    #7, # wpsqt
-                    #8, # psqt_ind
-                    #9, # wpsqt(psqt_ind)
-                    100
-                    ]
-
+    forward_modes = nnue.possible_forward_modes
 
     input_size = 46592
 

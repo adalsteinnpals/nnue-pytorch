@@ -1,10 +1,10 @@
 
 # declare ID variable
 ID=3
-stockfish_path=/home/ubuntu/Stockfish
-nnue_path=/home/ubuntu/nnue-pytorch
-ordo_path=../Ordo/ordo
-cli_path=../c-chess-cli/c-chess-cli
+stockfish_path=/home/ap/Stockfish
+nnue_path=/home/ap/nnue-pytorch
+ordo_path=../PycharmProjects/Ordo/ordo
+cli_path=../PycharmProjects/c-chess-cli/c-chess-cli
 depth=9
 games=500
 

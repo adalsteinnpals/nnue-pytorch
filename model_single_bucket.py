@@ -30,6 +30,7 @@ class LayerStacks(nn.Module):
     self.l1 = nn.Linear(4 * L1 // 2, L2)
     self.l2 = nn.Linear(L2, L3)
     self.output = nn.Linear(L3, 1)
+    self.relu = nn.ReLU()
 
     # Cached helper tensor for choosing outputs by bucket indices.
     # Initialized lazily in forward.
@@ -62,13 +63,16 @@ class LayerStacks(nn.Module):
     self.output.weight = nn.Parameter(output_weight)
     self.output.bias = nn.Parameter(output_bias)
 
-  def forward(self, x, ls_indices):
-
+  def forward(self, x, ls_indices, forward_mode = None):
 
     l1o_ = self.l1(x)
-    l1o_ = torch.clamp(l1o_, 0.0, 1.0)
+    if forward_mode == 2:
+        return l1o_
+    l1o_ = self.relu(l1o_)
     l2o_ = self.l2(l1o_)
-    l2o_ = torch.clamp(l2o_, 0.0, 1.0)
+    if forward_mode == 3:
+        return l2o_
+    l2o_ = self.relu(l2o_)
     out = self.output(l2o_)
 
     return out
@@ -89,6 +93,9 @@ class LayerStacks(nn.Module):
         output.weight.data = self.output.weight[i:(i+1), :]
         output.bias.data = self.output.bias[i:(i+1)]
         yield l1, l2, output
+
+
+
 
 
 class NNUE(pl.LightningModule):
@@ -131,6 +138,7 @@ class NNUE(pl.LightningModule):
     ]
 
     self._init_layers()
+    self.possible_forward_modes = [1, 2, 3]
 
   '''
   We zero all virtual feature weights because there's not need for them
@@ -235,12 +243,17 @@ class NNUE(pl.LightningModule):
 
   def forward(self, us, them, white_indices, white_values, black_indices, black_values, psqt_indices, layer_stack_indices):
     wp, bp = self.input(white_indices, white_values, black_indices, black_values)
+
+    if self.forward_mode == 1:
+        # return hidden state
+        return torch.cat([wp, bp], dim=1)
+    
     w, _ = torch.split(wp, L1, dim=1)
     b, _ = torch.split(bp, L1, dim=1)
     l0_ = (us * torch.cat([w, b], dim=1)) + (them * torch.cat([b, w], dim=1))
     l0_ = torch.clamp(l0_, 0.0, 1.0)
 
-    x = self.layer_stacks(l0_, layer_stack_indices) 
+    x = self.layer_stacks(l0_, layer_stack_indices, forward_mode = self.forward_mode) 
 
     return x
 

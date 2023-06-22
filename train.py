@@ -1,5 +1,5 @@
 import argparse
-import model_single_bucket as M
+import model as M
 import nnue_dataset
 import pytorch_lightning as pl
 import features

@@ -923,15 +923,24 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
 
             if (train_setting == 1)
                 if (both_have_queen())
+                    // print to terminal "throwing out using setting 1"
+                    // std::cout << "throwing out using setting 1" << std::endl;
+
                     return true;
             if (train_setting == 2)
                 if (only_one_has_bishop_pair())
+                    // print to terminal "throwing out using setting 2"
+                    // std::cout << "throwing out using setting 2" << std::endl;
                     return true;
             if (train_setting == 3)
                 if (only_one_has_queen())
+                    // print to terminal "throwing out using setting 3"
+                    // std::cout << "throwing out using setting 3" << std::endl;
                     return true;
             if (train_setting == 4)
                 if (only_one_has_knight_pair())
+                    // print to terminal "throwing out using setting 4"
+                    // std::cout << "throwing out using setting 4" << std::endl;
                     return true;
 
 

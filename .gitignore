@@ -9,3 +9,5 @@ logs/
 *.epd
 *.zip
 models/
+.vscode/
+*.binpack

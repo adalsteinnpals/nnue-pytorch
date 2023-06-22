@@ -1,0 +1,2421 @@
+[Round "1.1"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/P7/2P2N2/1P1PPPPP/RNBQKB1R w KQkq - 0 1"]
+[PlyCount "71"]
+
+1. d4 {27/9 42ms} g6 {-25/9 45ms} 2. Nbd2 {21/9 39ms} Bg7 {-30/9 45ms} 3. e4 {24/9 40ms}
+O-O {-32/9 34ms} 4. Bd3 {26/9 35ms} c5 {-9/9 14ms} 5. dxc5 {32/9 28ms} dxc5 {-34/9 40ms}
+6. Qe2 {40/9 16ms} Nc6 {-26/9 41ms} 7. Nc4 {44/9 10ms} Bg4 {-19/9 14ms} 8. h3 {30/9 11ms}
+Bxf3 {-18/9 11ms} 9. Qxf3 {33/9 8ms} a6 {-15/9 15ms} 10. Be2 {44/9 14ms} Nd7 {-15/9 12ms}
+11. O-O {33/9 14ms} b5 {-16/9 33ms} 12. Ne3 {29/9 13ms} c4 {-8/9 10ms} 13. Rd1 {36/9 24ms}
+Qc7 {-6/9 3ms} 14. Ng4 {38/9 21ms} Nce5 {13/9 15ms} 15. Qg3 {18/9 33ms} Qc6 {-11/9 28ms}
+16. Bg5 {21/9 47ms} Nxg4 {0/9 18ms} 17. hxg4 {8/9 80ms} e6 {-2/9 15ms} 18. Be7 {38/9 26ms}
+Rfe8 {2/9 17ms} 19. Qd6 {38/9 19ms} Qxd6 {-34/9 14ms} 20. Bxd6 {26/9 21ms} Nb6 {-27/9 8ms}
+21. axb5 {18/9 17ms} axb5 {-29/9 7ms} 22. e5 {26/9 9ms} Bf8 {-5/9 5ms} 23. Kf1 {21/9 7ms}
+Rxa1 {50/9 1ms} 24. Rxa1 {21/9 4ms} Bxd6 {29/9 6ms} 25. exd6 {14/9 10ms} Rd8 {-23/9 10ms}
+26. Ra5 {26/9 10ms} b4 {-33/9 12ms} 27. cxb4 {18/9 30ms} Rxd6 {-23/9 16ms} 28. Ra6 {23/9 6ms}
+h6 {-12/9 16ms} 29. Bf3 {11/9 26ms} Kg7 {-10/9 11ms} 30. b5 {7/9 19ms} Kf6 {-8/9 14ms}
+31. g3 {4/9 18ms} g5 {-2/9 7ms} 32. Bc6 {-6/9 18ms} Nd5 {0/9 8ms} 33. Ra4 {0/9 12ms}
+Nb6 {0/9 3ms} 34. Ra6 {-10/9 9ms} Nd5 {0/9 2ms} 35. Ra4 {0/9 2ms} Nb6 {0/9 1ms}
+36. Ra6 {0/9 1ms} 1/2-1/2
+
+[Round "1.2"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/P7/2P2N2/1P1PPPPP/RNBQKB1R w KQkq - 0 1"]
+[PlyCount "140"]
+
+1. d4 {15/9 42ms} g6 {-24/9 59ms} 2. Nbd2 {22/9 19ms} Bg7 {-25/9 21ms} 3. e4 {37/9 30ms}
+O-O {-22/9 16ms} 4. Bd3 {43/9 26ms} c5 {-25/9 33ms} 5. dxc5 {60/9 8ms} dxc5 {-36/9 26ms}
+6. Qe2 {34/9 19ms} Nh5 {-33/9 44ms} 7. Nc4 {35/9 24ms} Nc6 {-28/9 9ms} 8. O-O {14/9 25ms}
+Qc7 {-28/9 23ms} 9. h3 {18/9 45ms} e5 {-21/9 13ms} 10. Rd1 {26/9 9ms} Be6 {-23/9 57ms}
+11. Ng5 {12/9 88ms} Bd7 {-11/9 19ms} 12. Ne3 {31/9 18ms} Nf4 {-20/9 17ms} 13. Qc2 {15/9 45ms}
+h6 {-19/9 24ms} 14. Nf3 {28/9 17ms} Rad8 {-14/9 26ms} 15. Bc4 {6/9 37ms} b6 {-10/9 17ms}
+16. b4 {12/9 33ms} cxb4 {27/9 16ms} 17. cxb4 {19/9 25ms} Qc8 {29/9 23ms} 18. Ba3 {37/9 6ms}
+Nd4 {144/9 3ms} 19. Nxd4 {3/9 3ms} exd4 {142/9 3ms} 20. Nd5 {-180/9 10ms} Nxd5 {149/9 5ms}
+21. exd5 {-149/9 4ms} Bxa4 {165/9 2ms} 22. Qxa4 {-48/9 6ms} Qxc4 {170/9 4ms} 23. d6 {-199/9 11ms}
+b5 {205/9 4ms} 24. Qa6 {-184/9 11ms} Qd5 {187/9 8ms} 25. Bc1 {-176/9 11ms} Rxd6 {203/9 10ms}
+26. Qxa7 {-171/9 12ms} d3 {219/9 10ms} 27. Rb1 {-189/9 28ms} Rc8 {217/9 17ms} 28. Be3 {-244/9 34ms}
+h5 {235/9 12ms} 29. Qe7 {-251/9 34ms} Bf6 {248/9 13ms} 30. Qa7 {-245/9 20ms} Kg7 {263/9 11ms}
+31. Bc5 {-219/9 17ms} Re6 {189/9 18ms} 32. Qa3 {-210/9 8ms} d2 {268/9 4ms} 33. Be3 {-132/9 4ms}
+Rc3 {361/9 7ms} 34. Qa7 {-321/9 10ms} Rc2 {346/9 8ms} 35. Kh1 {-295/9 36ms} Qd3 {334/9 18ms}
+36. Qa8 {-293/9 26ms} Bc3 {298/9 16ms} 37. Bc5 {-266/9 8ms} Kh7 {286/9 13ms} 38. Be3 {-257/9 17ms}
+Re5 {301/9 6ms} 39. Qf8 {-263/9 19ms} Qd5 {289/9 10ms} 40. Kg1 {-260/9 19ms} Rf5 {293/9 16ms}
+41. Qc8 {-261/9 27ms} Qd3 {272/9 20ms} 42. Qf8 {-269/9 44ms} Bg7 {270/9 16ms} 43. Qa8 {-252/9 18ms}
+h4 {280/9 17ms} 44. Kh1 {-255/9 13ms} g5 {277/9 7ms} 45. Rf1 {-257/9 56ms} Qd5 {301/9 5ms}
+46. Qa7 {-263/9 26ms} g4 {315/9 17ms} 47. Qb8 {-396/9 10ms} gxh3 {393/9 3ms} 48. Qh2 {-452/9 6ms}
+hxg2+ {664/9 3ms} 49. Qxg2 {-410/9 4ms} Bh6 {441/9 10ms} 50. Qxd5 {-376/9 3ms} Rxd5 {414/9 9ms}
+51. Rbd1 {-399/9 6ms} Rc3 {406/9 13ms} 52. Kg2 {-383/9 14ms} Kg6 {435/9 10ms} 53. Rh1 {-431/9 9ms}
+Bxe3 {451/9 6ms} 54. fxe3 {-514/9 6ms} Rxe3 {486/9 8ms} 55. Rc1 {-543/9 17ms} Rg5+ {573/9 20ms}
+56. Kh2 {-624/9 10ms} Re2+ {741/9 3ms} 57. Kh3 {-656/9 8ms} Rg3+ {716/9 2ms} 58. Kxh4 {-643/9 1ms}
+dxc1=Q {785/9 3ms} 59. Rxc1 {-675/9 4ms} Rg5 {703/9 6ms} 60. Rc6+ {-635/9 10ms} f6 {769/9 3ms}
+61. Rc3 {-797/9 3ms} Rh2+ {1094/9 1ms} 62. Rh3 {-823/9 4ms} Rh5+ {1123/9 1ms} 63. Kg3 {-989/9 3ms}
+R5xh3+ {1146/9 1ms} 64. Kf4 {-920/9 2ms} f5 {1050/9 2ms} 65. Ke5 {-981/9 4ms} Rc3 {1094/9 3ms}
+66. Kd4 {-1022/9 3ms} Rhc2 {1102/9 4ms} 67. Ke5 {-968/9 2ms} Rd2 {1133/9 3ms} 68. Kf4 {-M3/9 1ms}
+Rcd3 {M3/9 4ms} 69. Ke5 {-M2/9 0ms} Re2+ {M2/9 1ms} 70. Kf4 {-M1/9 0ms} Re4# {M1/9 1ms}
+0-1
+
+[Round "1.3"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "r1bqkbnr/1ppnpppp/p7/3p4/5B2/3P3P/PPP1PPP1/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "173"]
+
+1. Nf3 {13/9 25ms} e6 {-16/9 66ms} 2. e3 {14/9 42ms} Ngf6 {-6/9 23ms} 3. Be2 {12/9 24ms}
+b6 {-7/9 17ms} 4. Nbd2 {5/9 20ms} Bb7 {-10/9 23ms} 5. O-O {6/9 31ms} Be7 {0/9 42ms}
+6. c4 {7/9 12ms} c5 {2/9 9ms} 7. a4 {12/9 26ms} O-O {-3/9 60ms} 8. a5 {10/9 37ms}
+b5 {2/9 35ms} 9. Bg3 {8/9 41ms} h6 {3/9 47ms} 10. Qb3 {7/9 33ms} Bc6 {1/9 32ms}
+11. Rfc1 {-1/9 40ms} Re8 {11/9 68ms} 12. Qc2 {0/9 72ms} Bf8 {31/9 36ms} 13. Ne5 {-31/9 110ms}
+Nxe5 {24/9 20ms} 14. Bxe5 {-27/9 28ms} Rc8 {24/9 59ms} 15. Rd1 {-30/9 95ms} Nd7 {43/9 32ms}
+16. Bg3 {-36/9 55ms} bxc4 {53/9 7ms} 17. dxc4 {-46/9 16ms} d4 {65/9 9ms} 18. b4 {-17/9 8ms}
+cxb4 {66/9 6ms} 19. exd4 {-38/9 13ms} e5 {61/9 5ms} 20. dxe5 {-4/9 7ms} Nxe5 {47/9 24ms}
+21. Nb3 {-23/9 15ms} Qe7 {35/9 18ms} 22. c5 {-19/9 28ms} Qb7 {26/9 18ms} 23. Bf1 {-34/9 28ms}
+Bb5 {26/9 3ms} 24. Bxb5 {-28/9 7ms} Qxb5 {24/9 38ms} 25. Rac1 {-24/9 8ms} g6 {28/9 33ms}
+26. Bxe5 {11/9 5ms} Rxe5 {-9/9 22ms} 27. Qc4 {23/9 6ms} Qc6 {-12/9 26ms} 28. Qxb4 {-15/9 5ms}
+Rg5 {-10/9 6ms} 29. g4 {7/9 72ms} h5 {1/9 9ms} 30. Qf4 {15/9 5ms} Rd5 {-7/9 5ms}
+31. Rxd5 {53/9 6ms} Qxd5 {-56/9 41ms} 32. Qc4 {75/9 5ms} Qg5 {-59/9 13ms} 33. c6 {87/9 6ms}
+Rc7 {-65/9 30ms} 34. Kg2 {79/9 12ms} hxg4 {-49/9 25ms} 35. hxg4 {48/9 17ms} Rc8 {-57/9 22ms}
+36. Qd4 {58/9 39ms} Rd8 {-51/9 5ms} 37. Qe4 {68/9 7ms} Bd6 {-41/9 14ms} 38. Rd1 {76/9 50ms}
+Bc7 {-25/9 15ms} 39. Rxd8+ {46/9 27ms} Bxd8 {-53/9 7ms} 40. Qe8+ {114/9 3ms} Kg7 {-77/9 7ms}
+41. Qd7 {105/9 19ms} Kf8 {-60/9 47ms} 42. Qd4 {119/9 7ms} Kg8 {-97/9 35ms} 43. Nc5 {213/9 6ms}
+Bxa5 {-17/9 35ms} 44. Nd7 {54/9 24ms} Bd8 {0/9 14ms} 45. Kf3 {75/9 12ms} a5 {-37/9 60ms}
+46. Nb6 {47/9 26ms} Bxb6 {-45/9 23ms} 47. Qxb6 {74/9 6ms} Qd5+ {-39/9 23ms} 48. Kf4 {40/9 41ms}
+Qd6+ {-23/9 6ms} 49. Ke4 {44/9 6ms} a4 {-37/9 8ms} 50. Qb7 {34/9 9ms} f5+ {-42/9 5ms}
+51. Ke3 {42/9 7ms} Qe5+ {-57/9 25ms} 52. Kd3 {51/9 9ms} Qe4+ {-55/9 11ms} 53. Kc3 {68/9 5ms}
+a3 {-76/9 5ms} 54. Kb3 {81/9 4ms} Qf3+ {-73/9 13ms} 55. Ka2 {83/9 5ms} Qxf2+ {-65/9 5ms}
+56. Kxa3 {65/9 8ms} Qd2 {-65/9 8ms} 57. g5 {75/9 12ms} Kf8 {-41/9 21ms} 58. Ka4 {44/9 25ms}
+f4 {-30/9 4ms} 59. Kb5 {38/9 13ms} f3 {-14/9 18ms} 60. c7 {43/9 4ms} Qd3+ {-15/9 3ms}
+61. Kc5 {77/9 5ms} Qe3+ {-15/9 1ms} 62. Kd5 {67/9 10ms} Qxg5+ {-20/9 4ms} 63. Ke4 {111/9 1ms}
+Qf5+ {-13/9 9ms} 64. Kd4 {36/9 12ms} Qf6+ {-27/9 12ms} 65. Kc4 {138/9 2ms} Qe6+ {-40/9 15ms}
+66. Kd4 {67/9 18ms} Qf6+ {-32/9 8ms} 67. Kd3 {59/9 6ms} Qf5+ {-29/9 4ms} 68. Kc3 {43/9 3ms}
+Qf6+ {-32/9 5ms} 69. Kb3 {23/9 9ms} Qe6+ {-26/9 2ms} 70. Ka3 {23/9 1ms} Qe3+ {-25/9 3ms}
+71. Ka4 {22/9 5ms} Qe8+ {-59/9 20ms} 72. Qb5 {111/9 7ms} Qa8+ {-65/9 4ms} 73. Kb4 {90/9 6ms}
+Ke7 {-60/9 3ms} 74. Kc5 {79/9 12ms} f2 {-53/9 5ms} 75. Kb6 {39/9 15ms} Qg8 {-53/9 4ms}
+76. Qc5+ {39/9 10ms} Kd7 {-11/9 3ms} 77. Qc6+ {27/9 9ms} Ke7 {-22/9 4ms} 78. Qe4+ {3/9 8ms}
+Kd6 {-14/9 4ms} 79. Qf4+ {3/9 5ms} Ke7 {-8/9 5ms} 80. Qe4+ {1/9 6ms} Kd7 {-8/9 7ms}
+81. Qd4+ {1/9 4ms} Ke7 {-3/9 2ms} 82. Qe3+ {0/9 4ms} Kd6 {-1/9 5ms} 83. Qd4+ {0/9 3ms}
+Ke7 {0/9 4ms} 84. Qe3+ {0/9 1ms} Kd6 {0/9 2ms} 85. Qc5+ {0/9 2ms} Kd7 {0/9 1ms}
+86. Qc6+ {0/9 5ms} Ke7 {0/9 2ms} 87. Qe4+ {0/9 3ms} 1/2-1/2
+
+[Round "1.4"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "r1bqkbnr/1ppnpppp/p7/3p4/5B2/3P3P/PPP1PPP1/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "144"]
+
+1. d4 {17/9 50ms} c5 {0/9 29ms} 2. c3 {-18/9 13ms} Qb6 {7/9 6ms} 3. Qb3 {-13/9 4ms}
+cxd4 {16/9 6ms} 4. Qxb6 {-5/9 19ms} Nxb6 {25/9 27ms} 5. cxd4 {-15/9 22ms} Bf5 {23/9 32ms}
+6. Nc3 {-6/9 35ms} e6 {30/9 18ms} 7. a3 {-22/9 48ms} Rc8 {44/9 20ms} 8. e3 {-25/9 41ms}
+Nf6 {42/9 16ms} 9. h4 {-25/9 48ms} Ne4 {67/9 43ms} 10. Nge2 {-49/9 29ms} Nd6 {45/9 24ms}
+11. Ng3 {-46/9 16ms} Bc2 {53/9 14ms} 12. Kd2 {-39/9 11ms} Bb3 {67/9 26ms} 13. Bxd6 {-40/9 9ms}
+Bxd6 {67/9 14ms} 14. Bd3 {-53/9 33ms} Bxg3 {67/9 9ms} 15. fxg3 {-49/9 21ms} a5 {63/9 14ms}
+16. g4 {-37/9 20ms} h6 {48/9 35ms} 17. g5 {-30/9 11ms} hxg5 {45/9 46ms} 18. hxg5 {-23/9 14ms}
+Ke7 {35/9 31ms} 19. Rac1 {-24/9 27ms} a4 {24/9 34ms} 20. Rce1 {-23/9 43ms} Ra8 {23/9 40ms}
+21. Rc1 {-27/9 26ms} Rad8 {21/9 26ms} 22. g3 {-16/9 15ms} Rb8 {23/9 50ms} 23. Rh4 {0/9 17ms}
+Ra8 {4/9 49ms} 24. e4 {-5/9 42ms} Rxh4 {10/9 13ms} 25. gxh4 {-19/9 11ms} Rh8 {12/9 10ms}
+26. Rh1 {-14/9 3ms} dxe4 {21/9 9ms} 27. Nxe4 {-5/9 10ms} Bd5 {7/9 29ms} 28. Rh2 {0/9 23ms}
+Bxe4 {5/9 39ms} 29. Bxe4 {30/9 5ms} Nc4+ {-12/9 30ms} 30. Kc3 {18/9 29ms} Nd6 {-9/9 22ms}
+31. Bd3 {7/9 33ms} g6 {-12/9 32ms} 32. Kb4 {6/9 13ms} Rd8 {-1/9 16ms} 33. d5 {7/9 14ms}
+Nf5 {-6/9 22ms} 34. Bxf5 {0/9 12ms} exf5 {-7/9 9ms} 35. Kc5 {4/9 13ms} Rc8+ {0/9 5ms}
+36. Kd4 {0/9 6ms} Kd6 {0/9 3ms} 37. h5 {0/9 4ms} gxh5 {1/9 8ms} 38. Rxh5 {0/9 3ms}
+Rg8 {2/9 6ms} 39. Rh6+ {0/9 4ms} Rg6 {2/9 2ms} 40. Rh5 {0/9 2ms} b6 {3/9 17ms}
+41. Rh6 {0/9 4ms} b5 {1/9 8ms} 42. Rh5 {-9/9 10ms} f4 {5/9 6ms} 43. Ke4 {0/9 4ms}
+f3 {2/9 14ms} 44. Kxf3 {1/9 5ms} Kxd5 {3/9 13ms} 45. Kf4 {8/9 18ms} Kc4 {0/9 21ms}
+46. Rh3 {3/9 14ms} Re6 {-2/9 11ms} 47. Kf5 {0/9 6ms} Re2 {-2/9 2ms} 48. Rh4+ {-2/9 10ms}
+Kc5 {0/9 12ms} 49. Rb4 {0/9 10ms} Rg2 {0/9 11ms} 50. b3 {5/9 9ms} Rf2+ {-2/9 6ms}
+51. Ke5 {5/9 3ms} axb3 {-3/9 8ms} 52. Rxb3 {5/9 9ms} Re2+ {0/9 5ms} 53. Kf4 {3/9 13ms}
+Rf2+ {-4/9 14ms} 54. Rf3 {4/9 5ms} Rxf3+ {-5/9 4ms} 55. Kxf3 {0/9 4ms} Kd6 {-3/9 4ms}
+56. Kf4 {2/9 1ms} Ke6 {0/9 2ms} 57. Ke4 {2/9 20ms} f6 {-1/9 2ms} 58. gxf6 {2/9 2ms}
+Kxf6 {-6/9 1ms} 59. Kd4 {3/9 3ms} Ke7 {-1/9 10ms} 60. Kc5 {4/9 3ms} Kd7 {-1/9 2ms}
+61. Kxb5 {4/9 4ms} Kc7 {0/9 3ms} 62. Kc5 {3/9 4ms} Kb7 {0/9 1ms} 63. Kb5 {2/9 5ms}
+Kc7 {-3/9 1ms} 64. Ka6 {2/9 2ms} Kb8 {-17/9 2ms} 65. Kb6 {2/9 2ms} Ka8 {-17/9 1ms}
+66. Ka6 {4/9 1ms} Kb8 {-17/9 0ms} 67. Kb6 {2/9 1ms} Ka8 {-11/9 2ms} 68. Kc7 {1/9 4ms}
+Ka7 {0/9 2ms} 69. Kc6 {1/9 3ms} Ka6 {0/9 2ms} 70. Kc7 {0/9 8ms} Ka5 {0/9 2ms}
+71. Kc6 {0/9 2ms} Ka4 {0/9 0ms} 72. Kc7 {0/9 9ms} Kxa3 {0/9 1ms} 1/2-1/2
+
+[Round "1.5"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "r2qkbnr/ppp1pppp/2np4/5b2/8/P1P4P/1P1PPPP1/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "175"]
+
+1. c4 {7/9 96ms} e5 {-8/9 54ms} 2. d3 {5/9 92ms} Be6 {-8/9 21ms} 3. b4 {14/9 36ms}
+g6 {-14/9 30ms} 4. e3 {27/9 30ms} f5 {-17/9 32ms} 5. b5 {14/9 81ms} Na5 {-6/9 22ms}
+6. Bd2 {35/9 8ms} c5 {-24/9 18ms} 7. Qa4 {46/9 4ms} b6 {-17/9 55ms} 8. Be2 {21/9 28ms}
+Bg7 {-18/9 10ms} 9. Bxa5 {12/9 33ms} bxa5 {-7/9 57ms} 10. Nc3 {5/9 13ms} e4 {6/9 15ms}
+11. Rc1 {18/9 9ms} Bxc3+ {-9/9 33ms} 12. Rxc3 {24/9 36ms} Nf6 {-11/9 10ms} 13. h4 {29/9 19ms}
+a6 {-17/9 148ms} 14. Nh3 {44/9 29ms} axb5 {-39/9 41ms} 15. cxb5 {67/9 20ms} Nd5 {-62/9 30ms}
+16. Rc1 {76/9 26ms} Qxh4 {-33/9 26ms} 17. b6+ {94/9 15ms} Ke7 {-72/9 14ms} 18. b7 {48/9 72ms}
+Rab8 {-66/9 5ms} 19. Qc6 {30/9 10ms} Nxe3 {-50/9 31ms} 20. g3 {16/9 8ms} Qf6 {-62/9 26ms}
+21. fxe3 {77/9 8ms} Qb2 {-46/9 10ms} 22. Rd1 {42/9 15ms} Bd7 {-91/9 35ms} 23. Qa6 {113/9 4ms}
+Qxb7 {-65/9 5ms} 24. Qxb7 {88/9 8ms} Rxb7 {-66/9 18ms} 25. Nf4 {112/9 12ms} exd3 {-70/9 6ms}
+26. Bxd3 {115/9 25ms} Rbb8 {-91/9 37ms} 27. Rh6 {95/9 53ms} Ba4 {-88/9 16ms} 28. Rd2 {74/9 21ms}
+Kf6 {-115/9 25ms} 29. Kf2 {104/9 22ms} Bb3 {-97/9 47ms} 30. Be2 {99/9 37ms} Rb6 {-102/9 35ms}
+31. Rh1 {88/9 29ms} h5 {-99/9 21ms} 32. Rb1 {105/9 28ms} Rhb8 {-88/9 12ms} 33. Rdb2 {130/9 11ms}
+Kg5 {-81/9 19ms} 34. Nd5 {144/9 7ms} R6b7 {-117/9 7ms} 35. Ba6 {129/9 10ms} Ra7 {-124/9 21ms}
+36. Be2 {124/9 11ms} a4 {-107/9 18ms} 37. Bf3 {104/9 32ms} Rh8 {-108/9 50ms} 38. Nf4 {106/9 34ms}
+Kf6 {-86/9 33ms} 39. Rh1 {112/9 86ms} g5 {-55/9 9ms} 40. Nxh5+ {100/9 5ms} Ke5 {-29/9 5ms}
+41. Nf4 {56/9 8ms} Rxh1 {-67/9 10ms} 42. Nd3+ {99/9 3ms} Ke6 {-67/9 14ms} 43. Bxh1 {97/9 17ms}
+Bd5 {-64/9 19ms} 44. Bxd5+ {103/9 5ms} Kxd5 {-82/9 21ms} 45. Rb6 {69/9 12ms} Rh7 {-81/9 16ms}
+46. Kg2 {56/9 6ms} Rd7 {-104/9 10ms} 47. Kf3 {98/9 12ms} Rh7 {-117/9 10ms} 48. Nf2 {108/9 5ms}
+Kc4 {-100/9 12ms} 49. Rxd6 {110/9 15ms} Kb3 {-108/9 7ms} 50. e4 {110/9 8ms} fxe4+ {-96/9 7ms}
+51. Nxe4 {128/9 7ms} c4 {-114/9 19ms} 52. Ke3 {131/9 18ms} Rh1 {-89/9 37ms} 53. Rb6+ {139/9 24ms}
+Kxa3 {-90/9 31ms} 54. Nd6 {127/9 12ms} Re1+ {-96/9 30ms} 55. Kd2 {95/9 11ms} Rg1 {-88/9 17ms}
+56. Ne4 {92/9 35ms} Ka2 {-88/9 9ms} 57. Kc2 {104/9 31ms} Ka3 {-100/9 29ms} 58. Rb5 {107/9 12ms}
+g4 {-94/9 37ms} 59. Rb7 {48/9 106ms} Re1 {-86/9 5ms} 60. Nd6 {63/9 36ms} Re2+ {-79/9 16ms}
+61. Kc1 {94/9 6ms} Re1+ {-79/9 2ms} 62. Kc2 {94/9 11ms} Re2+ {-56/9 2ms} 63. Kc1 {62/9 8ms}
+Re1+ {-65/9 5ms} 64. Kd2 {37/9 12ms} Rg1 {-59/9 15ms} 65. Ne4 {38/9 18ms} Rf1 {-64/9 18ms}
+66. Kc3 {69/9 41ms} Rc1+ {-80/9 8ms} 67. Kd4 {45/9 15ms} Re1 {-71/9 6ms} 68. Rb6 {45/9 33ms}
+Rc1 {-64/9 11ms} 69. Nd6 {44/9 15ms} Rg1 {-56/9 10ms} 70. Nxc4+ {79/9 6ms} Ka2 {-33/9 5ms}
+71. Rb2+ {49/9 5ms} Ka1 {-33/9 7ms} 72. Rb4 {67/9 8ms} Rxg3 {-19/9 3ms} 73. Rxa4+ {6/9 29ms}
+Kb1 {-15/9 19ms} 74. Ra5 {5/9 22ms} Rh3 {-13/9 30ms} 75. Rg5 {3/9 16ms} Kc2 {-7/9 29ms}
+76. Rxg4 {2/9 31ms} Rh7 {0/9 22ms} 77. Rg2+ {12/9 30ms} Kb3 {0/9 27ms} 78. Ne3 {9/9 56ms}
+Kb4 {0/9 69ms} 79. Nd5+ {10/9 52ms} Kb3 {0/9 20ms} 80. Rg8 {9/9 52ms} Kc2 {-2/9 89ms}
+81. Rg2+ {7/9 47ms} Kb3 {-5/9 29ms} 82. Rh2 {5/9 33ms} Rxh2 {13/9 38ms} 83. Ke5 {0/9 108ms}
+Rh5+ {12/9 70ms} 84. Kd6 {0/9 6ms} Kc4 {12/9 59ms} 85. Nc7 {0/9 20ms} Rd5+ {16/9 34ms}
+86. Kc6 {-1/9 9ms} Rd6+ {22/9 39ms} 87. Kb7 {-6/9 9ms} Re6 {25/9 6ms} 88. Nxe6 {-9/9 12ms}
+1/2-1/2
+
+[Round "1.6"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "r2qkbnr/ppp1pppp/2np4/5b2/8/P1P4P/1P1PPPP1/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "195"]
+
+1. d4 {14/9 28ms} e6 {-14/9 73ms} 2. e3 {19/9 42ms} Nf6 {-22/9 27ms} 3. b4 {12/9 49ms}
+d5 {-15/9 17ms} 4. c4 {17/9 18ms} a5 {-19/9 27ms} 5. b5 {23/9 20ms} Na7 {-18/9 15ms}
+6. Nf3 {24/9 9ms} Ne4 {-31/9 65ms} 7. Nbd2 {40/9 19ms} c6 {-33/9 31ms} 8. bxc6 {40/9 18ms}
+Nxc6 {-41/9 33ms} 9. cxd5 {52/9 7ms} exd5 {-45/9 9ms} 10. Nxe4 {49/9 4ms} Bxe4 {-42/9 17ms}
+11. Bd3 {56/9 11ms} Be7 {-50/9 33ms} 12. Bxe4 {62/9 5ms} dxe4 {-43/9 7ms} 13. Nd2 {34/9 15ms}
+Qd5 {-18/9 11ms} 14. Rb1 {18/9 19ms} b5 {0/9 14ms} 15. Qg4 {16/9 11ms} f5 {40/9 1ms}
+16. Qxg7 {1/9 10ms} Kd7 {87/9 7ms} 17. Qh6 {5/9 5ms} Rag8 {11/9 33ms} 18. g3 {7/9 21ms}
+Rg6 {25/9 9ms} 19. Qh5 {12/9 16ms} Bd6 {11/9 24ms} 20. Qe2 {16/9 19ms} Rb8 {45/9 26ms}
+21. O-O {15/9 22ms} a4 {19/9 42ms} 22. Kh2 {3/9 23ms} Rg5 {18/9 57ms} 23. Bb2 {-4/9 16ms}
+h5 {60/9 11ms} 24. h4 {-30/9 28ms} Rg4 {28/9 13ms} 25. Kh1 {-23/9 34ms} Ne7 {45/9 20ms}
+26. Bc3 {-30/9 21ms} f4 {48/9 15ms} 27. exf4 {-58/9 5ms} e3+ {45/9 18ms} 28. Nf3 {-58/9 2ms}
+exf2 {37/9 10ms} 29. Kh2 {-50/9 6ms} Nf5 {46/9 4ms} 30. Rxf2 {-32/9 7ms} Nxg3 {87/9 9ms}
+31. Ne5+ {-35/9 13ms} Bxe5 {69/9 11ms} 32. Qxe5 {-58/9 10ms} Qxe5 {76/9 6ms} 33. dxe5 {-111/9 16ms}
+Ne4 {91/9 5ms} 34. Rd1+ {-58/9 12ms} Ke8 {24/9 8ms} 35. Rf3 {-52/9 14ms} Rxh4+ {31/9 7ms}
+36. Kg2 {-41/9 11ms} Rc8 {135/9 10ms} 37. Be1 {-7/9 4ms} Rc2+ {29/9 9ms} 38. Kg1 {-55/9 14ms}
+Rg4+ {45/9 14ms} 39. Kh1 {-14/9 13ms} Re2 {32/9 8ms} 40. f5 {-22/9 10ms} Ng5 {34/9 8ms}
+41. Rfd3 {-17/9 9ms} Rxe5 {25/9 13ms} 42. Bc3 {-20/9 9ms} Rh4+ {23/9 22ms} 43. Kg1 {-17/9 7ms}
+Rg4+ {15/9 11ms} 44. Kh1 {-17/9 4ms} Re2 {19/9 4ms} 45. Rd8+ {-9/9 4ms} Kf7 {19/9 1ms}
+46. R1d7+ {-12/9 10ms} Re7 {6/9 9ms} 47. f6 {-14/9 5ms} Rxd7 {6/9 7ms} 48. Rxd7+ {-38/9 13ms}
+Ke6 {0/9 9ms} 49. Re7+ {-24/9 6ms} Kd5 {0/9 6ms} 50. f7 {-18/9 7ms} Rf4 {21/9 8ms}
+51. Bd2 {-20/9 7ms} Rxf7 {35/9 15ms} 52. Bxg5 {-16/9 6ms} Rf3 {20/9 21ms} 53. Be3 {-9/9 19ms}
+Rf1+ {20/9 5ms} 54. Bg1 {-9/9 15ms} Ra1 {21/9 15ms} 55. Re3 {-4/9 12ms} Rb1 {14/9 22ms}
+56. Rh3 {0/9 21ms} b4 {18/9 27ms} 57. axb4 {0/9 9ms} Rxb4 {13/9 20ms} 58. Rxh5+ {-5/9 38ms}
+Ke6 {14/9 13ms} 59. Rh6+ {-14/9 37ms} Kf5 {17/9 14ms} 60. Ra6 {-15/9 44ms} Re4 {14/9 86ms}
+61. Kg2 {-8/9 47ms} Re6 {9/9 87ms} 62. Ra8 {-11/9 41ms} Ke4 {5/9 128ms} 63. Bf2 {-11/9 67ms}
+Re7 {5/9 84ms} 64. Rxa4+ {-9/9 117ms} Kd5 {1/9 29ms} 65. Rd4+ {-8/9 60ms} Ke6 {0/9 35ms}
+66. Re4+ {-9/9 53ms} Kf7 {0/9 38ms} 67. Rf4+ {-10/9 26ms} Ke8 {0/9 19ms} 68. Kf3 {-8/9 38ms}
+Rf7 {0/9 12ms} 69. Bc5 {-9/9 28ms} Rc7 {-1/9 27ms} 70. Rf8+ {0/9 29ms} Kd7 {-1/9 5ms}
+71. Rf7+ {0/9 67ms} Kc6 {-3/9 21ms} 72. Rf6+ {-8/9 62ms} Kxc5 {0/9 33ms} 73. Ke3 {0/9 13ms}
+Rd7 {0/9 27ms} 74. Rf2 {0/9 15ms} Rd8 {0/9 19ms} 75. Rc2+ {0/9 12ms} Kb4 {0/9 11ms}
+76. Rg2 {0/9 19ms} Kb3 {0/9 25ms} 77. Rg3 {0/9 14ms} Kc3 {0/9 11ms} 78. Rg1 {0/9 11ms}
+Re8+ {0/9 14ms} 79. Kf4 {0/9 16ms} Kd4 {0/9 10ms} 80. Rc1 {0/9 11ms} Rb8 {0/9 16ms}
+81. Rd1+ {0/9 10ms} Kc5 {0/9 6ms} 82. Kf5 {0/9 23ms} Re8 {0/9 11ms} 83. Rc1+ {0/9 11ms}
+Kb6 {0/9 12ms} 84. Rh1 {0/9 13ms} Ka7 {0/9 11ms} 85. Rh6 {0/9 14ms} Kb7 {0/9 15ms}
+86. Rh7+ {0/9 14ms} Kb8 {0/9 15ms} 87. Rf7 {0/9 12ms} Rh8 {0/9 14ms} 88. Ke4 {0/9 11ms}
+Rd8 {0/9 8ms} 89. Ke3 {0/9 9ms} Rc8 {0/9 9ms} 90. Kd2 {0/9 16ms} Rd8+ {0/9 3ms}
+91. Ke3 {0/9 15ms} Rd6 {0/9 9ms} 92. Kf2 {0/9 9ms} Rd2+ {0/9 9ms} 93. Kf1 {0/9 12ms}
+Rb2 {0/9 7ms} 94. Rf3 {0/9 8ms} Kb7 {0/9 12ms} 95. Kg1 {0/9 5ms} Ka6 {0/9 7ms}
+96. Rf6+ {0/9 7ms} Kb7 {0/9 4ms} 97. Rf2 {0/9 6ms} Rxf2 {0/9 4ms} 98. Kxf2 {-1/9 3ms}
+1/2-1/2
+
+[Round "1.7"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/pp1p1ppp/2p2n2/4p1B1/8/3P1N2/PPP1PPPP/RN1QKB1R w KQkq - 0 1"]
+[PlyCount "113"]
+
+1. e4 {-13/9 65ms} Be7 {14/9 52ms} 2. Nbd2 {-6/9 20ms} d6 {20/9 27ms} 3. Be2 {-9/9 37ms}
+O-O {17/9 47ms} 4. O-O {-7/9 23ms} h6 {10/9 25ms} 5. Bh4 {-3/9 42ms} Nbd7 {9/9 36ms}
+6. a4 {0/9 38ms} Re8 {7/9 46ms} 7. Re1 {0/9 19ms} a5 {-8/9 69ms} 8. c3 {17/9 29ms}
+Nc5 {-17/9 47ms} 9. h3 {28/9 52ms} Be6 {-17/9 94ms} 10. Bf1 {33/9 13ms} Qb6 {-16/9 25ms}
+11. d4 {30/9 23ms} exd4 {-2/9 8ms} 12. cxd4 {11/9 21ms} Nb3 {-2/9 15ms} 13. Nxb3 {17/9 3ms}
+Qxb3 {0/9 12ms} 14. Qc1 {14/9 32ms} d5 {-12/9 24ms} 15. e5 {22/9 9ms} Ne4 {-26/9 7ms}
+16. Bxe7 {16/9 11ms} Rxe7 {-28/9 9ms} 17. Nd2 {18/9 18ms} Nxd2 {-13/9 17ms} 18. Qxd2 {38/9 11ms}
+Bf5 {-29/9 33ms} 19. g4 {37/9 17ms} Bh7 {-32/9 13ms} 20. Re3 {53/9 2ms} Qb6 {-15/9 8ms}
+21. Rae1 {36/9 15ms} g5 {-29/9 51ms} 22. Bd3 {30/9 23ms} Bxd3 {-49/9 14ms} 23. Qxd3 {64/9 11ms}
+Qxb2 {-53/9 19ms} 24. h4 {46/9 22ms} c5 {-48/9 13ms} 25. dxc5 {66/9 18ms} d4 {-55/9 7ms}
+26. Re4 {39/9 13ms} Qc3 {-84/9 9ms} 27. Qxd4 {66/9 1ms} Qxd4 {-72/9 7ms} 28. Rxd4 {79/9 18ms}
+gxh4 {-74/9 25ms} 29. Rd5 {64/9 9ms} f6 {-77/9 11ms} 30. Kg2 {93/9 7ms} Rae8 {-77/9 6ms}
+31. f4 {93/9 1ms} fxe5 {-77/9 2ms} 32. fxe5 {54/9 6ms} Rf7 {-62/9 12ms} 33. Kh3 {79/9 22ms}
+Rf4 {-40/9 10ms} 34. e6 {77/9 13ms} Rxa4 {-29/9 16ms} 35. e7 {64/9 11ms} Rc4 {-20/9 14ms}
+36. g5 {44/9 12ms} hxg5 {4/9 8ms} 37. Rxg5+ {32/9 4ms} Kf7 {-1/9 15ms} 38. Rf5+ {34/9 21ms}
+Kg7 {-28/9 18ms} 39. Rg1+ {25/9 7ms} Kh6 {-98/9 5ms} 40. Rf6+ {91/9 2ms} Kh7 {-39/9 4ms}
+41. Rf7+ {38/9 26ms} Kh6 {-40/9 7ms} 42. Rf6+ {41/9 8ms} Kh7 {-28/9 5ms} 43. Re1 {4/9 32ms}
+Kg7 {-3/9 12ms} 44. Rf5 {7/9 25ms} a4 {0/9 10ms} 45. Rg1+ {7/9 3ms} Kh6 {0/9 1ms}
+46. Rf6+ {3/9 8ms} Kh7 {-9/9 12ms} 47. Rf7+ {0/9 5ms} Kh6 {-6/9 4ms} 48. Rf6+ {0/9 4ms}
+Kh7 {-2/9 8ms} 49. Rf5 {0/9 2ms} Kh6 {-2/9 2ms} 50. Re1 {0/9 5ms} Kg7 {-3/9 8ms}
+51. Rf3 {16/9 10ms} Rxc5 {0/9 4ms} 52. Rg1+ {0/9 7ms} Kh6 {0/9 4ms} 53. Rf6+ {0/9 2ms}
+Kh7 {0/9 1ms} 54. Rf7+ {0/9 7ms} Kh6 {0/9 2ms} 55. Rf6+ {0/9 3ms} Kh7 {0/9 0ms}
+56. Rf7+ {0/9 0ms} Kh6 {0/9 1ms} 57. Rf6+ {0/9 1ms} 1/2-1/2
+
+[Round "1.8"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/pp1p1ppp/2p2n2/4p1B1/8/3P1N2/PPP1PPPP/RN1QKB1R w KQkq - 0 1"]
+[PlyCount "93"]
+
+1. e4 {-11/9 54ms} h6 {12/9 39ms} 2. Bxf6 {-13/9 57ms} Qxf6 {27/9 53ms} 3. d4 {-9/9 12ms}
+d6 {25/9 14ms} 4. Nc3 {-9/9 40ms} exd4 {26/9 63ms} 5. Qxd4 {-3/9 11ms} Nd7 {29/9 7ms}
+6. Qd2 {7/9 24ms} g6 {26/9 39ms} 7. Bc4 {-30/9 69ms} Nb6 {45/9 29ms} 8. Be2 {-56/9 27ms}
+Bg4 {49/9 39ms} 9. O-O-O {-58/9 57ms} Bxf3 {69/9 7ms} 10. Bxf3 {-65/9 21ms} h5 {40/9 28ms}
+11. Kb1 {-44/9 16ms} O-O-O {36/9 43ms} 12. Ne2 {-53/9 13ms} Nc4 {29/9 66ms} 13. Qd4 {-28/9 10ms}
+Qxd4 {43/9 3ms} 14. Nxd4 {-37/9 28ms} Bh6 {39/9 23ms} 15. c3 {-32/9 16ms} Rde8 {26/9 59ms}
+16. Kc2 {-34/9 58ms} Ne5 {50/9 34ms} 17. Be2 {-18/9 39ms} Nd7 {53/9 6ms} 18. Bd3 {-25/9 46ms}
+Ne5 {21/9 135ms} 19. h3 {-26/9 33ms} Re7 {19/9 24ms} 20. Rhe1 {-31/9 26ms} Rhe8 {18/9 26ms}
+21. Re2 {-41/9 63ms} h4 {37/9 49ms} 22. a4 {-27/9 107ms} a6 {33/9 32ms} 23. b4 {-31/9 62ms}
+Kb8 {35/9 44ms} 24. b5 {-27/9 35ms} c5 {53/9 10ms} 25. Nf3 {-26/9 7ms} Nxf3 {25/9 35ms}
+26. gxf3 {-6/9 6ms} d5 {31/9 4ms} 27. Ree1 {-6/9 37ms} c4 {0/9 20ms} 28. Be2 {-6/9 5ms}
+dxe4 {-17/9 84ms} 29. Bxc4 {11/9 9ms} Rc8 {-38/9 42ms} 30. Bd5 {38/9 31ms} axb5 {-47/9 10ms}
+31. axb5 {42/9 7ms} e3 {-46/9 7ms} 32. fxe3 {60/9 2ms} Bxe3 {-30/9 7ms} 33. Rd3 {36/9 53ms}
+Rce8 {-46/9 11ms} 34. Bxf7 {38/9 4ms} Rxf7 {-46/9 3ms} 35. Rexe3 {34/9 13ms} Rxe3 {-42/9 15ms}
+36. Rxe3 {21/9 22ms} Ka7 {-17/9 15ms} 37. Kb3 {19/9 24ms} Rf4 {-25/9 12ms} 38. c4 {11/9 10ms}
+b6 {-18/9 4ms} 39. Kc3 {10/9 13ms} g5 {-10/9 5ms} 40. Kd3 {10/9 7ms} Kb7 {-25/9 15ms}
+41. Kc3 {10/9 4ms} Kc8 {-6/9 10ms} 42. Kb4 {10/9 3ms} Kb7 {-5/9 7ms} 43. Re7+ {10/9 3ms}
+Kb8 {-4/9 5ms} 44. Re8+ {8/9 4ms} Kb7 {-4/9 4ms} 45. Re7+ {5/9 4ms} Kb8 {-2/9 4ms}
+46. Re6 {8/9 3ms} Kb7 {-2/9 2ms} 47. Re7+ {0/9 4ms} 1/2-1/2
+
+[Round "1.9"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkbnr/p1p1ppp1/1p6/3p3p/8/2P1P1P1/PP1P1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "102"]
+
+1. Nf3 {11/9 17ms} Bb7 {7/9 43ms} 2. Bg2 {6/9 56ms} Nd7 {2/9 51ms} 3. d4 {24/9 11ms}
+e6 {-2/9 10ms} 4. O-O {15/9 30ms} Ngf6 {5/9 39ms} 5. Nbd2 {14/9 21ms} c5 {1/9 16ms}
+6. h4 {20/9 31ms} Be7 {10/9 14ms} 7. e4 {19/9 34ms} dxe4 {16/9 9ms} 8. Ng5 {21/9 7ms}
+cxd4 {13/9 9ms} 9. cxd4 {4/9 22ms} Bd5 {11/9 28ms} 10. Ndxe4 {-2/9 8ms} Nxe4 {11/9 19ms}
+11. Nxe4 {-3/9 11ms} Nf6 {8/9 6ms} 12. Re1 {-3/9 12ms} O-O {6/9 25ms} 13. Bg5 {-15/9 20ms}
+Bxe4 {22/9 9ms} 14. Bxf6 {-29/9 9ms} Bxg2 {35/9 4ms} 15. Bxe7 {-31/9 16ms} Qxe7 {34/9 24ms}
+16. Kxg2 {-30/9 20ms} g6 {37/9 53ms} 17. Qf3 {-32/9 42ms} Qb4 {32/9 24ms} 18. Rad1 {-35/9 29ms}
+Rad8 {50/9 12ms} 19. Qc3 {-39/9 40ms} Qb5 {35/9 24ms} 20. b3 {-28/9 45ms} Rd6 {41/9 24ms}
+21. Qc7 {-45/9 66ms} Qd7 {36/9 59ms} 22. Qxd7 {-45/9 9ms} Rxd7 {47/9 26ms} 23. Rd2 {-41/9 81ms}
+Rc8 {43/9 32ms} 24. Kf3 {-36/9 61ms} Kf8 {43/9 43ms} 25. Kf4 {-30/9 20ms} Ke7 {33/9 57ms}
+26. Ke4 {-18/9 33ms} Kd6 {55/9 25ms} 27. Kf4 {-24/9 19ms} Ke7 {45/9 29ms} 28. Ree2 {-22/9 17ms}
+f6 {53/9 34ms} 29. Ke4 {-13/9 17ms} Kd6 {48/9 27ms} 30. Rd3 {-41/9 21ms} Rdc7 {83/9 15ms}
+31. Rf3 {-24/9 22ms} Ke7 {57/9 8ms} 32. Rfe3 {-22/9 14ms} Rc2 {50/9 10ms} 33. d5 {-28/9 14ms}
+Rxe2 {8/9 13ms} 34. Rxe2 {-30/9 6ms} Rc5 {11/9 7ms} 35. dxe6 {-34/9 11ms} Re5+ {19/9 3ms}
+36. Kd3 {-27/9 8ms} Rxe2 {28/9 3ms} 37. Kxe2 {-33/9 8ms} Kxe6 {25/9 16ms} 38. f4 {-27/9 6ms}
+b5 {22/9 8ms} 39. Kf3 {-16/9 9ms} b4 {51/9 34ms} 40. g4 {-9/9 3ms} f5 {0/9 9ms}
+41. gxh5 {-4/9 3ms} gxh5 {0/9 4ms} 42. Ke3 {-1/9 2ms} Kd5 {0/9 1ms} 43. Kd3 {-1/9 1ms}
+a6 {0/9 1ms} 44. Ke3 {0/9 1ms} Kc5 {0/9 1ms} 45. Kd3 {0/9 1ms} Kd5 {0/9 1ms}
+46. Ke3 {0/9 1ms} Kc5 {0/9 0ms} 47. Kd3 {0/9 1ms} a5 {0/9 1ms} 48. Ke3 {0/9 1ms}
+Kd5 {0/9 1ms} 49. Kd3 {0/9 1ms} Kc5 {0/9 0ms} 50. Ke3 {0/9 1ms} Kd5 {0/9 0ms}
+51. Kd3 {0/9 0ms} Kc5 {0/9 0ms} 1/2-1/2
+
+[Round "1.10"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkbnr/p1p1ppp1/1p6/3p3p/8/2P1P1P1/PP1P1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "130"]
+
+1. Nf3 {-2/9 73ms} Nf6 {0/9 78ms} 2. Bg2 {7/9 15ms} e6 {-9/9 45ms} 3. d4 {8/9 25ms}
+Bb7 {-15/9 34ms} 4. O-O {2/9 50ms} Nbd7 {-10/9 31ms} 5. Nbd2 {4/9 29ms} Be7 {-1/9 22ms}
+6. c4 {3/9 17ms} dxc4 {1/9 29ms} 7. Nxc4 {-7/9 27ms} Rc8 {1/9 22ms} 8. Qe2 {7/9 16ms}
+c5 {6/9 36ms} 9. Rd1 {0/9 35ms} cxd4 {6/9 29ms} 10. exd4 {11/9 48ms} O-O {7/9 45ms}
+11. Bd2 {10/9 65ms} Qc7 {-5/9 125ms} 12. Rac1 {9/9 48ms} Qb8 {-1/9 30ms} 13. Nce5 {0/9 36ms}
+Rxc1 {10/9 13ms} 14. Rxc1 {4/9 11ms} Qa8 {2/9 68ms} 15. Nxd7 {76/9 3ms} Nxd7 {-3/9 62ms}
+16. Rc7 {40/9 43ms} Rd8 {-21/9 25ms} 17. Bg5 {22/9 8ms} Bf6 {-12/9 65ms} 18. h4 {18/9 25ms}
+Bd5 {-14/9 26ms} 19. Ne1 {23/9 90ms} Bxg2 {0/9 19ms} 20. Nxg2 {-1/9 11ms} Qd5 {3/9 56ms}
+21. Qc4 {3/9 12ms} Qxc4 {6/9 5ms} 22. Rxc4 {2/9 14ms} g6 {-8/9 33ms} 23. Rc7 {22/9 10ms}
+Bxg5 {-9/9 19ms} 24. hxg5 {13/9 13ms} Nf8 {-7/9 11ms} 25. Rxa7 {-1/9 12ms} Rxd4 {0/9 10ms}
+26. Rb7 {4/9 6ms} Rd1+ {31/9 3ms} 27. Kh2 {-9/9 9ms} Nh7 {-1/9 16ms} 28. f4 {32/9 14ms}
+f6 {-11/9 15ms} 29. Rxb6 {27/9 17ms} fxg5 {-18/9 15ms} 30. Rxe6 {29/9 10ms} Kf7 {-35/9 34ms}
+31. Re2 {32/9 9ms} Ra1 {-25/9 11ms} 32. a3 {32/9 14ms} Nf6 {-27/9 12ms} 33. Ne3 {29/9 24ms}
+gxf4 {-30/9 21ms} 34. gxf4 {13/9 25ms} Ne8 {-34/9 36ms} 35. Nd5 {19/9 43ms} Nd6 {-26/9 28ms}
+36. Re7+ {21/9 10ms} Kf8 {-24/9 17ms} 37. Re2 {14/9 21ms} Kg7 {-29/9 35ms} 38. Ne3 {19/9 17ms}
+g5 {-32/9 26ms} 39. fxg5 {36/9 14ms} Kg6 {-27/9 31ms} 40. Nc2 {55/9 18ms} Rd1 {-45/9 33ms}
+41. a4 {35/9 19ms} Kxg5 {-63/9 36ms} 42. a5 {37/9 20ms} Nc8 {-69/9 41ms} 43. Na3 {59/9 35ms}
+Rd4 {-53/9 26ms} 44. Rc2 {55/9 12ms} Nd6 {-66/9 14ms} 45. a6 {68/9 11ms} Ra4 {-60/9 6ms}
+46. Rc6 {74/9 17ms} Nf5 {-55/9 14ms} 47. Rb6 {58/9 12ms} Rh4+ {-47/9 17ms} 48. Kg1 {83/9 7ms}
+Rg4+ {-44/9 4ms} 49. Kh2 {76/9 7ms} Rh4+ {-29/9 15ms} 50. Kg1 {90/9 5ms} Rg4+ {-34/9 7ms}
+51. Kf1 {92/9 6ms} Rf4+ {-47/9 8ms} 52. Ke2 {69/9 5ms} Ra4 {-49/9 17ms} 53. Nb5 {128/9 5ms}
+h4 {-28/9 5ms} 54. a7 {137/9 6ms} h3 {-28/9 2ms} 55. Kf2 {148/9 3ms} h2 {-28/9 2ms}
+56. a8=B {-72/9 7ms} Rxa8 {540/9 2ms} 57. Re6 {-435/9 6ms} h1=Q {832/9 4ms} 58. Na3 {-967/9 9ms}
+Qh2+ {967/9 5ms} 59. Ke1 {-954/9 6ms} Qxb2 {1038/9 7ms} 60. Rb6 {-1302/9 33ms} Re8+ {1198/9 6ms}
+61. Re6 {-M6/9 5ms} Rxe6+ {M6/9 2ms} 62. Kd1 {-M4/9 1ms} Rd6+ {M4/9 0ms} 63. Ke1 {-M3/9 0ms}
+Qc1+ {M3/9 1ms} 64. Kf2 {-M2/9 0ms} Rd2+ {M2/9 0ms} 65. Kf3 {-M1/9 0ms} Qc6# {M1/9 1ms}
+0-1
+
+[Round "1.11"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/1ppp1ppp/p3pn2/8/8/P3P3/1PPPBPPP/RNBQK1NR w KQkq - 0 1"]
+[PlyCount "181"]
+
+1. c4 {8/9 30ms} d5 {5/9 56ms} 2. cxd5 {0/9 28ms} exd5 {4/9 34ms} 3. Nf3 {0/9 12ms}
+Bd6 {3/9 14ms} 4. b4 {-2/9 6ms} c6 {9/9 18ms} 5. O-O {-4/9 28ms} O-O {10/9 28ms}
+6. Bb2 {-10/9 30ms} Re8 {15/9 15ms} 7. Nc3 {-3/9 35ms} Bg4 {9/9 37ms} 8. h3 {2/9 24ms}
+Bxf3 {10/9 16ms} 9. Bxf3 {0/9 15ms} Nbd7 {-1/9 32ms} 10. g3 {-8/9 30ms} Ne5 {26/9 23ms}
+11. Bg2 {-10/9 10ms} Nc4 {23/9 27ms} 12. Qc2 {-21/9 18ms} h5 {37/9 18ms} 13. Bc1 {-12/9 46ms}
+h4 {39/9 18ms} 14. d3 {-1/9 10ms} Ne5 {46/9 7ms} 15. d4 {-38/9 32ms} Nc4 {64/9 4ms}
+16. e4 {-43/9 10ms} hxg3 {58/9 19ms} 17. e5 {1/9 19ms} gxf2+ {38/9 30ms} 18. Qxf2 {5/9 25ms}
+Nxe5 {36/9 8ms} 19. dxe5 {10/9 23ms} Bxe5 {49/9 9ms} 20. Bd2 {0/9 27ms} Bc7 {41/9 7ms}
+21. Kh1 {-2/9 24ms} Qd6 {9/9 22ms} 22. Bf4 {-7/9 6ms} Qxf4 {31/9 4ms} 23. Qxf4 {-15/9 13ms}
+Bxf4 {0/9 13ms} 24. Rxf4 {-10/9 9ms} Re3 {5/9 7ms} 25. Rf3 {-14/9 11ms} Rae8 {6/9 9ms}
+26. Na4 {-10/9 7ms} Rxf3 {10/9 8ms} 27. Bxf3 {41/9 8ms} Ne4 {-32/9 23ms} 28. Bxe4 {27/9 18ms}
+dxe4 {-48/9 44ms} 29. Nc5 {45/9 7ms} Re7 {-63/9 37ms} 30. Kh2 {41/9 14ms} Kh7 {-35/9 10ms}
+31. Kg3 {31/9 23ms} g5 {-3/9 14ms} 32. Rd1 {33/9 7ms} f5 {-3/9 15ms} 33. Rd7 {32/9 9ms}
+Rxd7 {-22/9 10ms} 34. Nxd7 {36/9 9ms} Kg6 {-48/9 14ms} 35. Nc5 {45/9 8ms} b6 {-64/9 20ms}
+36. Nxa6 {54/9 9ms} Kf7 {-58/9 15ms} 37. Nb8 {89/9 8ms} c5 {-48/9 3ms} 38. bxc5 {90/9 9ms}
+bxc5 {-76/9 5ms} 39. Nd7 {95/9 1ms} Ke6 {-100/9 11ms} 40. Nxc5+ {73/9 5ms} Kd5 {-94/9 6ms}
+41. Nb3 {88/9 4ms} f4+ {-33/9 5ms} 42. Kf2 {99/9 3ms} e3+ {-142/9 12ms} 43. Kf3 {173/9 13ms}
+Kc4 {-263/9 32ms} 44. Nc1 {200/9 5ms} Kc5 {-344/9 21ms} 45. Ne2 {237/9 4ms} Kd5 {-390/9 9ms}
+46. a4 {279/9 7ms} Kc4 {-426/9 6ms} 47. Ng1 {351/9 7ms} Kb4 {-443/9 19ms} 48. Kg4 {418/9 3ms}
+Kxa4 {-446/9 3ms} 49. Kxg5 {448/9 3ms} f3 {-452/9 7ms} 50. Nxf3 {542/9 3ms} Kb4 {-502/9 8ms}
+51. h4 {600/9 5ms} e2 {-598/9 5ms} 52. h5 {594/9 4ms} Kc3 {-565/9 7ms} 53. h6 {689/9 7ms}
+Kc2 {-615/9 27ms} 54. Nd4+ {781/9 5ms} Kd2 {-648/9 3ms} 55. Nxe2 {750/9 8ms} Kxe2 {-646/9 10ms}
+56. h7 {692/9 10ms} Kf2 {-603/9 8ms} 57. Kh4 {687/9 12ms} Kf3 {-710/9 5ms} 58. Kg5 {692/9 9ms}
+Kg3 {-608/9 10ms} 59. Kf5 {672/9 11ms} Kf3 {-604/9 8ms} 60. Kg5 {660/9 4ms} Ke2 {-592/9 29ms}
+61. Kf4 {646/9 6ms} Kf2 {-591/9 8ms} 62. Ke5 {643/9 5ms} Kg3 {-586/9 8ms} 63. Kf5 {643/9 4ms}
+Kf3 {-582/9 3ms} 64. Kf6 {643/9 4ms} Kg2 {-565/9 17ms} 65. Kg5 {636/9 4ms} Kg3 {-552/9 39ms}
+66. Kh5 {636/9 3ms} Kh3 {-561/9 4ms} 67. Kh6 {635/9 2ms} Kg2 {-568/9 3ms} 68. Kg7 {627/9 6ms}
+Kg3 {-559/9 9ms} 69. Kg6 {622/9 6ms} Kg4 {-551/9 6ms} 70. Kf6 {604/9 4ms} Kf4 {-560/9 6ms}
+71. Kg7 {563/9 25ms} Kg3 {-551/9 36ms} 72. Kf6 {563/9 21ms} Kf2 {-558/9 7ms} 73. Ke7 {579/9 4ms}
+Kg3 {-551/9 13ms} 74. Ke6 {559/9 12ms} Kg4 {-564/9 7ms} 75. Kf7 {550/9 3ms} Kf3 {-549/9 12ms}
+76. Ke6 {547/9 4ms} Ke4 {-560/9 7ms} 77. Ke7 {535/9 10ms} Kf5 {-546/9 22ms} 78. Kd7 {532/9 11ms}
+Kf4 {-542/9 25ms} 79. Ke8 {532/9 13ms} Kf5 {-545/9 5ms} 80. h8=Q {529/9 12ms} Kg4 {-545/9 10ms}
+81. Qc3 {538/9 44ms} Kf4 {-538/9 16ms} 82. Kf7 {538/9 6ms} Ke4 {-534/9 29ms} 83. Kf6 {519/9 63ms}
+Kd5 {-520/9 12ms} 84. Ke7 {523/9 46ms} Ke4 {-502/9 44ms} 85. Kf6 {498/9 75ms} Kd5 {-502/9 11ms}
+86. Qb4 {498/9 20ms} Kc6 {-502/9 9ms} 87. Qc4+ {499/9 13ms} Kb7 {-493/9 29ms} 88. Qb5+ {494/9 8ms}
+Kc7 {-476/9 24ms} 89. Ke7 {M3/9 13ms} Kc8 {-M2/9 10ms} 90. Kd6 {M2/9 0ms} Kd8 {-M1/9 1ms}
+91. Qb8# {M1/9 0ms} 1-0
+
+[Round "1.12"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/1ppp1ppp/p3pn2/8/8/P3P3/1PPPBPPP/RNBQK1NR w KQkq - 0 1"]
+[PlyCount "103"]
+
+1. Nf3 {4/9 51ms} d5 {-7/9 58ms} 2. d4 {4/9 20ms} b6 {-6/9 19ms} 3. b3 {6/9 26ms}
+Bb7 {-3/9 19ms} 4. Bb2 {9/9 10ms} c5 {-2/9 14ms} 5. Nbd2 {3/9 30ms} cxd4 {2/9 13ms}
+6. Nxd4 {7/9 13ms} Nbd7 {4/9 14ms} 7. O-O {0/9 23ms} Be7 {0/9 58ms} 8. c4 {22/9 23ms}
+dxc4 {-2/9 19ms} 9. Bf3 {41/9 9ms} Bxf3 {0/9 14ms} 10. Qxf3 {42/9 16ms} Ne5 {18/9 8ms}
+11. Qg3 {30/9 14ms} Nd3 {50/9 5ms} 12. Nxc4 {41/9 13ms} Nxb2 {24/9 15ms} 13. Nxb2 {2/9 39ms}
+O-O {14/9 38ms} 14. Rfd1 {0/9 22ms} Qd5 {10/9 48ms} 15. Nc4 {-2/9 25ms} Bc5 {7/9 23ms}
+16. Ne2 {-5/9 20ms} Qh5 {2/9 20ms} 17. Qf3 {-1/9 10ms} Qxf3 {11/9 6ms} 18. gxf3 {0/9 12ms}
+b5 {0/9 22ms} 19. Ne5 {-2/9 29ms} Rfd8 {-4/9 22ms} 20. Rxd8+ {5/9 17ms} Rxd8 {-14/9 66ms}
+21. a4 {3/9 13ms} Nd5 {-8/9 30ms} 22. axb5 {9/9 56ms} axb5 {-11/9 18ms} 23. f4 {14/9 16ms}
+Kf8 {-17/9 68ms} 24. Kg2 {20/9 24ms} g6 {-22/9 39ms} 25. Kf3 {22/9 27ms} Kg7 {-27/9 42ms}
+26. Ra6 {20/9 38ms} Rc8 {-31/9 40ms} 27. Ra5 {18/9 24ms} b4 {-26/9 17ms} 28. Nd3 {18/9 25ms}
+Be7 {-28/9 23ms} 29. Ra7 {32/9 25ms} Rc7 {-30/9 15ms} 30. Rxc7 {40/9 3ms} Nxc7 {-60/9 11ms}
+31. Nd4 {46/9 10ms} Bf8 {-34/9 12ms} 32. Nc6 {77/9 9ms} Na6 {-58/9 8ms} 33. Ke4 {89/9 28ms}
+Bc5 {-53/9 12ms} 34. Nb8 {65/9 10ms} Nxb8 {-52/9 6ms} 35. Nxc5 {13/9 14ms} Nc6 {-35/9 4ms}
+36. Kd3 {33/9 4ms} Na5 {-18/9 16ms} 37. Kc2 {1/9 28ms} Kf6 {0/9 26ms} 38. Ne4+ {7/9 17ms}
+Ke7 {0/9 9ms} 39. Ng5 {0/9 12ms} Nc6 {0/9 7ms} 40. Kd3 {0/9 10ms} Na5 {0/9 9ms}
+41. Kc2 {0/9 4ms} h6 {-2/9 22ms} 42. Nf3 {5/9 12ms} f6 {0/9 11ms} 43. Nd2 {0/9 13ms}
+Kd6 {0/9 7ms} 44. Ne4+ {0/9 5ms} Ke7 {0/9 7ms} 45. Nc5 {0/9 7ms} Kd6 {0/9 2ms}
+46. Ne4+ {0/9 2ms} Ke7 {0/9 2ms} 47. Nc5 {0/9 3ms} Kd6 {0/9 2ms} 48. Na6 {0/9 2ms}
+Nc6 {0/9 4ms} 49. Kd3 {0/9 3ms} Na5 {0/9 5ms} 50. Kc2 {0/9 3ms} Nc6 {0/9 2ms}
+51. Kd3 {0/9 1ms} Na5 {0/9 1ms} 52. Kc2 {0/9 1ms} 1/2-1/2
+
+[Round "1.13"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqk1nr/1ppp1ppp/4p3/p7/1b6/1P4PP/P1PPPP2/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "281"]
+
+1. Bb2 {12/9 24ms} Nf6 {-17/9 20ms} 2. c4 {11/9 49ms} d5 {-10/9 21ms} 3. Nf3 {4/9 29ms}
+a4 {-4/9 39ms} 4. cxd5 {11/9 8ms} a3 {0/9 9ms} 5. Bc3 {25/9 11ms} Bxc3 {6/9 4ms}
+6. dxc3 {0/9 16ms} exd5 {29/9 12ms} 7. Qc1 {-4/9 15ms} Qe7 {8/9 36ms} 8. Bg2 {-20/9 30ms}
+Nc6 {18/9 21ms} 9. O-O {-4/9 18ms} O-O {25/9 10ms} 10. e3 {-28/9 17ms} Ne4 {30/9 27ms}
+11. c4 {-50/9 58ms} dxc4 {50/9 13ms} 12. Qxc4 {-30/9 35ms} Qf6 {47/9 16ms} 13. Nxa3 {-3/9 11ms}
+Nxf2 {66/9 5ms} 14. Nd4 {33/9 3ms} Nxh3+ {101/9 3ms} 15. Bxh3 {-92/9 16ms} Qg5 {43/9 8ms}
+16. Bxc8 {-73/9 2ms} Qxe3+ {93/9 7ms} 17. Kg2 {6/9 1ms} Nxd4 {87/9 4ms} 18. Bxb7 {24/9 7ms}
+Rxa3 {6/9 3ms} 19. Qc5 {188/9 3ms} Qe2+ {-31/9 5ms} 20. Rf2 {191/9 3ms} Qb5 {-9/9 5ms}
+21. Qxa3 {55/9 4ms} Qxb7+ {-6/9 8ms} 22. Kh3 {48/9 16ms} Re8 {-11/9 4ms} 23. Qa4 {16/9 4ms}
+Re6 {-34/9 9ms} 24. Qxd4 {0/9 3ms} Rh6+ {-1/9 2ms} 25. Kg4 {9/9 1ms} Rg6+ {0/9 3ms}
+26. Kf4 {24/9 3ms} Rf6+ {0/9 2ms} 27. Qxf6 {16/9 10ms} gxf6 {5/9 10ms} 28. Kg4 {5/9 23ms}
+Qe4+ {-8/9 18ms} 29. Kh3 {16/9 14ms} h5 {-7/9 8ms} 30. Rg1 {13/9 7ms} Kf8 {-1/9 6ms}
+31. Rf4 {22/9 10ms} Qe8 {-40/9 43ms} 32. Rgf1 {49/9 29ms} Qd7+ {-47/9 41ms} 33. Kg2 {56/9 17ms}
+Qc6+ {-55/9 25ms} 34. R1f3 {49/9 52ms} Ke8 {-55/9 24ms} 35. Kh2 {56/9 33ms} Qc5 {-60/9 33ms}
+36. Rxf6 {79/9 14ms} h4 {-89/9 19ms} 37. gxh4 {81/9 15ms} Qc2+ {-82/9 11ms} 38. Rf2 {82/9 10ms}
+Qe4 {-79/9 12ms} 39. R6f4 {71/9 14ms} Qe5 {-75/9 20ms} 40. Kh3 {71/9 22ms} Qe3+ {-84/9 14ms}
+41. Kh2 {71/9 12ms} Qe5 {-81/9 15ms} 42. Kh3 {71/9 2ms} Qe6+ {-84/9 5ms} 43. Rf5 {73/9 15ms}
+f6 {-87/9 28ms} 44. Kg3 {73/9 22ms} Qd6+ {-96/9 26ms} 45. R2f4 {99/9 19ms} Qd2 {-92/9 7ms}
+46. Rxf6 {79/9 22ms} Qxa2 {-75/9 14ms} 47. Rf3 {86/9 10ms} Qd2 {-94/9 23ms} 48. Kh3 {83/9 13ms}
+Qd7+ {-62/9 9ms} 49. R6f5 {85/9 14ms} Kd8 {-85/9 17ms} 50. h5 {86/9 23ms} Kc8 {-90/9 8ms}
+51. Kh4 {86/9 10ms} Qd4+ {-104/9 33ms} 52. R3f4 {97/9 26ms} Qg1 {-82/9 13ms} 53. h6 {103/9 31ms}
+Qh2+ {-76/9 4ms} 54. Kg5 {101/9 13ms} Qg2+ {-80/9 12ms} 55. Kh5 {101/9 15ms} Qh2+ {-90/9 8ms}
+56. Kg6 {103/9 31ms} Qg3+ {-76/9 8ms} 57. Kh7 {101/9 31ms} Qxb3 {-74/9 12ms} 58. Rf6 {102/9 29ms}
+Kb7 {-62/9 39ms} 59. Rg6 {94/9 7ms} Qd5 {-57/9 23ms} 60. Rf8 {75/9 13ms} Qd7+ {-58/9 13ms}
+61. Kg8 {84/9 5ms} Qd3 {-50/9 5ms} 62. Re6 {99/9 8ms} Qg3+ {-58/9 12ms} 63. Kh8 {85/9 16ms}
+Qg4 {-56/9 7ms} 64. Rff6 {88/9 11ms} Qg5 {-75/9 12ms} 65. h7 {95/9 8ms} Qg4 {-82/9 6ms}
+66. Rg6 {136/9 1ms} Qd4+ {-75/9 4ms} 67. Kg8 {121/9 3ms} Qd8+ {-67/9 5ms} 68. Kg7 {121/9 2ms}
+Qd4+ {-94/9 6ms} 69. Rgf6 {121/9 5ms} Qg4+ {-85/9 7ms} 70. Kf8 {131/9 6ms} Qh5 {-80/9 7ms}
+71. Rh6 {128/9 5ms} Qc5+ {-76/9 8ms} 72. Kg8 {128/9 3ms} Qg5+ {-54/9 2ms} 73. Kf7 {176/9 6ms}
+Qf5+ {-57/9 2ms} 74. Ke8 {213/9 4ms} Qb5+ {-74/9 9ms} 75. Kf7 {112/9 10ms} Qf5+ {-61/9 3ms}
+76. Kg7 {121/9 3ms} Qg4+ {-74/9 3ms} 77. Rhg6 {96/9 3ms} Qd4+ {-69/9 5ms} 78. Rgf6 {96/9 1ms}
+Qg4+ {-57/9 11ms} 79. Kf8 {125/9 3ms} Qh5 {-80/9 24ms} 80. Rf7 {126/9 8ms} Qh4 {-53/9 9ms}
+81. Rd6 {76/9 12ms} Qh5 {-70/9 31ms} 82. Rg6 {77/9 6ms} Qh4 {-53/9 9ms} 83. Re7 {69/9 15ms}
+Qd4 {-52/9 8ms} 84. Rgg7 {98/9 7ms} Qd8+ {-56/9 4ms} 85. Kf7 {74/9 14ms} Qd5+ {-77/9 13ms}
+86. Ke8 {85/9 9ms} Qb5+ {-87/9 15ms} 87. Kd8 {168/9 7ms} Kb6 {-92/9 12ms} 88. Re6+ {161/9 6ms}
+Ka5 {-94/9 13ms} 89. Re5 {102/9 32ms} Qxe5 {-86/9 5ms} 90. h8=Q {157/9 3ms} Kb5 {-367/9 13ms}
+91. Qe8+ {398/9 5ms} Qxe8+ {-361/9 3ms} 92. Kxe8 {402/9 6ms} c5 {-357/9 4ms} 93. Kd7 {404/9 20ms}
+c4 {-416/9 14ms} 94. Ke6 {404/9 5ms} Kb4 {-424/9 21ms} 95. Ke5 {412/9 12ms} Kc3 {-413/9 9ms}
+96. Ke4 {412/9 10ms} Kc2 {-413/9 14ms} 97. Kd4 {426/9 16ms} Kb3 {-429/9 15ms} 98. Rg8 {427/9 8ms}
+c3 {-443/9 8ms} 99. Kd3 {439/9 10ms} Kb4 {-435/9 17ms} 100. Rb8+ {423/9 45ms} Kc5 {-448/9 13ms}
+101. Kxc3 {422/9 17ms} Kd5 {-450/9 15ms} 102. Re8 {423/9 35ms} Kc5 {-448/9 13ms} 103. Re5+ {416/9 15ms}
+Kd6 {-436/9 37ms} 104. Rh5 {408/9 39ms} Ke7 {-419/9 44ms} 105. Rh6 {403/9 21ms} Kf7 {-419/9 50ms}
+106. Ra6 {406/9 48ms} Kg7 {-407/9 33ms} 107. Kb4 {395/9 14ms} Kf7 {-417/9 30ms} 108. Kc5 {388/9 17ms}
+Ke7 {-406/9 18ms} 109. Kd5 {389/9 68ms} Kf7 {-410/9 30ms} 110. Ke5 {397/9 11ms} Ke8 {-411/9 51ms}
+111. Ra7 {394/9 15ms} Kd8 {-413/9 24ms} 112. Kf4 {388/9 14ms} Ke8 {-417/9 22ms} 113. Kg3 {393/9 27ms}
+Kf8 {-389/9 22ms} 114. Rd7 {368/9 28ms} Ke8 {-390/9 5ms} 115. Ra7 {360/9 7ms} Kd8 {-385/9 28ms}
+116. Kf2 {356/9 30ms} Ke8 {-365/9 26ms} 117. Rg7 {346/9 28ms} Kf8 {-357/9 17ms} 118. Ra7 {339/9 12ms}
+Ke8 {-361/9 8ms} 119. Rh7 {338/9 11ms} Kd8 {-362/9 20ms} 120. Kg1 {340/9 4ms} Ke8 {-337/9 27ms}
+121. Kg2 {337/9 24ms} Kd8 {-331/9 30ms} 122. Kh3 {331/9 20ms} Ke8 {-333/9 27ms} 123. Kh2 {327/9 23ms}
+Kd8 {-336/9 3ms} 124. Kg2 {312/9 12ms} Ke8 {-331/9 15ms} 125. Kf3 {310/9 21ms} Kf8 {-337/9 10ms}
+126. Kg3 {331/9 16ms} Kg8 {-317/9 18ms} 127. Re7 {299/9 17ms} Kf8 {-319/9 17ms} 128. Rb7 {295/9 23ms}
+Ke8 {-314/9 20ms} 129. Rc7 {298/9 8ms} Kf8 {-311/9 23ms} 130. Kf2 {315/9 8ms} Kg8 {-296/9 17ms}
+131. Ke3 {284/9 23ms} Kf8 {-308/9 5ms} 132. Kd4 {302/9 15ms} Ke8 {-300/9 14ms} 133. Kc5 {289/9 9ms}
+Kd8 {-314/9 18ms} 134. Kc6 {283/9 6ms} Ke8 {-303/9 5ms} 135. Rd7 {276/9 13ms} Kf8 {-303/9 29ms}
+136. Kd6 {276/9 5ms} Kg8 {-M6/9 5ms} 137. Ke6 {M5/9 4ms} Kh8 {-M5/9 1ms} 138. Kf6 {M4/9 1ms}
+Kg8 {-M4/9 1ms} 139. Rd1 {M3/9 1ms} Kh8 {-M2/9 1ms} 140. Kg6 {M2/9 0ms} Kg8 {-M1/9 0ms}
+141. Rd8# {M1/9 1ms} 1-0
+
+[Round "1.14"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqk1nr/1ppp1ppp/4p3/p7/1b6/1P4PP/P1PPPP2/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "190"]
+
+1. e4 {19/9 28ms} d5 {-14/9 53ms} 2. e5 {4/9 64ms} Nh6 {0/9 56ms} 3. Nf3 {-3/9 77ms}
+Nf5 {0/9 35ms} 4. c3 {-1/9 27ms} Be7 {7/9 20ms} 5. a4 {0/9 10ms} O-O {12/9 15ms}
+6. Bg2 {2/9 13ms} c5 {13/9 31ms} 7. Na3 {4/9 12ms} f6 {27/9 12ms} 8. exf6 {15/9 23ms}
+Bxf6 {21/9 26ms} 9. O-O {-9/9 38ms} Nc6 {25/9 21ms} 10. Ra2 {-8/9 22ms} e5 {9/9 44ms}
+11. d3 {-1/9 9ms} Be6 {7/9 16ms} 12. Nh2 {-1/9 15ms} Qd7 {6/9 42ms} 13. Nb5 {-2/9 21ms}
+Nh6 {-1/9 65ms} 14. Bxh6 {19/9 13ms} gxh6 {3/9 16ms} 15. c4 {9/9 46ms} Rad8 {6/9 4ms}
+16. Nc3 {0/9 32ms} dxc4 {16/9 8ms} 17. dxc4 {-15/9 26ms} Bxh3 {21/9 14ms} 18. Qxd7 {-21/9 24ms}
+Bxd7 {27/9 13ms} 19. Re1 {-26/9 40ms} Bf5 {31/9 29ms} 20. Be4 {-14/9 23ms} Bxe4 {12/9 43ms}
+21. Nxe4 {-21/9 24ms} b6 {9/9 12ms} 22. Kg2 {-11/9 7ms} h5 {15/9 35ms} 23. Nf3 {-11/9 25ms}
+Bg7 {10/9 18ms} 24. Rd2 {0/9 11ms} Nd4 {0/9 15ms} 25. Rd3 {0/9 12ms} Nxf3 {-6/9 9ms}
+26. Rxf3 {14/9 5ms} Rxf3 {-3/9 6ms} 27. Kxf3 {4/9 13ms} Rd4 {0/9 21ms} 28. g4 {-2/9 35ms}
+Bh6 {-1/9 26ms} 29. gxh5 {2/9 15ms} Kf7 {0/9 8ms} 30. Rg1 {5/9 8ms} Rd3+ {0/9 8ms}
+31. Kg4 {1/9 7ms} Ke6 {0/9 13ms} 32. Ng5+ {0/9 8ms} Bxg5 {11/9 7ms} 33. Kxg5 {5/9 8ms}
+Rxb3 {26/9 18ms} 34. Kh6 {-35/9 40ms} Rh3 {32/9 7ms} 35. Rg5 {-31/9 7ms} Kf6 {41/9 25ms}
+36. Rg4 {-61/9 11ms} Rh2 {49/9 6ms} 37. f3 {-60/9 2ms} Kf5 {54/9 2ms} 38. Rg7 {-45/9 6ms}
+Kf4 {13/9 15ms} 39. Rf7+ {-31/9 11ms} Ke3 {26/9 2ms} 40. Kg5 {-36/9 12ms} Kd3 {53/9 11ms}
+41. Rxh7 {-32/9 25ms} Kxc4 {53/9 3ms} 42. Rb7 {-44/9 12ms} Kd4 {35/9 13ms} 43. Rxb6 {-44/9 17ms}
+c4 {23/9 17ms} 44. Rd6+ {-42/9 6ms} Kc5 {59/9 9ms} 45. Re6 {-50/9 11ms} c3 {50/9 49ms}
+46. Rxe5+ {-37/9 6ms} Kb4 {32/9 19ms} 47. Re1 {-28/9 20ms} Rg2+ {32/9 14ms} 48. Kf5 {-20/9 9ms}
+c2 {25/9 9ms} 49. h6 {-4/9 4ms} Rh2 {0/9 20ms} 50. Kg6 {0/9 5ms} Rg2+ {0/9 13ms}
+51. Kf5 {0/9 4ms} Rh2 {0/9 4ms} 52. Kg6 {0/9 1ms} Rg2+ {0/9 8ms} 53. Kh5 {0/9 1ms}
+Rf2 {31/9 21ms} 54. Rc1 {-40/9 18ms} Kb3 {77/9 22ms} 55. h7 {-54/9 4ms} Rxf3 {197/9 6ms}
+56. Rxc2 {-184/9 7ms} Kxc2 {343/9 4ms} 57. Kg5 {-589/9 4ms} Rh3 {576/9 8ms} 58. Kg6 {-637/9 5ms}
+Kb3 {674/9 17ms} 59. Kg7 {-671/9 6ms} Rxh7+ {704/9 5ms} 60. Kxh7 {-661/9 22ms} Kxa4 {727/9 3ms}
+61. Kg6 {-642/9 19ms} Kb3 {695/9 7ms} 62. Kf5 {-637/9 6ms} a4 {695/9 4ms} 63. Ke4 {-637/9 1ms}
+a3 {695/9 2ms} 64. Ke3 {-637/9 3ms} Kc2 {693/9 3ms} 65. Ke2 {-627/9 3ms} a2 {693/9 1ms}
+66. Ke3 {-609/9 5ms} Kb2 {693/9 2ms} 67. Kf3 {-606/9 6ms} Kc3 {693/9 2ms} 68. Ke2 {-602/9 7ms}
+Kb2 {693/9 1ms} 69. Kf1 {-595/9 11ms} Kc2 {675/9 5ms} 70. Ke2 {-595/9 1ms} Kb3 {641/9 4ms}
+71. Ke1 {-580/9 9ms} Ka3 {632/9 4ms} 72. Ke2 {-573/9 3ms} Kb3 {589/9 8ms} 73. Ke1 {-576/9 5ms}
+Ka4 {617/9 7ms} 74. Kd2 {-555/9 21ms} Kb4 {579/9 4ms} 75. Kd3 {-544/9 26ms} Kb3 {569/9 7ms}
+76. Kd2 {-556/9 14ms} Kb2 {561/9 6ms} 77. Kd3 {-554/9 10ms} Kb3 {561/9 4ms} 78. Kd2 {-543/9 24ms}
+Kb2 {561/9 1ms} 79. Kd3 {-541/9 1ms} Kc1 {555/9 3ms} 80. Kc3 {-537/9 11ms} a1=Q+ {546/9 16ms}
+81. Kc4 {-537/9 7ms} Qa5 {544/9 44ms} 82. Kd4 {-529/9 11ms} Qb5 {533/9 40ms} 83. Ke4 {-513/9 32ms}
+Qb7+ {508/9 50ms} 84. Kf4 {-507/9 25ms} Qb8+ {506/9 31ms} 85. Kf3 {-500/9 19ms} Kd2 {497/9 29ms}
+86. Ke4 {-498/9 32ms} Qd8 {492/9 41ms} 87. Kf5 {-486/9 31ms} Kc2 {473/9 34ms} 88. Kf4 {-471/9 29ms}
+Qf8+ {463/9 46ms} 89. Ke4 {-484/9 12ms} Qf6 {477/9 8ms} 90. Ke3 {-478/9 11ms} Kd1 {487/9 26ms}
+91. Kd3 {-475/9 27ms} Qe5 {559/9 14ms} 92. Kc4 {-477/9 16ms} Kc2 {M4/9 7ms} 93. Kb4 {-M3/9 1ms}
+Qd5 {M3/9 2ms} 94. Ka4 {-M2/9 0ms} Kc3 {M2/9 1ms} 95. Ka3 {-M1/9 1ms} Qa5# {M1/9 0ms}
+0-1
+
+[Round "1.15"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/8/1P2P1P1/P1PP1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "112"]
+
+1. d4 {-1/9 68ms} a5 {-6/9 72ms} 2. Bg2 {11/9 29ms} a4 {-8/9 26ms} 3. Nc3 {9/9 68ms}
+axb3 {-6/9 12ms} 4. cxb3 {-12/9 41ms} g6 {-9/9 31ms} 5. Nf3 {16/9 44ms} Bg7 {-5/9 66ms}
+6. e4 {17/9 70ms} O-O {0/9 29ms} 7. O-O {16/9 42ms} Qa5 {2/9 26ms} 8. Bb2 {16/9 55ms}
+Bg4 {9/9 28ms} 9. h3 {24/9 11ms} Bxf3 {-18/9 32ms} 10. Qxf3 {32/9 15ms} Nfd7 {9/9 72ms}
+11. Rfd1 {51/9 23ms} c5 {-14/9 28ms} 12. Nd5 {30/9 19ms} e6 {-16/9 11ms} 13. Ne7+ {39/9 12ms}
+Kh8 {-61/9 7ms} 14. e5 {-20/9 16ms} d5 {22/9 4ms} 15. dxc5 {-36/9 37ms} Nxe5 {57/9 21ms}
+16. Qf4 {-20/9 14ms} Nf3+ {57/9 7ms} 17. Bxf3 {-59/9 24ms} Bxb2 {72/9 7ms} 18. Rab1 {-60/9 29ms}
+Bg7 {122/9 5ms} 19. b4 {-38/9 11ms} Qb5 {80/9 35ms} 20. Rd2 {-69/9 27ms} Qd7 {80/9 11ms}
+21. Nxd5 {-51/9 21ms} exd5 {81/9 3ms} 22. Bxd5 {-65/9 16ms} Nc6 {31/9 17ms} 23. b5 {-8/9 19ms}
+Ne5 {-13/9 20ms} 24. c6 {45/9 3ms} bxc6 {-36/9 11ms} 25. Bxc6 {107/9 1ms} g5 {29/9 7ms}
+26. Qb4 {9/9 14ms} Qxh3 {23/9 12ms} 27. Bxa8 {1/9 6ms} Rxa8 {28/9 6ms} 28. Qe4 {-33/9 17ms}
+Re8 {43/9 7ms} 29. Rbd1 {-31/9 7ms} g4 {127/9 2ms} 30. Rd3 {-161/9 4ms} Bf8 {175/9 4ms}
+31. Qf5 {-76/9 7ms} Nxd3 {150/9 10ms} 32. Qxd3 {-138/9 30ms} Qh5 {107/9 12ms} 33. Qc3+ {-104/9 8ms}
+Kg8 {138/9 13ms} 34. a4 {-149/9 20ms} Qf5 {155/9 11ms} 35. Re1 {-162/9 6ms} Rxe1+ {171/9 10ms}
+36. Qxe1 {-162/9 9ms} Bc5 {149/9 21ms} 37. a5 {-194/9 10ms} h5 {180/9 15ms} 38. b6 {-165/9 4ms}
+Qf3 {186/9 8ms} 39. Kh2 {-198/9 14ms} Bxf2 {224/9 5ms} 40. Qe8+ {-229/9 5ms} Kh7 {359/9 1ms}
+41. Qe5 {-362/9 3ms} Be3 {431/9 2ms} 42. Qxe3 {-532/9 7ms} Qxe3 {713/9 2ms} 43. b7 {-772/9 4ms}
+Qf2+ {885/9 1ms} 44. Kh1 {-812/9 2ms} Qf1+ {885/9 1ms} 45. Kh2 {-812/9 0ms} Qh3+ {885/9 1ms}
+46. Kg1 {-893/9 3ms} Qxg3+ {885/9 0ms} 47. Kf1 {-920/9 3ms} Qf3+ {888/9 2ms} 48. Ke1 {-1003/9 8ms}
+Qxb7 {948/9 8ms} 49. Kd2 {-1084/9 11ms} g3 {1023/9 11ms} 50. Ke3 {-971/9 18ms} Qb2 {1408/9 6ms}
+51. a6 {-926/9 15ms} g2 {1680/9 11ms} 52. Kf4 {-1509/9 6ms} Qf2+ {M7/9 7ms} 53. Ke5 {-M4/9 3ms}
+g1=Q {M4/9 2ms} 54. Kd6 {-M3/9 0ms} Qg6+ {M3/9 1ms} 55. Kd7 {-M2/9 1ms} Qe6+ {M2/9 1ms}
+56. Kd8 {-M1/9 0ms} Qfb6# {M1/9 1ms} 0-1
+
+[Round "1.16"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/8/1P2P1P1/P1PP1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "101"]
+
+1. d4 {8/9 74ms} Nbd7 {3/9 97ms} 2. Bb2 {4/9 35ms} e5 {10/9 10ms} 3. dxe5 {7/9 30ms}
+dxe5 {34/9 13ms} 4. Nf3 {11/9 31ms} e4 {26/9 26ms} 5. Nfd2 {-28/9 28ms} Qe7 {-1/9 74ms}
+6. Bg2 {31/9 31ms} Nc5 {-26/9 50ms} 7. Nc3 {29/9 26ms} Bg4 {-6/9 23ms} 8. Qc1 {21/9 34ms}
+h5 {-5/9 12ms} 9. h3 {20/9 4ms} Bf5 {-7/9 21ms} 10. b4 {17/9 17ms} Ncd7 {-5/9 18ms}
+11. O-O {19/9 50ms} h4 {27/9 22ms} 12. g4 {0/9 20ms} Bxg4 {46/9 5ms} 13. hxg4 {46/9 23ms}
+Nxg4 {-84/9 20ms} 14. Ncxe4 {88/9 21ms} h3 {-127/9 25ms} 15. Bf3 {113/9 7ms} Nde5 {-107/9 13ms}
+16. Ng3 {108/9 5ms} O-O-O {-97/9 15ms} 17. Kh1 {108/9 10ms} Qe6 {-69/9 7ms} 18. Be4 {117/9 11ms}
+g6 {-88/9 10ms} 19. Bd4 {105/9 18ms} f5 {-80/9 43ms} 20. f3 {122/9 28ms} Nf6 {-76/9 14ms}
+21. Qb2 {132/9 19ms} fxe4 {-52/9 9ms} 22. Bxe5 {126/9 4ms} Rxd2 {-72/9 4ms} 23. Bxf6 {70/9 14ms}
+Bd6 {-106/9 9ms} 24. Rfd1 {49/9 13ms} Qd5 {-88/9 9ms} 25. Qc1 {172/9 3ms} Rxd1+ {-244/9 6ms}
+26. Qxd1 {245/9 9ms} Bxg3 {-226/9 18ms} 27. Qxd5 {247/9 3ms} cxd5 {-290/9 5ms} 28. Bxh8 {210/9 3ms}
+exf3 {-333/9 5ms} 29. Rf1 {268/9 6ms} f2 {-361/9 9ms} 30. Bf6 {309/9 9ms} b5 {-295/9 27ms}
+31. Bg5 {383/9 8ms} a6 {-298/9 2ms} 32. Bf4 {456/9 5ms} d4 {-459/9 8ms} 33. Bxg3 {504/9 5ms}
+dxe3 {-496/9 5ms} 34. Bxf2 {512/9 2ms} g5 {-498/9 7ms} 35. Bxe3 {508/9 8ms} Kb7 {-538/9 19ms}
+36. Kh2 {563/9 11ms} g4 {-572/9 7ms} 37. Rg1 {565/9 4ms} Kc7 {-597/9 6ms} 38. Rxg4 {587/9 3ms}
+Kd6 {-650/9 9ms} 39. Rg6+ {608/9 2ms} Ke7 {-682/9 4ms} 40. Rxa6 {690/9 7ms} Kf8 {-796/9 9ms}
+41. c4 {724/9 4ms} bxc4 {-799/9 6ms} 42. Kxh3 {774/9 2ms} Ke7 {-832/9 12ms} 43. b5 {791/9 7ms}
+Ke8 {-876/9 11ms} 44. Ra4 {859/9 9ms} Kf8 {-792/9 21ms} 45. b6 {956/9 3ms} Kf7 {-1004/9 3ms}
+46. b7 {1396/9 5ms} c3 {-1388/9 2ms} 47. b8=Q {M6/9 8ms} c2 {-M6/9 12ms} 48. Qc7+ {M4/9 1ms}
+Ke6 {-M3/9 2ms} 49. Ra6+ {M3/9 1ms} Kd5 {-M2/9 1ms} 50. Qc6+ {M2/9 0ms} Ke5 {-M1/9 0ms}
+51. Qe6# {M1/9 1ms} 1-0
+
+[Round "1.17"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "adjudication"]
+[FEN "rnbqkb1r/1p1ppppp/5n2/p1p5/5B2/3P4/PPPNPPPP/R2QKBNR w KQkq - 0 1"]
+[PlyCount "198"]
+
+1. c3 {-20/9 102ms} Nc6 {30/9 31ms} 2. Ngf3 {-14/9 30ms} a4 {30/9 32ms} 3. e4 {-17/9 67ms}
+d5 {24/9 49ms} 4. Be2 {-20/9 21ms} g6 {23/9 28ms} 5. Ne5 {-22/9 15ms} Bg7 {19/9 59ms}
+6. Nxc6 {-24/9 36ms} bxc6 {20/9 23ms} 7. e5 {-14/9 18ms} Nd7 {32/9 19ms} 8. Nf3 {-15/9 26ms}
+Nf8 {26/9 59ms} 9. d4 {-14/9 14ms} cxd4 {31/9 21ms} 10. cxd4 {-2/9 16ms} Ne6 {34/9 21ms}
+11. Be3 {-10/9 13ms} Qa5+ {25/9 10ms} 12. Qd2 {-18/9 22ms} Kd7 {24/9 7ms} 13. Qc3 {1/9 7ms}
+f6 {3/9 23ms} 14. Rb1 {11/9 11ms} fxe5 {24/9 11ms} 15. dxe5 {-17/9 17ms} Kc7 {14/9 26ms}
+16. h4 {13/9 16ms} Rf8 {22/9 18ms} 17. h5 {12/9 18ms} Nf4 {35/9 18ms} 18. Qxa5+ {5/9 9ms}
+Rxa5 {107/9 4ms} 19. Bd2 {12/9 20ms} Rc5 {22/9 27ms} 20. hxg6 {13/9 3ms} h6 {-3/9 32ms}
+21. Bb4 {47/9 10ms} Rc2 {-18/9 27ms} 22. Ba5+ {44/9 13ms} Kd7 {3/9 25ms} 23. Nd4 {78/9 6ms}
+Rxe2+ {8/9 4ms} 24. Nxe2 {69/9 6ms} Nd3+ {9/9 3ms} 25. Kd2 {57/9 6ms} Nxf2 {-56/9 15ms}
+26. Bc3 {59/9 10ms} Nxh1 {-20/9 6ms} 27. e6+ {64/9 3ms} Kd6 {-93/9 7ms} 28. Bxg7 {87/9 2ms}
+Rg8 {-106/9 7ms} 29. Bd4 {106/9 6ms} c5 {-131/9 5ms} 30. Be3 {148/9 13ms} Ng3 {-127/9 14ms}
+31. Bf4+ {150/9 10ms} Kc6 {-117/9 6ms} 32. Nxg3 {150/9 2ms} Rxg6 {-148/9 9ms} 33. Rh1 {150/9 4ms}
+d4 {-139/9 13ms} 34. Rxh6 {116/9 5ms} Rxh6 {-132/9 4ms} 35. Bxh6 {118/9 12ms} Bxe6 {-132/9 5ms}
+36. Bg7 {150/9 10ms} Bxa2 {-103/9 10ms} 37. Nh5 {118/9 22ms} Bb1 {-100/9 12ms} 38. g4 {114/9 21ms}
+Kd6 {-87/9 10ms} 39. Bf8 {113/9 18ms} Be4 {-106/9 28ms} 40. Nf4 {128/9 11ms} Ke5 {-110/9 11ms}
+41. Nd3+ {109/9 6ms} Kd6 {-111/9 6ms} 42. g5 {133/9 10ms} c4 {-103/9 5ms} 43. Nc1 {101/9 16ms}
+Ke6 {-46/9 4ms} 44. Bg7 {48/9 32ms} Kd5 {-36/9 23ms} 45. Na2 {58/9 20ms} e5 {-53/9 6ms}
+46. Kc1 {65/9 16ms} Ke6 {-50/9 15ms} 47. Nb4 {68/9 19ms} Kf5 {-30/9 6ms} 48. Bf6 {68/9 13ms}
+a3 {-6/9 7ms} 49. bxa3 {19/9 8ms} c3 {-24/9 5ms} 50. Na2 {113/9 3ms} Bd5 {-29/9 3ms}
+51. Nb4 {36/9 7ms} Be4 {14/9 1ms} 52. Nc2 {29/9 2ms} Bf3 {-9/9 13ms} 53. Be7 {21/9 20ms}
+d3 {-2/9 10ms} 54. Ne3+ {24/9 8ms} Ke4 {-22/9 5ms} 55. Bc5 {84/9 4ms} Bh5 {-54/9 11ms}
+56. a4 {41/9 3ms} Be8 {-51/9 11ms} 57. a5 {31/9 3ms} Ba4 {-51/9 4ms} 58. Nf1 {79/9 5ms}
+d2+ {-19/9 5ms} 59. Nxd2+ {38/9 4ms} cxd2+ {-74/9 4ms} 60. Kxd2 {119/9 2ms} Kf5 {-109/9 7ms}
+61. Be3 {63/9 7ms} Ke6 {-143/9 8ms} 62. Kc3 {37/9 28ms} Kd6 {-37/9 6ms} 63. a6 {21/9 16ms}
+Kc7 {-35/9 14ms} 64. g6 {19/9 38ms} Bd7 {-29/9 6ms} 65. Kb4 {25/9 64ms} Be8 {0/9 12ms}
+66. g7 {22/9 17ms} Bf7 {-17/9 8ms} 67. Kc5 {21/9 12ms} Bg8 {-17/9 6ms} 68. Kb5 {22/9 11ms}
+Kb8 {-30/9 21ms} 69. Bb6 {21/9 7ms} Ka8 {-26/9 13ms} 70. Kc6 {22/9 10ms} e4 {-23/9 7ms}
+71. Kd6 {22/9 12ms} Ba2 {-36/9 9ms} 72. Be3 {21/9 9ms} Bg8 {-38/9 6ms} 73. Bg1 {9/9 23ms}
+Ba2 {-38/9 3ms} 74. Ke7 {7/9 32ms} Bb3 {-38/9 7ms} 75. Bc5 {7/9 14ms} Bd5 {-38/9 17ms}
+76. Kf8 {6/9 26ms} Ba2 {-38/9 7ms} 77. Be3 {7/9 8ms} Be6 {-38/9 14ms} 78. g8=B {6/9 22ms}
+Bxg8 {-34/9 10ms} 79. Kxg8 {7/9 15ms} Kb8 {-19/9 3ms} 80. a7+ {7/9 2ms} Kb7 {-13/9 10ms}
+81. Kg7 {2/9 44ms} Ka8 {-11/9 3ms} 82. Kf6 {0/9 17ms} Kb7 {-6/9 6ms} 83. Kf7 {0/9 5ms}
+Ka8 {-5/9 2ms} 84. Ke6 {0/9 1ms} Kb7 {-9/9 4ms} 85. Kd7 {0/9 4ms} Ka8 {-4/9 4ms}
+86. Ke6 {0/9 2ms} Kb7 {0/9 3ms} 87. Kd7 {0/9 2ms} Ka8 {0/9 1ms} 88. Kd6 {0/9 1ms}
+Kb7 {-1/9 1ms} 89. Ke5 {0/9 3ms} Ka8 {0/9 1ms} 90. Kd5 {0/9 3ms} Kb7 {0/9 3ms}
+91. Ke5 {0/9 3ms} Ka8 {0/9 1ms} 92. Kd5 {0/9 1ms} Kb7 {0/9 1ms} 93. Kc4 {1/9 2ms}
+Ka8 {0/9 0ms} 94. Kb3 {0/9 8ms} Kb7 {0/9 3ms} 95. Ka3 {0/9 9ms} Ka8 {0/9 1ms}
+96. Kb3 {0/9 8ms} Kb7 {0/9 1ms} 97. Kc2 {0/9 2ms} Ka8 {0/9 1ms} 98. Kc3 {0/9 4ms}
+Kb7 {0/9 3ms} 99. Kd2 {0/9 3ms} Ka8 {0/9 3ms} 1/2-1/2
+
+[Round "1.18"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/1p1ppppp/5n2/p1p5/5B2/3P4/PPPNPPPP/R2QKBNR w KQkq - 0 1"]
+[PlyCount "137"]
+
+1. e3 {-28/9 97ms} Nc6 {28/9 79ms} 2. Ngf3 {-27/9 39ms} a4 {27/9 31ms} 3. a3 {-25/9 40ms}
+d5 {31/9 23ms} 4. Be2 {-27/9 59ms} g6 {33/9 13ms} 5. d4 {-40/9 38ms} cxd4 {55/9 9ms}
+6. exd4 {-58/9 19ms} Qb6 {52/9 8ms} 7. b4 {-55/9 17ms} Nxd4 {57/9 13ms} 8. Be3 {-39/9 6ms}
+Nxf3+ {53/9 15ms} 9. Nxf3 {-37/9 23ms} Qd6 {40/9 26ms} 10. Rc1 {-41/9 18ms} Bg7 {42/9 19ms}
+11. O-O {-40/9 18ms} O-O {52/9 12ms} 12. c4 {-52/9 5ms} dxc4 {59/9 5ms} 13. Qxd6 {-44/9 11ms}
+exd6 {55/9 14ms} 14. Bxc4 {-62/9 19ms} d5 {63/9 5ms} 15. Bd3 {-48/9 42ms} Bd7 {62/9 7ms}
+16. Rc7 {-41/9 14ms} Bc6 {49/9 10ms} 17. b5 {-35/9 6ms} Ne8 {0/9 3ms} 18. bxc6 {101/9 3ms}
+Nxc7 {-78/9 5ms} 19. cxb7 {98/9 8ms} Rab8 {-96/9 7ms} 20. Rb1 {121/9 4ms} Rfd8 {-114/9 14ms}
+21. Ba7 {115/9 4ms} Ne8 {-94/9 6ms} 22. Ba6 {147/9 11ms} Nd6 {-104/9 15ms} 23. Bxb8 {251/9 2ms}
+Rxb8 {-101/9 22ms} 24. Rb6 {243/9 5ms} Bf8 {-181/9 5ms} 25. Ne5 {196/9 9ms} Nxb7 {-194/9 7ms}
+26. Nd7 {209/9 3ms} Rc8 {-101/9 9ms} 27. Rxb7 {197/9 3ms} Rc1+ {-143/9 2ms} 28. Bf1 {207/9 3ms}
+Bxa3 {-193/9 8ms} 29. Ra7 {266/9 8ms} d4 {-177/9 3ms} 30. Rxa4 {292/9 6ms} d3 {-265/9 8ms}
+31. Rd4 {309/9 10ms} Bb4 {-298/9 17ms} 32. Rxd3 {307/9 21ms} Rc2 {-291/9 14ms} 33. Nf6+ {305/9 26ms}
+Kg7 {-294/9 9ms} 34. Ne4 {306/9 17ms} f5 {-292/9 4ms} 35. Ng5 {304/9 23ms} Be1 {-317/9 29ms}
+36. Rd7+ {322/9 44ms} Kf8 {-326/9 30ms} 37. Nh3 {328/9 14ms} Rxf2 {-356/9 49ms} 38. Nxf2 {345/9 23ms}
+Ke8 {-363/9 31ms} 39. Rxh7 {356/9 16ms} Kd8 {-390/9 84ms} 40. Ne4 {402/9 25ms} Kc8 {-394/9 35ms}
+41. Bc4 {436/9 32ms} Kd8 {-459/9 28ms} 42. Nd6 {492/9 10ms} Bb4 {-577/9 6ms} 43. Bb5 {498/9 13ms}
+Bxd6 {-560/9 17ms} 44. Kf1 {518/9 24ms} Bb8 {-529/9 23ms} 45. Ke2 {530/9 16ms} Be5 {-552/9 37ms}
+46. Kd3 {524/9 11ms} Bf6 {-555/9 33ms} 47. Bc4 {542/9 16ms} Be5 {-555/9 14ms} 48. h4 {552/9 9ms}
+Bf6 {-553/9 13ms} 49. Be6 {563/9 5ms} Be7 {-560/9 13ms} 50. Bf7 {554/9 10ms} Bd6 {-569/9 7ms}
+51. Bxg6 {590/9 11ms} Bf8 {-709/9 3ms} 52. Bxf5 {609/9 4ms} Be7 {-742/9 4ms} 53. Rf7 {605/9 7ms}
+Ke8 {-742/9 2ms} 54. Rxe7+ {640/9 10ms} Kxe7 {-739/9 3ms} 55. Ke4 {631/9 18ms} Kd6 {-701/9 9ms}
+56. g3 {627/9 11ms} Kc5 {-677/9 6ms} 57. h5 {890/9 3ms} Kb4 {-723/9 6ms} 58. h6 {1143/9 3ms}
+Kc5 {-710/9 3ms} 59. h7 {1128/9 5ms} Kc6 {-1146/9 9ms} 60. h8=Q {1120/9 2ms} Kb7 {-1122/9 3ms}
+61. Qc3 {1062/9 7ms} Ka8 {-1113/9 5ms} 62. Kf4 {1164/9 15ms} Kb7 {-1188/9 7ms} 63. Be4+ {1182/9 4ms}
+Kb8 {-1185/9 4ms} 64. Qe5+ {M6/9 1ms} Kc8 {-1163/9 5ms} 65. Bf5+ {M5/9 1ms} Kb7 {-1159/9 2ms}
+66. Qd6 {M4/9 1ms} Ka8 {-M3/9 1ms} 67. Be4+ {M3/9 0ms} Ka7 {-M2/9 1ms} 68. Qc7+ {M2/9 0ms}
+Ka6 {-M1/9 0ms} 69. Bd3# {M1/9 0ms} 1-0
+
+[Round "1.1"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/P7/2P2N2/1P1PPPPP/RNBQKB1R w KQkq - 0 1"]
+[PlyCount "71"]
+
+1. d4 {27/9 36ms} g6 {-25/9 38ms} 2. Nbd2 {21/9 25ms} Bg7 {-30/9 33ms} 3. e4 {24/9 26ms}
+O-O {-32/9 33ms} 4. Bd3 {26/9 52ms} c5 {-9/9 15ms} 5. dxc5 {32/9 16ms} dxc5 {-34/9 21ms}
+6. Qe2 {40/9 27ms} Nc6 {-26/9 28ms} 7. Nc4 {44/9 10ms} Bg4 {-19/9 15ms} 8. h3 {30/9 19ms}
+Bxf3 {-18/9 10ms} 9. Qxf3 {33/9 12ms} a6 {-15/9 16ms} 10. Be2 {44/9 13ms} Nd7 {-15/9 12ms}
+11. O-O {33/9 14ms} b5 {-16/9 74ms} 12. Ne3 {29/9 15ms} c4 {-8/9 10ms} 13. Rd1 {36/9 24ms}
+Qc7 {-6/9 3ms} 14. Ng4 {38/9 22ms} Nce5 {13/9 20ms} 15. Qg3 {18/9 58ms} Qc6 {-11/9 27ms}
+16. Bg5 {21/9 51ms} Nxg4 {0/9 18ms} 17. hxg4 {8/9 61ms} e6 {-2/9 16ms} 18. Be7 {38/9 26ms}
+Rfe8 {2/9 17ms} 19. Qd6 {38/9 20ms} Qxd6 {-34/9 16ms} 20. Bxd6 {26/9 22ms} Nb6 {-27/9 8ms}
+21. axb5 {18/9 18ms} axb5 {-29/9 7ms} 22. e5 {26/9 11ms} Bf8 {-5/9 4ms} 23. Kf1 {21/9 14ms}
+Rxa1 {50/9 1ms} 24. Rxa1 {21/9 6ms} Bxd6 {29/9 5ms} 25. exd6 {14/9 12ms} Rd8 {-23/9 12ms}
+26. Ra5 {26/9 13ms} b4 {-33/9 31ms} 27. cxb4 {18/9 41ms} Rxd6 {-23/9 17ms} 28. Ra6 {23/9 10ms}
+h6 {-12/9 23ms} 29. Bf3 {11/9 29ms} Kg7 {-10/9 13ms} 30. b5 {7/9 18ms} Kf6 {-8/9 13ms}
+31. g3 {4/9 17ms} g5 {-2/9 7ms} 32. Bc6 {-6/9 18ms} Nd5 {0/9 8ms} 33. Ra4 {0/9 13ms}
+Nb6 {0/9 5ms} 34. Ra6 {-10/9 10ms} Nd5 {0/9 2ms} 35. Ra4 {0/9 3ms} Nb6 {0/9 1ms}
+36. Ra6 {0/9 1ms} 1/2-1/2
+
+[Round "1.2"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/P7/2P2N2/1P1PPPPP/RNBQKB1R w KQkq - 0 1"]
+[PlyCount "140"]
+
+1. d4 {15/9 29ms} g6 {-24/9 68ms} 2. Nbd2 {22/9 21ms} Bg7 {-25/9 26ms} 3. e4 {37/9 11ms}
+O-O {-22/9 24ms} 4. Bd3 {43/9 15ms} c5 {-25/9 36ms} 5. dxc5 {60/9 15ms} dxc5 {-36/9 44ms}
+6. Qe2 {34/9 9ms} Nh5 {-33/9 32ms} 7. Nc4 {35/9 25ms} Nc6 {-28/9 11ms} 8. O-O {14/9 22ms}
+Qc7 {-28/9 40ms} 9. h3 {18/9 21ms} e5 {-21/9 11ms} 10. Rd1 {26/9 33ms} Be6 {-23/9 47ms}
+11. Ng5 {12/9 90ms} Bd7 {-11/9 41ms} 12. Ne3 {31/9 18ms} Nf4 {-20/9 16ms} 13. Qc2 {15/9 32ms}
+h6 {-19/9 25ms} 14. Nf3 {28/9 16ms} Rad8 {-14/9 24ms} 15. Bc4 {6/9 44ms} b6 {-10/9 16ms}
+16. b4 {12/9 44ms} cxb4 {27/9 18ms} 17. cxb4 {19/9 55ms} Qc8 {29/9 37ms} 18. Ba3 {37/9 6ms}
+Nd4 {144/9 3ms} 19. Nxd4 {3/9 3ms} exd4 {142/9 3ms} 20. Nd5 {-180/9 9ms} Nxd5 {149/9 5ms}
+21. exd5 {-149/9 17ms} Bxa4 {165/9 2ms} 22. Qxa4 {-48/9 6ms} Qxc4 {170/9 3ms} 23. d6 {-199/9 26ms}
+b5 {205/9 3ms} 24. Qa6 {-184/9 10ms} Qd5 {187/9 7ms} 25. Bc1 {-176/9 10ms} Rxd6 {203/9 9ms}
+26. Qxa7 {-171/9 11ms} d3 {219/9 9ms} 27. Rb1 {-189/9 19ms} Rc8 {217/9 16ms} 28. Be3 {-244/9 26ms}
+h5 {235/9 9ms} 29. Qe7 {-251/9 31ms} Bf6 {248/9 11ms} 30. Qa7 {-245/9 12ms} Kg7 {263/9 11ms}
+31. Bc5 {-219/9 16ms} Re6 {189/9 18ms} 32. Qa3 {-210/9 7ms} d2 {268/9 5ms} 33. Be3 {-132/9 4ms}
+Rc3 {361/9 3ms} 34. Qa7 {-321/9 7ms} Rc2 {346/9 7ms} 35. Kh1 {-295/9 33ms} Qd3 {334/9 19ms}
+36. Qa8 {-293/9 25ms} Bc3 {298/9 15ms} 37. Bc5 {-266/9 8ms} Kh7 {286/9 30ms} 38. Be3 {-257/9 31ms}
+Re5 {301/9 6ms} 39. Qf8 {-263/9 33ms} Qd5 {289/9 11ms} 40. Kg1 {-260/9 17ms} Rf5 {293/9 16ms}
+41. Qc8 {-261/9 41ms} Qd3 {272/9 20ms} 42. Qf8 {-269/9 68ms} Bg7 {270/9 21ms} 43. Qa8 {-252/9 17ms}
+h4 {280/9 14ms} 44. Kh1 {-255/9 14ms} g5 {277/9 7ms} 45. Rf1 {-257/9 45ms} Qd5 {301/9 7ms}
+46. Qa7 {-263/9 22ms} g4 {315/9 18ms} 47. Qb8 {-396/9 12ms} gxh3 {393/9 3ms} 48. Qh2 {-452/9 9ms}
+hxg2+ {664/9 3ms} 49. Qxg2 {-410/9 5ms} Bh6 {441/9 11ms} 50. Qxd5 {-376/9 4ms} Rxd5 {414/9 12ms}
+51. Rbd1 {-399/9 8ms} Rc3 {406/9 7ms} 52. Kg2 {-383/9 9ms} Kg6 {435/9 12ms} 53. Rh1 {-431/9 9ms}
+Bxe3 {451/9 6ms} 54. fxe3 {-514/9 8ms} Rxe3 {486/9 9ms} 55. Rc1 {-543/9 17ms} Rg5+ {573/9 24ms}
+56. Kh2 {-624/9 10ms} Re2+ {741/9 5ms} 57. Kh3 {-656/9 22ms} Rg3+ {716/9 3ms} 58. Kxh4 {-643/9 1ms}
+dxc1=Q {785/9 3ms} 59. Rxc1 {-675/9 6ms} Rg5 {703/9 6ms} 60. Rc6+ {-635/9 11ms} f6 {769/9 2ms}
+61. Rc3 {-797/9 4ms} Rh2+ {1094/9 1ms} 62. Rh3 {-823/9 4ms} Rh5+ {1123/9 2ms} 63. Kg3 {-989/9 3ms}
+R5xh3+ {1146/9 1ms} 64. Kf4 {-920/9 2ms} f5 {1050/9 2ms} 65. Ke5 {-981/9 3ms} Rc3 {1094/9 3ms}
+66. Kd4 {-1022/9 4ms} Rhc2 {1102/9 4ms} 67. Ke5 {-968/9 1ms} Rd2 {1133/9 3ms} 68. Kf4 {-M3/9 0ms}
+Rcd3 {M3/9 3ms} 69. Ke5 {-M2/9 1ms} Re2+ {M2/9 0ms} 70. Kf4 {-M1/9 1ms} Re4# {M1/9 1ms}
+0-1
+
+[Round "1.3"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "r1bqkbnr/1ppnpppp/p7/3p4/5B2/3P3P/PPP1PPP1/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "173"]
+
+1. Nf3 {13/9 27ms} e6 {-16/9 65ms} 2. e3 {14/9 40ms} Ngf6 {-6/9 21ms} 3. Be2 {12/9 32ms}
+b6 {-7/9 22ms} 4. Nbd2 {5/9 25ms} Bb7 {-10/9 49ms} 5. O-O {6/9 23ms} Be7 {0/9 32ms}
+6. c4 {7/9 19ms} c5 {2/9 18ms} 7. a4 {12/9 20ms} O-O {-3/9 69ms} 8. a5 {10/9 45ms}
+b5 {2/9 18ms} 9. Bg3 {8/9 54ms} h6 {3/9 65ms} 10. Qb3 {7/9 36ms} Bc6 {1/9 37ms}
+11. Rfc1 {-1/9 46ms} Re8 {11/9 32ms} 12. Qc2 {0/9 72ms} Bf8 {31/9 35ms} 13. Ne5 {-31/9 111ms}
+Nxe5 {24/9 25ms} 14. Bxe5 {-27/9 27ms} Rc8 {24/9 61ms} 15. Rd1 {-30/9 57ms} Nd7 {43/9 22ms}
+16. Bg3 {-36/9 126ms} bxc4 {53/9 19ms} 17. dxc4 {-46/9 22ms} d4 {65/9 10ms} 18. b4 {-17/9 7ms}
+cxb4 {66/9 7ms} 19. exd4 {-38/9 10ms} e5 {61/9 6ms} 20. dxe5 {-4/9 6ms} Nxe5 {47/9 24ms}
+21. Nb3 {-23/9 16ms} Qe7 {35/9 20ms} 22. c5 {-19/9 21ms} Qb7 {26/9 11ms} 23. Bf1 {-34/9 16ms}
+Bb5 {26/9 4ms} 24. Bxb5 {-28/9 5ms} Qxb5 {24/9 29ms} 25. Rac1 {-24/9 8ms} g6 {28/9 16ms}
+26. Bxe5 {11/9 6ms} Rxe5 {-9/9 28ms} 27. Qc4 {23/9 6ms} Qc6 {-12/9 45ms} 28. Qxb4 {-15/9 12ms}
+Rg5 {-10/9 8ms} 29. g4 {7/9 51ms} h5 {1/9 8ms} 30. Qf4 {15/9 7ms} Rd5 {-7/9 6ms}
+31. Rxd5 {53/9 6ms} Qxd5 {-56/9 14ms} 32. Qc4 {75/9 4ms} Qg5 {-59/9 4ms} 33. c6 {87/9 5ms}
+Rc7 {-65/9 24ms} 34. Kg2 {79/9 15ms} hxg4 {-49/9 16ms} 35. hxg4 {48/9 17ms} Rc8 {-57/9 18ms}
+36. Qd4 {58/9 31ms} Rd8 {-51/9 6ms} 37. Qe4 {68/9 10ms} Bd6 {-41/9 15ms} 38. Rd1 {76/9 14ms}
+Bc7 {-25/9 11ms} 39. Rxd8+ {46/9 14ms} Bxd8 {-53/9 8ms} 40. Qe8+ {114/9 3ms} Kg7 {-77/9 8ms}
+41. Qd7 {105/9 19ms} Kf8 {-60/9 19ms} 42. Qd4 {119/9 15ms} Kg8 {-97/9 76ms} 43. Nc5 {213/9 6ms}
+Bxa5 {-17/9 6ms} 44. Nd7 {54/9 20ms} Bd8 {0/9 4ms} 45. Kf3 {75/9 9ms} a5 {-37/9 62ms}
+46. Nb6 {47/9 38ms} Bxb6 {-45/9 33ms} 47. Qxb6 {74/9 5ms} Qd5+ {-39/9 7ms} 48. Kf4 {40/9 66ms}
+Qd6+ {-23/9 9ms} 49. Ke4 {44/9 11ms} a4 {-37/9 8ms} 50. Qb7 {34/9 17ms} f5+ {-42/9 5ms}
+51. Ke3 {42/9 8ms} Qe5+ {-57/9 21ms} 52. Kd3 {51/9 9ms} Qe4+ {-55/9 8ms} 53. Kc3 {68/9 6ms}
+a3 {-76/9 5ms} 54. Kb3 {81/9 6ms} Qf3+ {-73/9 14ms} 55. Ka2 {83/9 5ms} Qxf2+ {-65/9 3ms}
+56. Kxa3 {65/9 8ms} Qd2 {-65/9 9ms} 57. g5 {75/9 13ms} Kf8 {-41/9 20ms} 58. Ka4 {44/9 28ms}
+f4 {-30/9 3ms} 59. Kb5 {38/9 10ms} f3 {-14/9 15ms} 60. c7 {43/9 22ms} Qd3+ {-15/9 3ms}
+61. Kc5 {77/9 5ms} Qe3+ {-15/9 1ms} 62. Kd5 {67/9 10ms} Qxg5+ {-20/9 5ms} 63. Ke4 {111/9 1ms}
+Qf5+ {-13/9 11ms} 64. Kd4 {36/9 8ms} Qf6+ {-27/9 10ms} 65. Kc4 {138/9 2ms} Qe6+ {-40/9 13ms}
+66. Kd4 {67/9 28ms} Qf6+ {-32/9 6ms} 67. Kd3 {59/9 6ms} Qf5+ {-29/9 3ms} 68. Kc3 {43/9 4ms}
+Qf6+ {-32/9 5ms} 69. Kb3 {23/9 9ms} Qe6+ {-26/9 2ms} 70. Ka3 {23/9 1ms} Qe3+ {-25/9 4ms}
+71. Ka4 {22/9 9ms} Qe8+ {-59/9 7ms} 72. Qb5 {111/9 6ms} Qa8+ {-65/9 12ms} 73. Kb4 {90/9 7ms}
+Ke7 {-60/9 11ms} 74. Kc5 {79/9 11ms} f2 {-53/9 3ms} 75. Kb6 {39/9 40ms} Qg8 {-53/9 6ms}
+76. Qc5+ {39/9 8ms} Kd7 {-11/9 4ms} 77. Qc6+ {27/9 21ms} Ke7 {-22/9 3ms} 78. Qe4+ {3/9 8ms}
+Kd6 {-14/9 3ms} 79. Qf4+ {3/9 10ms} Ke7 {-8/9 5ms} 80. Qe4+ {1/9 5ms} Kd7 {-8/9 5ms}
+81. Qd4+ {1/9 4ms} Ke7 {-3/9 2ms} 82. Qe3+ {0/9 4ms} Kd6 {-1/9 4ms} 83. Qd4+ {0/9 2ms}
+Ke7 {0/9 4ms} 84. Qe3+ {0/9 1ms} Kd6 {0/9 2ms} 85. Qc5+ {0/9 2ms} Kd7 {0/9 1ms}
+86. Qc6+ {0/9 5ms} Ke7 {0/9 2ms} 87. Qe4+ {0/9 14ms} 1/2-1/2
+
+[Round "1.4"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "r1bqkbnr/1ppnpppp/p7/3p4/5B2/3P3P/PPP1PPP1/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "144"]
+
+1. d4 {17/9 50ms} c5 {0/9 40ms} 2. c3 {-18/9 25ms} Qb6 {7/9 15ms} 3. Qb3 {-13/9 3ms}
+cxd4 {16/9 5ms} 4. Qxb6 {-5/9 33ms} Nxb6 {25/9 28ms} 5. cxd4 {-15/9 21ms} Bf5 {23/9 32ms}
+6. Nc3 {-6/9 47ms} e6 {30/9 19ms} 7. a3 {-22/9 36ms} Rc8 {44/9 17ms} 8. e3 {-25/9 36ms}
+Nf6 {42/9 32ms} 9. h4 {-25/9 69ms} Ne4 {67/9 84ms} 10. Nge2 {-49/9 64ms} Nd6 {45/9 36ms}
+11. Ng3 {-46/9 14ms} Bc2 {53/9 21ms} 12. Kd2 {-39/9 11ms} Bb3 {67/9 34ms} 13. Bxd6 {-40/9 9ms}
+Bxd6 {67/9 26ms} 14. Bd3 {-53/9 33ms} Bxg3 {67/9 8ms} 15. fxg3 {-49/9 62ms} a5 {63/9 28ms}
+16. g4 {-37/9 20ms} h6 {48/9 48ms} 17. g5 {-30/9 11ms} hxg5 {45/9 25ms} 18. hxg5 {-23/9 14ms}
+Ke7 {35/9 37ms} 19. Rac1 {-24/9 40ms} a4 {24/9 46ms} 20. Rce1 {-23/9 61ms} Ra8 {23/9 37ms}
+21. Rc1 {-27/9 33ms} Rad8 {21/9 25ms} 22. g3 {-16/9 15ms} Rb8 {23/9 66ms} 23. Rh4 {0/9 35ms}
+Ra8 {4/9 48ms} 24. e4 {-5/9 40ms} Rxh4 {10/9 12ms} 25. gxh4 {-19/9 11ms} Rh8 {12/9 9ms}
+26. Rh1 {-14/9 3ms} dxe4 {21/9 9ms} 27. Nxe4 {-5/9 10ms} Bd5 {7/9 29ms} 28. Rh2 {0/9 21ms}
+Bxe4 {5/9 43ms} 29. Bxe4 {30/9 5ms} Nc4+ {-12/9 25ms} 30. Kc3 {18/9 27ms} Nd6 {-9/9 17ms}
+31. Bd3 {7/9 27ms} g6 {-12/9 28ms} 32. Kb4 {6/9 14ms} Rd8 {-1/9 12ms} 33. d5 {7/9 10ms}
+Nf5 {-6/9 17ms} 34. Bxf5 {0/9 12ms} exf5 {-7/9 7ms} 35. Kc5 {4/9 10ms} Rc8+ {0/9 4ms}
+36. Kd4 {0/9 6ms} Kd6 {0/9 4ms} 37. h5 {0/9 4ms} gxh5 {1/9 7ms} 38. Rxh5 {0/9 1ms}
+Rg8 {2/9 8ms} 39. Rh6+ {0/9 5ms} Rg6 {2/9 2ms} 40. Rh5 {0/9 1ms} b6 {3/9 14ms}
+41. Rh6 {0/9 5ms} b5 {1/9 6ms} 42. Rh5 {-9/9 6ms} f4 {5/9 6ms} 43. Ke4 {0/9 5ms}
+f3 {2/9 11ms} 44. Kxf3 {1/9 4ms} Kxd5 {3/9 7ms} 45. Kf4 {8/9 13ms} Kc4 {0/9 29ms}
+46. Rh3 {3/9 13ms} Re6 {-2/9 9ms} 47. Kf5 {0/9 7ms} Re2 {-2/9 4ms} 48. Rh4+ {-2/9 11ms}
+Kc5 {0/9 11ms} 49. Rb4 {0/9 11ms} Rg2 {0/9 11ms} 50. b3 {5/9 10ms} Rf2+ {-2/9 7ms}
+51. Ke5 {5/9 4ms} axb3 {-3/9 8ms} 52. Rxb3 {5/9 6ms} Re2+ {0/9 6ms} 53. Kf4 {3/9 10ms}
+Rf2+ {-4/9 13ms} 54. Rf3 {4/9 5ms} Rxf3+ {-5/9 5ms} 55. Kxf3 {0/9 4ms} Kd6 {-3/9 6ms}
+56. Kf4 {2/9 2ms} Ke6 {0/9 2ms} 57. Ke4 {2/9 1ms} f6 {-1/9 1ms} 58. gxf6 {2/9 3ms}
+Kxf6 {-6/9 3ms} 59. Kd4 {3/9 4ms} Ke7 {-1/9 4ms} 60. Kc5 {4/9 3ms} Kd7 {-1/9 3ms}
+61. Kxb5 {4/9 4ms} Kc7 {0/9 2ms} 62. Kc5 {3/9 4ms} Kb7 {0/9 2ms} 63. Kb5 {2/9 5ms}
+Kc7 {-3/9 1ms} 64. Ka6 {2/9 3ms} Kb8 {-17/9 2ms} 65. Kb6 {2/9 3ms} Ka8 {-17/9 1ms}
+66. Ka6 {4/9 1ms} Kb8 {-17/9 0ms} 67. Kb6 {2/9 1ms} Ka8 {-11/9 3ms} 68. Kc7 {1/9 5ms}
+Ka7 {0/9 2ms} 69. Kc6 {1/9 5ms} Ka6 {0/9 2ms} 70. Kc7 {0/9 2ms} Ka5 {0/9 2ms}
+71. Kc6 {0/9 6ms} Ka4 {0/9 1ms} 72. Kc7 {0/9 2ms} Kxa3 {0/9 1ms} 1/2-1/2
+
+[Round "1.5"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "r2qkbnr/ppp1pppp/2np4/5b2/8/P1P4P/1P1PPPP1/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "175"]
+
+1. c4 {7/9 92ms} e5 {-8/9 32ms} 2. d3 {5/9 23ms} Be6 {-8/9 29ms} 3. b4 {14/9 34ms}
+g6 {-14/9 46ms} 4. e3 {27/9 18ms} f5 {-17/9 31ms} 5. b5 {14/9 56ms} Na5 {-6/9 23ms}
+6. Bd2 {35/9 10ms} c5 {-24/9 20ms} 7. Qa4 {46/9 6ms} b6 {-17/9 23ms} 8. Be2 {21/9 26ms}
+Bg7 {-18/9 11ms} 9. Bxa5 {12/9 38ms} bxa5 {-7/9 35ms} 10. Nc3 {5/9 11ms} e4 {6/9 15ms}
+11. Rc1 {18/9 10ms} Bxc3+ {-9/9 39ms} 12. Rxc3 {24/9 17ms} Nf6 {-11/9 12ms} 13. h4 {29/9 13ms}
+a6 {-17/9 110ms} 14. Nh3 {44/9 12ms} axb5 {-39/9 28ms} 15. cxb5 {67/9 12ms} Nd5 {-62/9 18ms}
+16. Rc1 {76/9 16ms} Qxh4 {-33/9 49ms} 17. b6+ {94/9 11ms} Ke7 {-72/9 23ms} 18. b7 {48/9 31ms}
+Rab8 {-66/9 6ms} 19. Qc6 {30/9 10ms} Nxe3 {-50/9 36ms} 20. g3 {16/9 9ms} Qf6 {-62/9 21ms}
+21. fxe3 {77/9 9ms} Qb2 {-46/9 6ms} 22. Rd1 {42/9 15ms} Bd7 {-91/9 23ms} 23. Qa6 {113/9 3ms}
+Qxb7 {-65/9 6ms} 24. Qxb7 {88/9 9ms} Rxb7 {-66/9 12ms} 25. Nf4 {112/9 7ms} exd3 {-70/9 6ms}
+26. Bxd3 {115/9 24ms} Rbb8 {-91/9 40ms} 27. Rh6 {95/9 43ms} Ba4 {-88/9 19ms} 28. Rd2 {74/9 16ms}
+Kf6 {-115/9 21ms} 29. Kf2 {104/9 20ms} Bb3 {-97/9 38ms} 30. Be2 {99/9 18ms} Rb6 {-102/9 43ms}
+31. Rh1 {88/9 29ms} h5 {-99/9 27ms} 32. Rb1 {105/9 48ms} Rhb8 {-88/9 24ms} 33. Rdb2 {130/9 25ms}
+Kg5 {-81/9 27ms} 34. Nd5 {144/9 8ms} R6b7 {-117/9 6ms} 35. Ba6 {129/9 7ms} Ra7 {-124/9 6ms}
+36. Be2 {124/9 8ms} a4 {-107/9 18ms} 37. Bf3 {104/9 24ms} Rh8 {-108/9 87ms} 38. Nf4 {106/9 39ms}
+Kf6 {-86/9 36ms} 39. Rh1 {112/9 117ms} g5 {-55/9 10ms} 40. Nxh5+ {100/9 6ms} Ke5 {-29/9 12ms}
+41. Nf4 {56/9 8ms} Rxh1 {-67/9 14ms} 42. Nd3+ {99/9 3ms} Ke6 {-67/9 17ms} 43. Bxh1 {97/9 17ms}
+Bd5 {-64/9 23ms} 44. Bxd5+ {103/9 5ms} Kxd5 {-82/9 20ms} 45. Rb6 {69/9 16ms} Rh7 {-81/9 21ms}
+46. Kg2 {56/9 18ms} Rd7 {-104/9 20ms} 47. Kf3 {98/9 23ms} Rh7 {-117/9 9ms} 48. Nf2 {108/9 5ms}
+Kc4 {-100/9 13ms} 49. Rxd6 {110/9 15ms} Kb3 {-108/9 7ms} 50. e4 {110/9 9ms} fxe4+ {-96/9 7ms}
+51. Nxe4 {128/9 7ms} c4 {-114/9 19ms} 52. Ke3 {131/9 17ms} Rh1 {-89/9 14ms} 53. Rb6+ {139/9 16ms}
+Kxa3 {-90/9 12ms} 54. Nd6 {127/9 13ms} Re1+ {-96/9 27ms} 55. Kd2 {95/9 10ms} Rg1 {-88/9 42ms}
+56. Ne4 {92/9 17ms} Ka2 {-88/9 11ms} 57. Kc2 {104/9 38ms} Ka3 {-100/9 27ms} 58. Rb5 {107/9 10ms}
+g4 {-94/9 14ms} 59. Rb7 {48/9 39ms} Re1 {-86/9 4ms} 60. Nd6 {63/9 22ms} Re2+ {-79/9 10ms}
+61. Kc1 {94/9 7ms} Re1+ {-79/9 1ms} 62. Kc2 {94/9 11ms} Re2+ {-56/9 3ms} 63. Kc1 {62/9 8ms}
+Re1+ {-65/9 5ms} 64. Kd2 {37/9 9ms} Rg1 {-59/9 18ms} 65. Ne4 {38/9 17ms} Rf1 {-64/9 12ms}
+66. Kc3 {69/9 18ms} Rc1+ {-80/9 8ms} 67. Kd4 {45/9 17ms} Re1 {-71/9 7ms} 68. Rb6 {45/9 31ms}
+Rc1 {-64/9 14ms} 69. Nd6 {44/9 21ms} Rg1 {-56/9 29ms} 70. Nxc4+ {79/9 8ms} Ka2 {-33/9 6ms}
+71. Rb2+ {49/9 5ms} Ka1 {-33/9 5ms} 72. Rb4 {67/9 8ms} Rxg3 {-19/9 3ms} 73. Rxa4+ {6/9 42ms}
+Kb1 {-15/9 16ms} 74. Ra5 {5/9 54ms} Rh3 {-13/9 24ms} 75. Rg5 {3/9 31ms} Kc2 {-7/9 27ms}
+76. Rxg4 {2/9 33ms} Rh7 {0/9 34ms} 77. Rg2+ {12/9 28ms} Kb3 {0/9 17ms} 78. Ne3 {9/9 46ms}
+Kb4 {0/9 92ms} 79. Nd5+ {10/9 48ms} Kb3 {0/9 52ms} 80. Rg8 {9/9 81ms} Kc2 {-2/9 75ms}
+81. Rg2+ {7/9 52ms} Kb3 {-5/9 20ms} 82. Rh2 {5/9 44ms} Rxh2 {13/9 33ms} 83. Ke5 {0/9 102ms}
+Rh5+ {12/9 44ms} 84. Kd6 {0/9 6ms} Kc4 {12/9 59ms} 85. Nc7 {0/9 47ms} Rd5+ {16/9 66ms}
+86. Kc6 {-1/9 10ms} Rd6+ {22/9 20ms} 87. Kb7 {-6/9 12ms} Re6 {25/9 12ms} 88. Nxe6 {-9/9 12ms}
+1/2-1/2
+
+[Round "1.6"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "r2qkbnr/ppp1pppp/2np4/5b2/8/P1P4P/1P1PPPP1/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "195"]
+
+1. d4 {14/9 33ms} e6 {-14/9 54ms} 2. e3 {19/9 39ms} Nf6 {-22/9 40ms} 3. b4 {12/9 48ms}
+d5 {-15/9 16ms} 4. c4 {17/9 15ms} a5 {-19/9 29ms} 5. b5 {23/9 19ms} Na7 {-18/9 12ms}
+6. Nf3 {24/9 9ms} Ne4 {-31/9 49ms} 7. Nbd2 {40/9 19ms} c6 {-33/9 18ms} 8. bxc6 {40/9 16ms}
+Nxc6 {-41/9 33ms} 9. cxd5 {52/9 6ms} exd5 {-45/9 10ms} 10. Nxe4 {49/9 5ms} Bxe4 {-42/9 17ms}
+11. Bd3 {56/9 10ms} Be7 {-50/9 33ms} 12. Bxe4 {62/9 5ms} dxe4 {-43/9 7ms} 13. Nd2 {34/9 14ms}
+Qd5 {-18/9 15ms} 14. Rb1 {18/9 19ms} b5 {0/9 15ms} 15. Qg4 {16/9 12ms} f5 {40/9 2ms}
+16. Qxg7 {1/9 9ms} Kd7 {87/9 8ms} 17. Qh6 {5/9 6ms} Rag8 {11/9 31ms} 18. g3 {7/9 21ms}
+Rg6 {25/9 9ms} 19. Qh5 {12/9 16ms} Bd6 {11/9 20ms} 20. Qe2 {16/9 17ms} Rb8 {45/9 23ms}
+21. O-O {15/9 19ms} a4 {19/9 40ms} 22. Kh2 {3/9 20ms} Rg5 {18/9 36ms} 23. Bb2 {-4/9 16ms}
+h5 {60/9 10ms} 24. h4 {-30/9 26ms} Rg4 {28/9 12ms} 25. Kh1 {-23/9 33ms} Ne7 {45/9 19ms}
+26. Bc3 {-30/9 21ms} f4 {48/9 14ms} 27. exf4 {-58/9 5ms} e3+ {45/9 18ms} 28. Nf3 {-58/9 2ms}
+exf2 {37/9 10ms} 29. Kh2 {-50/9 8ms} Nf5 {46/9 5ms} 30. Rxf2 {-32/9 6ms} Nxg3 {87/9 8ms}
+31. Ne5+ {-35/9 13ms} Bxe5 {69/9 10ms} 32. Qxe5 {-58/9 9ms} Qxe5 {76/9 6ms} 33. dxe5 {-111/9 16ms}
+Ne4 {91/9 5ms} 34. Rd1+ {-58/9 12ms} Ke8 {24/9 7ms} 35. Rf3 {-52/9 15ms} Rxh4+ {31/9 6ms}
+36. Kg2 {-41/9 9ms} Rc8 {135/9 11ms} 37. Be1 {-7/9 3ms} Rc2+ {29/9 10ms} 38. Kg1 {-55/9 11ms}
+Rg4+ {45/9 12ms} 39. Kh1 {-14/9 11ms} Re2 {32/9 9ms} 40. f5 {-22/9 10ms} Ng5 {34/9 9ms}
+41. Rfd3 {-17/9 8ms} Rxe5 {25/9 12ms} 42. Bc3 {-20/9 7ms} Rh4+ {23/9 20ms} 43. Kg1 {-17/9 7ms}
+Rg4+ {15/9 10ms} 44. Kh1 {-17/9 2ms} Re2 {19/9 3ms} 45. Rd8+ {-9/9 4ms} Kf7 {19/9 1ms}
+46. R1d7+ {-12/9 11ms} Re7 {6/9 33ms} 47. f6 {-14/9 6ms} Rxd7 {6/9 6ms} 48. Rxd7+ {-38/9 14ms}
+Ke6 {0/9 6ms} 49. Re7+ {-24/9 5ms} Kd5 {0/9 6ms} 50. f7 {-18/9 6ms} Rf4 {21/9 8ms}
+51. Bd2 {-20/9 7ms} Rxf7 {35/9 16ms} 52. Bxg5 {-16/9 6ms} Rf3 {20/9 19ms} 53. Be3 {-9/9 20ms}
+Rf1+ {20/9 15ms} 54. Bg1 {-9/9 15ms} Ra1 {21/9 14ms} 55. Re3 {-4/9 13ms} Rb1 {14/9 19ms}
+56. Rh3 {0/9 18ms} b4 {18/9 23ms} 57. axb4 {0/9 11ms} Rxb4 {13/9 20ms} 58. Rxh5+ {-5/9 38ms}
+Ke6 {14/9 15ms} 59. Rh6+ {-14/9 42ms} Kf5 {17/9 14ms} 60. Ra6 {-15/9 51ms} Re4 {14/9 130ms}
+61. Kg2 {-8/9 48ms} Re6 {9/9 103ms} 62. Ra8 {-11/9 43ms} Ke4 {5/9 130ms} 63. Bf2 {-11/9 94ms}
+Re7 {5/9 50ms} 64. Rxa4+ {-9/9 84ms} Kd5 {1/9 36ms} 65. Rd4+ {-8/9 69ms} Ke6 {0/9 34ms}
+66. Re4+ {-9/9 41ms} Kf7 {0/9 43ms} 67. Rf4+ {-10/9 37ms} Ke8 {0/9 21ms} 68. Kf3 {-8/9 60ms}
+Rf7 {0/9 15ms} 69. Bc5 {-9/9 21ms} Rc7 {-1/9 26ms} 70. Rf8+ {0/9 24ms} Kd7 {-1/9 4ms}
+71. Rf7+ {0/9 22ms} Kc6 {-3/9 14ms} 72. Rf6+ {-8/9 28ms} Kxc5 {0/9 28ms} 73. Ke3 {0/9 12ms}
+Rd7 {0/9 23ms} 74. Rf2 {0/9 10ms} Rd8 {0/9 19ms} 75. Rc2+ {0/9 10ms} Kb4 {0/9 9ms}
+76. Rg2 {0/9 15ms} Kb3 {0/9 13ms} 77. Rg3 {0/9 13ms} Kc3 {0/9 13ms} 78. Rg1 {0/9 13ms}
+Re8+ {0/9 17ms} 79. Kf4 {0/9 16ms} Kd4 {0/9 9ms} 80. Rc1 {0/9 10ms} Rb8 {0/9 13ms}
+81. Rd1+ {0/9 8ms} Kc5 {0/9 6ms} 82. Kf5 {0/9 25ms} Re8 {0/9 10ms} 83. Rc1+ {0/9 10ms}
+Kb6 {0/9 10ms} 84. Rh1 {0/9 12ms} Ka7 {0/9 9ms} 85. Rh6 {0/9 12ms} Kb7 {0/9 15ms}
+86. Rh7+ {0/9 26ms} Kb8 {0/9 11ms} 87. Rf7 {0/9 10ms} Rh8 {0/9 13ms} 88. Ke4 {0/9 12ms}
+Rd8 {0/9 8ms} 89. Ke3 {0/9 10ms} Rc8 {0/9 10ms} 90. Kd2 {0/9 20ms} Rd8+ {0/9 4ms}
+91. Ke3 {0/9 15ms} Rd6 {0/9 9ms} 92. Kf2 {0/9 6ms} Rd2+ {0/9 8ms} 93. Kf1 {0/9 4ms}
+Rb2 {0/9 6ms} 94. Rf3 {0/9 7ms} Kb7 {0/9 11ms} 95. Kg1 {0/9 6ms} Ka6 {0/9 6ms}
+96. Rf6+ {0/9 6ms} Kb7 {0/9 3ms} 97. Rf2 {0/9 5ms} Rxf2 {0/9 10ms} 98. Kxf2 {-1/9 4ms}
+1/2-1/2
+
+[Round "1.7"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/pp1p1ppp/2p2n2/4p1B1/8/3P1N2/PPP1PPPP/RN1QKB1R w KQkq - 0 1"]
+[PlyCount "113"]
+
+1. e4 {-13/9 67ms} Be7 {14/9 37ms} 2. Nbd2 {-6/9 22ms} d6 {20/9 25ms} 3. Be2 {-9/9 29ms}
+O-O {17/9 40ms} 4. O-O {-7/9 24ms} h6 {10/9 52ms} 5. Bh4 {-3/9 36ms} Nbd7 {9/9 34ms}
+6. a4 {0/9 49ms} Re8 {7/9 34ms} 7. Re1 {0/9 33ms} a5 {-8/9 108ms} 8. c3 {17/9 56ms}
+Nc5 {-17/9 67ms} 9. h3 {28/9 74ms} Be6 {-17/9 96ms} 10. Bf1 {33/9 14ms} Qb6 {-16/9 44ms}
+11. d4 {30/9 56ms} exd4 {-2/9 9ms} 12. cxd4 {11/9 86ms} Nb3 {-2/9 40ms} 13. Nxb3 {17/9 4ms}
+Qxb3 {0/9 31ms} 14. Qc1 {14/9 56ms} d5 {-12/9 20ms} 15. e5 {22/9 10ms} Ne4 {-26/9 8ms}
+16. Bxe7 {16/9 13ms} Rxe7 {-28/9 8ms} 17. Nd2 {18/9 19ms} Nxd2 {-13/9 13ms} 18. Qxd2 {38/9 9ms}
+Bf5 {-29/9 37ms} 19. g4 {37/9 17ms} Bh7 {-32/9 14ms} 20. Re3 {53/9 4ms} Qb6 {-15/9 13ms}
+21. Rae1 {36/9 15ms} g5 {-29/9 57ms} 22. Bd3 {30/9 40ms} Bxd3 {-49/9 30ms} 23. Qxd3 {64/9 22ms}
+Qxb2 {-53/9 20ms} 24. h4 {46/9 80ms} c5 {-48/9 20ms} 25. dxc5 {66/9 26ms} d4 {-55/9 8ms}
+26. Re4 {39/9 17ms} Qc3 {-84/9 10ms} 27. Qxd4 {66/9 2ms} Qxd4 {-72/9 8ms} 28. Rxd4 {79/9 23ms}
+gxh4 {-74/9 23ms} 29. Rd5 {64/9 10ms} f6 {-77/9 11ms} 30. Kg2 {93/9 8ms} Rae8 {-77/9 6ms}
+31. f4 {93/9 1ms} fxe5 {-77/9 2ms} 32. fxe5 {54/9 6ms} Rf7 {-62/9 13ms} 33. Kh3 {79/9 24ms}
+Rf4 {-40/9 14ms} 34. e6 {77/9 15ms} Rxa4 {-29/9 17ms} 35. e7 {64/9 16ms} Rc4 {-20/9 15ms}
+36. g5 {44/9 11ms} hxg5 {4/9 9ms} 37. Rxg5+ {32/9 5ms} Kf7 {-1/9 20ms} 38. Rf5+ {34/9 20ms}
+Kg7 {-28/9 23ms} 39. Rg1+ {25/9 8ms} Kh6 {-98/9 6ms} 40. Rf6+ {91/9 3ms} Kh7 {-39/9 5ms}
+41. Rf7+ {38/9 28ms} Kh6 {-40/9 7ms} 42. Rf6+ {41/9 7ms} Kh7 {-28/9 5ms} 43. Re1 {4/9 33ms}
+Kg7 {-3/9 13ms} 44. Rf5 {7/9 25ms} a4 {0/9 9ms} 45. Rg1+ {7/9 3ms} Kh6 {0/9 1ms}
+46. Rf6+ {3/9 8ms} Kh7 {-9/9 14ms} 47. Rf7+ {0/9 6ms} Kh6 {-6/9 3ms} 48. Rf6+ {0/9 4ms}
+Kh7 {-2/9 9ms} 49. Rf5 {0/9 2ms} Kh6 {-2/9 3ms} 50. Re1 {0/9 10ms} Kg7 {-3/9 12ms}
+51. Rf3 {16/9 8ms} Rxc5 {0/9 3ms} 52. Rg1+ {0/9 7ms} Kh6 {0/9 3ms} 53. Rf6+ {0/9 2ms}
+Kh7 {0/9 2ms} 54. Rf7+ {0/9 7ms} Kh6 {0/9 4ms} 55. Rf6+ {0/9 3ms} Kh7 {0/9 0ms}
+56. Rf7+ {0/9 1ms} Kh6 {0/9 0ms} 57. Rf6+ {0/9 1ms} 1/2-1/2
+
+[Round "1.8"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/pp1p1ppp/2p2n2/4p1B1/8/3P1N2/PPP1PPPP/RN1QKB1R w KQkq - 0 1"]
+[PlyCount "93"]
+
+1. e4 {-11/9 35ms} h6 {12/9 41ms} 2. Bxf6 {-13/9 32ms} Qxf6 {27/9 39ms} 3. d4 {-9/9 11ms}
+d6 {25/9 10ms} 4. Nc3 {-9/9 41ms} exd4 {26/9 70ms} 5. Qxd4 {-3/9 13ms} Nd7 {29/9 10ms}
+6. Qd2 {7/9 41ms} g6 {26/9 38ms} 7. Bc4 {-30/9 53ms} Nb6 {45/9 16ms} 8. Be2 {-56/9 25ms}
+Bg4 {49/9 19ms} 9. O-O-O {-58/9 43ms} Bxf3 {69/9 8ms} 10. Bxf3 {-65/9 14ms} h5 {40/9 27ms}
+11. Kb1 {-44/9 17ms} O-O-O {36/9 19ms} 12. Ne2 {-53/9 14ms} Nc4 {29/9 43ms} 13. Qd4 {-28/9 12ms}
+Qxd4 {43/9 4ms} 14. Nxd4 {-37/9 19ms} Bh6 {39/9 32ms} 15. c3 {-32/9 17ms} Rde8 {26/9 47ms}
+16. Kc2 {-34/9 47ms} Ne5 {50/9 37ms} 17. Be2 {-18/9 35ms} Nd7 {53/9 7ms} 18. Bd3 {-25/9 41ms}
+Ne5 {21/9 68ms} 19. h3 {-26/9 39ms} Re7 {19/9 24ms} 20. Rhe1 {-31/9 34ms} Rhe8 {18/9 25ms}
+21. Re2 {-41/9 70ms} h4 {37/9 20ms} 22. a4 {-27/9 38ms} a6 {33/9 21ms} 23. b4 {-31/9 41ms}
+Kb8 {35/9 32ms} 24. b5 {-27/9 29ms} c5 {53/9 8ms} 25. Nf3 {-26/9 10ms} Nxf3 {25/9 17ms}
+26. gxf3 {-6/9 7ms} d5 {31/9 4ms} 27. Ree1 {-6/9 26ms} c4 {0/9 21ms} 28. Be2 {-6/9 9ms}
+dxe4 {-17/9 21ms} 29. Bxc4 {11/9 11ms} Rc8 {-38/9 36ms} 30. Bd5 {38/9 18ms} axb5 {-47/9 12ms}
+31. axb5 {42/9 10ms} e3 {-46/9 7ms} 32. fxe3 {60/9 4ms} Bxe3 {-30/9 6ms} 33. Rd3 {36/9 31ms}
+Rce8 {-46/9 18ms} 34. Bxf7 {38/9 4ms} Rxf7 {-46/9 3ms} 35. Rexe3 {34/9 21ms} Rxe3 {-42/9 15ms}
+36. Rxe3 {21/9 23ms} Ka7 {-17/9 15ms} 37. Kb3 {19/9 32ms} Rf4 {-25/9 12ms} 38. c4 {11/9 16ms}
+b6 {-18/9 6ms} 39. Kc3 {10/9 15ms} g5 {-10/9 8ms} 40. Kd3 {10/9 9ms} Kb7 {-25/9 15ms}
+41. Kc3 {10/9 4ms} Kc8 {-6/9 11ms} 42. Kb4 {10/9 3ms} Kb7 {-5/9 7ms} 43. Re7+ {10/9 3ms}
+Kb8 {-4/9 6ms} 44. Re8+ {8/9 4ms} Kb7 {-4/9 5ms} 45. Re7+ {5/9 4ms} Kb8 {-2/9 7ms}
+46. Re6 {8/9 5ms} Kb7 {-2/9 3ms} 47. Re7+ {0/9 5ms} 1/2-1/2
+
+[Round "1.9"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkbnr/p1p1ppp1/1p6/3p3p/8/2P1P1P1/PP1P1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "102"]
+
+1. Nf3 {11/9 92ms} Bb7 {7/9 71ms} 2. Bg2 {6/9 56ms} Nd7 {2/9 48ms} 3. d4 {24/9 10ms}
+e6 {-2/9 8ms} 4. O-O {15/9 23ms} Ngf6 {5/9 32ms} 5. Nbd2 {14/9 24ms} c5 {1/9 21ms}
+6. h4 {20/9 17ms} Be7 {10/9 14ms} 7. e4 {19/9 20ms} dxe4 {16/9 10ms} 8. Ng5 {21/9 6ms}
+cxd4 {13/9 11ms} 9. cxd4 {4/9 18ms} Bd5 {11/9 18ms} 10. Ndxe4 {-2/9 13ms} Nxe4 {11/9 5ms}
+11. Nxe4 {-3/9 15ms} Nf6 {8/9 6ms} 12. Re1 {-3/9 9ms} O-O {6/9 14ms} 13. Bg5 {-15/9 23ms}
+Bxe4 {22/9 8ms} 14. Bxf6 {-29/9 10ms} Bxg2 {35/9 4ms} 15. Bxe7 {-31/9 16ms} Qxe7 {34/9 28ms}
+16. Kxg2 {-30/9 18ms} g6 {37/9 44ms} 17. Qf3 {-32/9 41ms} Qb4 {32/9 23ms} 18. Rad1 {-35/9 20ms}
+Rad8 {50/9 24ms} 19. Qc3 {-39/9 44ms} Qb5 {35/9 14ms} 20. b3 {-28/9 34ms} Rd6 {41/9 25ms}
+21. Qc7 {-45/9 70ms} Qd7 {36/9 35ms} 22. Qxd7 {-45/9 9ms} Rxd7 {47/9 17ms} 23. Rd2 {-41/9 73ms}
+Rc8 {43/9 63ms} 24. Kf3 {-36/9 63ms} Kf8 {43/9 52ms} 25. Kf4 {-30/9 24ms} Ke7 {33/9 30ms}
+26. Ke4 {-18/9 74ms} Kd6 {55/9 24ms} 27. Kf4 {-24/9 38ms} Ke7 {45/9 32ms} 28. Ree2 {-22/9 25ms}
+f6 {53/9 31ms} 29. Ke4 {-13/9 18ms} Kd6 {48/9 22ms} 30. Rd3 {-41/9 10ms} Rdc7 {83/9 16ms}
+31. Rf3 {-24/9 11ms} Ke7 {57/9 7ms} 32. Rfe3 {-22/9 12ms} Rc2 {50/9 9ms} 33. d5 {-28/9 10ms}
+Rxe2 {8/9 12ms} 34. Rxe2 {-30/9 6ms} Rc5 {11/9 6ms} 35. dxe6 {-34/9 10ms} Re5+ {19/9 4ms}
+36. Kd3 {-27/9 7ms} Rxe2 {28/9 3ms} 37. Kxe2 {-33/9 9ms} Kxe6 {25/9 15ms} 38. f4 {-27/9 6ms}
+b5 {22/9 7ms} 39. Kf3 {-16/9 8ms} b4 {51/9 12ms} 40. g4 {-9/9 3ms} f5 {0/9 9ms}
+41. gxh5 {-4/9 3ms} gxh5 {0/9 3ms} 42. Ke3 {-1/9 2ms} Kd5 {0/9 1ms} 43. Kd3 {-1/9 0ms}
+a6 {0/9 2ms} 44. Ke3 {0/9 1ms} Kc5 {0/9 1ms} 45. Kd3 {0/9 0ms} Kd5 {0/9 0ms}
+46. Ke3 {0/9 0ms} Kc5 {0/9 0ms} 47. Kd3 {0/9 0ms} a5 {0/9 1ms} 48. Ke3 {0/9 1ms}
+Kd5 {0/9 0ms} 49. Kd3 {0/9 1ms} Kc5 {0/9 0ms} 50. Ke3 {0/9 0ms} Kd5 {0/9 0ms}
+51. Kd3 {0/9 0ms} Kc5 {0/9 1ms} 1/2-1/2
+
+[Round "1.10"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkbnr/p1p1ppp1/1p6/3p3p/8/2P1P1P1/PP1P1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "130"]
+
+1. Nf3 {-2/9 53ms} Nf6 {0/9 68ms} 2. Bg2 {7/9 15ms} e6 {-9/9 47ms} 3. d4 {8/9 24ms}
+Bb7 {-15/9 67ms} 4. O-O {2/9 51ms} Nbd7 {-10/9 16ms} 5. Nbd2 {4/9 57ms} Be7 {-1/9 32ms}
+6. c4 {3/9 33ms} dxc4 {1/9 19ms} 7. Nxc4 {-7/9 41ms} Rc8 {1/9 32ms} 8. Qe2 {7/9 36ms}
+c5 {6/9 17ms} 9. Rd1 {0/9 72ms} cxd4 {6/9 29ms} 10. exd4 {11/9 20ms} O-O {7/9 38ms}
+11. Bd2 {10/9 72ms} Qc7 {-5/9 220ms} 12. Rac1 {9/9 35ms} Qb8 {-1/9 47ms} 13. Nce5 {0/9 60ms}
+Rxc1 {10/9 23ms} 14. Rxc1 {4/9 13ms} Qa8 {2/9 70ms} 15. Nxd7 {76/9 3ms} Nxd7 {-3/9 24ms}
+16. Rc7 {40/9 28ms} Rd8 {-21/9 20ms} 17. Bg5 {22/9 14ms} Bf6 {-12/9 35ms} 18. h4 {18/9 23ms}
+Bd5 {-14/9 22ms} 19. Ne1 {23/9 48ms} Bxg2 {0/9 32ms} 20. Nxg2 {-1/9 29ms} Qd5 {3/9 31ms}
+21. Qc4 {3/9 12ms} Qxc4 {6/9 7ms} 22. Rxc4 {2/9 6ms} g6 {-8/9 20ms} 23. Rc7 {22/9 11ms}
+Bxg5 {-9/9 17ms} 24. hxg5 {13/9 13ms} Nf8 {-7/9 17ms} 25. Rxa7 {-1/9 21ms} Rxd4 {0/9 11ms}
+26. Rb7 {4/9 5ms} Rd1+ {31/9 3ms} 27. Kh2 {-9/9 9ms} Nh7 {-1/9 17ms} 28. f4 {32/9 13ms}
+f6 {-11/9 16ms} 29. Rxb6 {27/9 12ms} fxg5 {-18/9 12ms} 30. Rxe6 {29/9 10ms} Kf7 {-35/9 35ms}
+31. Re2 {32/9 7ms} Ra1 {-25/9 13ms} 32. a3 {32/9 14ms} Nf6 {-27/9 14ms} 33. Ne3 {29/9 46ms}
+gxf4 {-30/9 23ms} 34. gxf4 {13/9 42ms} Ne8 {-34/9 45ms} 35. Nd5 {19/9 59ms} Nd6 {-26/9 29ms}
+36. Re7+ {21/9 11ms} Kf8 {-24/9 29ms} 37. Re2 {14/9 22ms} Kg7 {-29/9 30ms} 38. Ne3 {19/9 20ms}
+g5 {-32/9 24ms} 39. fxg5 {36/9 21ms} Kg6 {-27/9 18ms} 40. Nc2 {55/9 19ms} Rd1 {-45/9 33ms}
+41. a4 {35/9 21ms} Kxg5 {-63/9 33ms} 42. a5 {37/9 23ms} Nc8 {-69/9 41ms} 43. Na3 {59/9 41ms}
+Rd4 {-53/9 54ms} 44. Rc2 {55/9 13ms} Nd6 {-66/9 32ms} 45. a6 {68/9 14ms} Ra4 {-60/9 21ms}
+46. Rc6 {74/9 15ms} Nf5 {-55/9 16ms} 47. Rb6 {58/9 13ms} Rh4+ {-47/9 19ms} 48. Kg1 {83/9 2ms}
+Rg4+ {-44/9 3ms} 49. Kh2 {76/9 7ms} Rh4+ {-29/9 11ms} 50. Kg1 {90/9 4ms} Rg4+ {-34/9 7ms}
+51. Kf1 {92/9 7ms} Rf4+ {-47/9 8ms} 52. Ke2 {69/9 3ms} Ra4 {-49/9 17ms} 53. Nb5 {128/9 7ms}
+h4 {-28/9 6ms} 54. a7 {137/9 6ms} h3 {-28/9 2ms} 55. Kf2 {148/9 3ms} h2 {-28/9 1ms}
+56. a8=B {-72/9 7ms} Rxa8 {540/9 2ms} 57. Re6 {-435/9 8ms} h1=Q {832/9 6ms} 58. Na3 {-967/9 9ms}
+Qh2+ {967/9 5ms} 59. Ke1 {-954/9 15ms} Qxb2 {1038/9 7ms} 60. Rb6 {-1302/9 26ms} Re8+ {1198/9 6ms}
+61. Re6 {-M6/9 4ms} Rxe6+ {M6/9 2ms} 62. Kd1 {-M4/9 0ms} Rd6+ {M4/9 1ms} 63. Ke1 {-M3/9 1ms}
+Qc1+ {M3/9 0ms} 64. Kf2 {-M2/9 0ms} Rd2+ {M2/9 1ms} 65. Kf3 {-M1/9 0ms} Qc6# {M1/9 0ms}
+0-1
+
+[Round "1.11"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/1ppp1ppp/p3pn2/8/8/P3P3/1PPPBPPP/RNBQK1NR w KQkq - 0 1"]
+[PlyCount "181"]
+
+1. c4 {8/9 33ms} d5 {5/9 19ms} 2. cxd5 {0/9 33ms} exd5 {4/9 13ms} 3. Nf3 {0/9 15ms}
+Bd6 {3/9 27ms} 4. b4 {-2/9 7ms} c6 {9/9 18ms} 5. O-O {-4/9 42ms} O-O {10/9 17ms}
+6. Bb2 {-10/9 29ms} Re8 {15/9 34ms} 7. Nc3 {-3/9 37ms} Bg4 {9/9 58ms} 8. h3 {2/9 24ms}
+Bxf3 {10/9 13ms} 9. Bxf3 {0/9 29ms} Nbd7 {-1/9 26ms} 10. g3 {-8/9 29ms} Ne5 {26/9 19ms}
+11. Bg2 {-10/9 11ms} Nc4 {23/9 53ms} 12. Qc2 {-21/9 16ms} h5 {37/9 19ms} 13. Bc1 {-12/9 55ms}
+h4 {39/9 25ms} 14. d3 {-1/9 10ms} Ne5 {46/9 22ms} 15. d4 {-38/9 60ms} Nc4 {64/9 4ms}
+16. e4 {-43/9 21ms} hxg3 {58/9 41ms} 17. e5 {1/9 19ms} gxf2+ {38/9 28ms} 18. Qxf2 {5/9 17ms}
+Nxe5 {36/9 8ms} 19. dxe5 {10/9 22ms} Bxe5 {49/9 9ms} 20. Bd2 {0/9 26ms} Bc7 {41/9 6ms}
+21. Kh1 {-2/9 24ms} Qd6 {9/9 22ms} 22. Bf4 {-7/9 4ms} Qxf4 {31/9 4ms} 23. Qxf4 {-15/9 11ms}
+Bxf4 {0/9 12ms} 24. Rxf4 {-10/9 8ms} Re3 {5/9 7ms} 25. Rf3 {-14/9 12ms} Rae8 {6/9 8ms}
+26. Na4 {-10/9 6ms} Rxf3 {10/9 8ms} 27. Bxf3 {41/9 7ms} Ne4 {-32/9 23ms} 28. Bxe4 {27/9 17ms}
+dxe4 {-48/9 60ms} 29. Nc5 {45/9 8ms} Re7 {-63/9 38ms} 30. Kh2 {41/9 13ms} Kh7 {-35/9 10ms}
+31. Kg3 {31/9 32ms} g5 {-3/9 16ms} 32. Rd1 {33/9 7ms} f5 {-3/9 16ms} 33. Rd7 {32/9 10ms}
+Rxd7 {-22/9 10ms} 34. Nxd7 {36/9 12ms} Kg6 {-48/9 17ms} 35. Nc5 {45/9 7ms} b6 {-64/9 20ms}
+36. Nxa6 {54/9 8ms} Kf7 {-58/9 14ms} 37. Nb8 {89/9 7ms} c5 {-48/9 3ms} 38. bxc5 {90/9 8ms}
+bxc5 {-76/9 5ms} 39. Nd7 {95/9 1ms} Ke6 {-100/9 11ms} 40. Nxc5+ {73/9 6ms} Kd5 {-94/9 7ms}
+41. Nb3 {88/9 3ms} f4+ {-33/9 6ms} 42. Kf2 {99/9 4ms} e3+ {-142/9 13ms} 43. Kf3 {173/9 4ms}
+Kc4 {-263/9 11ms} 44. Nc1 {200/9 5ms} Kc5 {-344/9 30ms} 45. Ne2 {237/9 4ms} Kd5 {-390/9 8ms}
+46. a4 {279/9 5ms} Kc4 {-426/9 6ms} 47. Ng1 {351/9 6ms} Kb4 {-443/9 10ms} 48. Kg4 {418/9 4ms}
+Kxa4 {-446/9 3ms} 49. Kxg5 {448/9 4ms} f3 {-452/9 7ms} 50. Nxf3 {542/9 3ms} Kb4 {-502/9 38ms}
+51. h4 {600/9 6ms} e2 {-598/9 9ms} 52. h5 {594/9 5ms} Kc3 {-565/9 7ms} 53. h6 {689/9 7ms}
+Kc2 {-615/9 25ms} 54. Nd4+ {781/9 4ms} Kd2 {-648/9 13ms} 55. Nxe2 {750/9 9ms} Kxe2 {-646/9 15ms}
+56. h7 {692/9 10ms} Kf2 {-603/9 13ms} 57. Kh4 {687/9 11ms} Kf3 {-710/9 15ms} 58. Kg5 {692/9 10ms}
+Kg3 {-608/9 7ms} 59. Kf5 {672/9 10ms} Kf3 {-604/9 9ms} 60. Kg5 {660/9 4ms} Ke2 {-592/9 10ms}
+61. Kf4 {646/9 6ms} Kf2 {-591/9 9ms} 62. Ke5 {643/9 11ms} Kg3 {-586/9 7ms} 63. Kf5 {643/9 3ms}
+Kf3 {-582/9 2ms} 64. Kf6 {643/9 3ms} Kg2 {-565/9 16ms} 65. Kg5 {636/9 2ms} Kg3 {-552/9 13ms}
+66. Kh5 {636/9 2ms} Kh3 {-561/9 3ms} 67. Kh6 {635/9 2ms} Kg2 {-568/9 4ms} 68. Kg7 {627/9 5ms}
+Kg3 {-559/9 9ms} 69. Kg6 {622/9 6ms} Kg4 {-551/9 5ms} 70. Kf6 {604/9 4ms} Kf4 {-560/9 4ms}
+71. Kg7 {563/9 22ms} Kg3 {-551/9 21ms} 72. Kf6 {563/9 10ms} Kf2 {-558/9 11ms} 73. Ke7 {579/9 5ms}
+Kg3 {-551/9 10ms} 74. Ke6 {559/9 7ms} Kg4 {-564/9 8ms} 75. Kf7 {550/9 5ms} Kf3 {-549/9 12ms}
+76. Ke6 {547/9 3ms} Ke4 {-560/9 6ms} 77. Ke7 {535/9 8ms} Kf5 {-546/9 22ms} 78. Kd7 {532/9 9ms}
+Kf4 {-542/9 13ms} 79. Ke8 {532/9 30ms} Kf5 {-545/9 4ms} 80. h8=Q {529/9 13ms} Kg4 {-545/9 25ms}
+81. Qc3 {538/9 36ms} Kf4 {-538/9 16ms} 82. Kf7 {538/9 5ms} Ke4 {-534/9 46ms} 83. Kf6 {519/9 42ms}
+Kd5 {-520/9 35ms} 84. Ke7 {523/9 22ms} Ke4 {-502/9 37ms} 85. Kf6 {498/9 29ms} Kd5 {-502/9 12ms}
+86. Qb4 {498/9 17ms} Kc6 {-502/9 10ms} 87. Qc4+ {499/9 31ms} Kb7 {-493/9 46ms} 88. Qb5+ {494/9 9ms}
+Kc7 {-476/9 43ms} 89. Ke7 {M3/9 12ms} Kc8 {-M2/9 11ms} 90. Kd6 {M2/9 1ms} Kd8 {-M1/9 0ms}
+91. Qb8# {M1/9 0ms} 1-0
+
+[Round "1.12"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/1ppp1ppp/p3pn2/8/8/P3P3/1PPPBPPP/RNBQK1NR w KQkq - 0 1"]
+[PlyCount "103"]
+
+1. Nf3 {4/9 127ms} d5 {-7/9 40ms} 2. d4 {4/9 34ms} b6 {-6/9 20ms} 3. b3 {6/9 13ms}
+Bb7 {-3/9 22ms} 4. Bb2 {9/9 11ms} c5 {-2/9 17ms} 5. Nbd2 {3/9 28ms} cxd4 {2/9 11ms}
+6. Nxd4 {7/9 15ms} Nbd7 {4/9 15ms} 7. O-O {0/9 49ms} Be7 {0/9 68ms} 8. c4 {22/9 26ms}
+dxc4 {-2/9 18ms} 9. Bf3 {41/9 9ms} Bxf3 {0/9 9ms} 10. Qxf3 {42/9 19ms} Ne5 {18/9 8ms}
+11. Qg3 {30/9 25ms} Nd3 {50/9 7ms} 12. Nxc4 {41/9 13ms} Nxb2 {24/9 14ms} 13. Nxb2 {2/9 29ms}
+O-O {14/9 37ms} 14. Rfd1 {0/9 22ms} Qd5 {10/9 38ms} 15. Nc4 {-2/9 46ms} Bc5 {7/9 37ms}
+16. Ne2 {-5/9 19ms} Qh5 {2/9 22ms} 17. Qf3 {-1/9 8ms} Qxf3 {11/9 12ms} 18. gxf3 {0/9 12ms}
+b5 {0/9 31ms} 19. Ne5 {-2/9 39ms} Rfd8 {-4/9 19ms} 20. Rxd8+ {5/9 15ms} Rxd8 {-14/9 77ms}
+21. a4 {3/9 15ms} Nd5 {-8/9 35ms} 22. axb5 {9/9 52ms} axb5 {-11/9 21ms} 23. f4 {14/9 22ms}
+Kf8 {-17/9 65ms} 24. Kg2 {20/9 23ms} g6 {-22/9 38ms} 25. Kf3 {22/9 28ms} Kg7 {-27/9 44ms}
+26. Ra6 {20/9 36ms} Rc8 {-31/9 38ms} 27. Ra5 {18/9 24ms} b4 {-26/9 18ms} 28. Nd3 {18/9 25ms}
+Be7 {-28/9 21ms} 29. Ra7 {32/9 20ms} Rc7 {-30/9 16ms} 30. Rxc7 {40/9 3ms} Nxc7 {-60/9 13ms}
+31. Nd4 {46/9 10ms} Bf8 {-34/9 11ms} 32. Nc6 {77/9 13ms} Na6 {-58/9 8ms} 33. Ke4 {89/9 25ms}
+Bc5 {-53/9 14ms} 34. Nb8 {65/9 11ms} Nxb8 {-52/9 5ms} 35. Nxc5 {13/9 15ms} Nc6 {-35/9 5ms}
+36. Kd3 {33/9 4ms} Na5 {-18/9 17ms} 37. Kc2 {1/9 23ms} Kf6 {0/9 23ms} 38. Ne4+ {7/9 11ms}
+Ke7 {0/9 10ms} 39. Ng5 {0/9 11ms} Nc6 {0/9 6ms} 40. Kd3 {0/9 12ms} Na5 {0/9 9ms}
+41. Kc2 {0/9 3ms} h6 {-2/9 20ms} 42. Nf3 {5/9 14ms} f6 {0/9 10ms} 43. Nd2 {0/9 10ms}
+Kd6 {0/9 4ms} 44. Ne4+ {0/9 5ms} Ke7 {0/9 4ms} 45. Nc5 {0/9 6ms} Kd6 {0/9 2ms}
+46. Ne4+ {0/9 1ms} Ke7 {0/9 2ms} 47. Nc5 {0/9 3ms} Kd6 {0/9 1ms} 48. Na6 {0/9 2ms}
+Nc6 {0/9 3ms} 49. Kd3 {0/9 3ms} Na5 {0/9 5ms} 50. Kc2 {0/9 4ms} Nc6 {0/9 2ms}
+51. Kd3 {0/9 1ms} Na5 {0/9 1ms} 52. Kc2 {0/9 0ms} 1/2-1/2
+
+[Round "1.13"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqk1nr/1ppp1ppp/4p3/p7/1b6/1P4PP/P1PPPP2/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "281"]
+
+1. Bb2 {12/9 45ms} Nf6 {-17/9 23ms} 2. c4 {11/9 53ms} d5 {-10/9 18ms} 3. Nf3 {4/9 26ms}
+a4 {-4/9 36ms} 4. cxd5 {11/9 10ms} a3 {0/9 15ms} 5. Bc3 {25/9 9ms} Bxc3 {6/9 6ms}
+6. dxc3 {0/9 10ms} exd5 {29/9 14ms} 7. Qc1 {-4/9 13ms} Qe7 {8/9 51ms} 8. Bg2 {-20/9 26ms}
+Nc6 {18/9 17ms} 9. O-O {-4/9 31ms} O-O {25/9 15ms} 10. e3 {-28/9 27ms} Ne4 {30/9 30ms}
+11. c4 {-50/9 43ms} dxc4 {50/9 31ms} 12. Qxc4 {-30/9 35ms} Qf6 {47/9 14ms} 13. Nxa3 {-3/9 11ms}
+Nxf2 {66/9 5ms} 14. Nd4 {33/9 3ms} Nxh3+ {101/9 4ms} 15. Bxh3 {-92/9 14ms} Qg5 {43/9 9ms}
+16. Bxc8 {-73/9 3ms} Qxe3+ {93/9 6ms} 17. Kg2 {6/9 1ms} Nxd4 {87/9 5ms} 18. Bxb7 {24/9 8ms}
+Rxa3 {6/9 3ms} 19. Qc5 {188/9 3ms} Qe2+ {-31/9 7ms} 20. Rf2 {191/9 3ms} Qb5 {-9/9 5ms}
+21. Qxa3 {55/9 4ms} Qxb7+ {-6/9 9ms} 22. Kh3 {48/9 15ms} Re8 {-11/9 5ms} 23. Qa4 {16/9 6ms}
+Re6 {-34/9 11ms} 24. Qxd4 {0/9 3ms} Rh6+ {-1/9 3ms} 25. Kg4 {9/9 1ms} Rg6+ {0/9 3ms}
+26. Kf4 {24/9 4ms} Rf6+ {0/9 3ms} 27. Qxf6 {16/9 13ms} gxf6 {5/9 12ms} 28. Kg4 {5/9 28ms}
+Qe4+ {-8/9 21ms} 29. Kh3 {16/9 17ms} h5 {-7/9 10ms} 30. Rg1 {13/9 9ms} Kf8 {-1/9 8ms}
+31. Rf4 {22/9 11ms} Qe8 {-40/9 43ms} 32. Rgf1 {49/9 25ms} Qd7+ {-47/9 19ms} 33. Kg2 {56/9 16ms}
+Qc6+ {-55/9 22ms} 34. R1f3 {49/9 35ms} Ke8 {-55/9 20ms} 35. Kh2 {56/9 26ms} Qc5 {-60/9 18ms}
+36. Rxf6 {79/9 12ms} h4 {-89/9 16ms} 37. gxh4 {81/9 14ms} Qc2+ {-82/9 11ms} 38. Rf2 {82/9 25ms}
+Qe4 {-79/9 21ms} 39. R6f4 {71/9 37ms} Qe5 {-75/9 21ms} 40. Kh3 {71/9 22ms} Qe3+ {-84/9 23ms}
+41. Kh2 {71/9 15ms} Qe5 {-81/9 12ms} 42. Kh3 {71/9 1ms} Qe6+ {-84/9 3ms} 43. Rf5 {73/9 14ms}
+f6 {-87/9 26ms} 44. Kg3 {73/9 16ms} Qd6+ {-96/9 12ms} 45. R2f4 {99/9 17ms} Qd2 {-92/9 5ms}
+46. Rxf6 {79/9 19ms} Qxa2 {-75/9 12ms} 47. Rf3 {86/9 9ms} Qd2 {-94/9 26ms} 48. Kh3 {83/9 11ms}
+Qd7+ {-62/9 7ms} 49. R6f5 {85/9 13ms} Kd8 {-85/9 14ms} 50. h5 {86/9 19ms} Kc8 {-90/9 8ms}
+51. Kh4 {86/9 10ms} Qd4+ {-104/9 30ms} 52. R3f4 {97/9 12ms} Qg1 {-82/9 15ms} 53. h6 {103/9 17ms}
+Qh2+ {-76/9 5ms} 54. Kg5 {101/9 10ms} Qg2+ {-80/9 10ms} 55. Kh5 {101/9 9ms} Qh2+ {-90/9 12ms}
+56. Kg6 {103/9 7ms} Qg3+ {-76/9 8ms} 57. Kh7 {101/9 16ms} Qxb3 {-74/9 17ms} 58. Rf6 {102/9 25ms}
+Kb7 {-62/9 18ms} 59. Rg6 {94/9 5ms} Qd5 {-57/9 15ms} 60. Rf8 {75/9 11ms} Qd7+ {-58/9 11ms}
+61. Kg8 {84/9 6ms} Qd3 {-50/9 5ms} 62. Re6 {99/9 7ms} Qg3+ {-58/9 11ms} 63. Kh8 {85/9 15ms}
+Qg4 {-56/9 6ms} 64. Rff6 {88/9 11ms} Qg5 {-75/9 12ms} 65. h7 {95/9 23ms} Qg4 {-82/9 8ms}
+66. Rg6 {136/9 1ms} Qd4+ {-75/9 5ms} 67. Kg8 {121/9 3ms} Qd8+ {-67/9 15ms} 68. Kg7 {121/9 2ms}
+Qd4+ {-94/9 7ms} 69. Rgf6 {121/9 4ms} Qg4+ {-85/9 6ms} 70. Kf8 {131/9 6ms} Qh5 {-80/9 6ms}
+71. Rh6 {128/9 4ms} Qc5+ {-76/9 15ms} 72. Kg8 {128/9 4ms} Qg5+ {-54/9 3ms} 73. Kf7 {176/9 6ms}
+Qf5+ {-57/9 2ms} 74. Ke8 {213/9 16ms} Qb5+ {-74/9 10ms} 75. Kf7 {112/9 10ms} Qf5+ {-61/9 3ms}
+76. Kg7 {121/9 4ms} Qg4+ {-74/9 17ms} 77. Rhg6 {96/9 4ms} Qd4+ {-69/9 5ms} 78. Rgf6 {96/9 1ms}
+Qg4+ {-57/9 15ms} 79. Kf8 {125/9 3ms} Qh5 {-80/9 24ms} 80. Rf7 {126/9 9ms} Qh4 {-53/9 10ms}
+81. Rd6 {76/9 12ms} Qh5 {-70/9 26ms} 82. Rg6 {77/9 6ms} Qh4 {-53/9 8ms} 83. Re7 {69/9 13ms}
+Qd4 {-52/9 7ms} 84. Rgg7 {98/9 7ms} Qd8+ {-56/9 4ms} 85. Kf7 {74/9 14ms} Qd5+ {-77/9 15ms}
+86. Ke8 {85/9 8ms} Qb5+ {-87/9 14ms} 87. Kd8 {168/9 5ms} Kb6 {-92/9 10ms} 88. Re6+ {161/9 8ms}
+Ka5 {-94/9 12ms} 89. Re5 {102/9 27ms} Qxe5 {-86/9 4ms} 90. h8=Q {157/9 3ms} Kb5 {-367/9 15ms}
+91. Qe8+ {398/9 3ms} Qxe8+ {-361/9 3ms} 92. Kxe8 {402/9 4ms} c5 {-357/9 3ms} 93. Kd7 {404/9 18ms}
+c4 {-416/9 15ms} 94. Ke6 {404/9 5ms} Kb4 {-424/9 23ms} 95. Ke5 {412/9 11ms} Kc3 {-413/9 10ms}
+96. Ke4 {412/9 10ms} Kc2 {-413/9 15ms} 97. Kd4 {426/9 18ms} Kb3 {-429/9 16ms} 98. Rg8 {427/9 11ms}
+c3 {-443/9 9ms} 99. Kd3 {439/9 12ms} Kb4 {-435/9 16ms} 100. Rb8+ {423/9 53ms} Kc5 {-448/9 14ms}
+101. Kxc3 {422/9 14ms} Kd5 {-450/9 15ms} 102. Re8 {423/9 40ms} Kc5 {-448/9 15ms} 103. Re5+ {416/9 15ms}
+Kd6 {-436/9 40ms} 104. Rh5 {408/9 44ms} Ke7 {-419/9 41ms} 105. Rh6 {403/9 25ms} Kf7 {-419/9 76ms}
+106. Ra6 {406/9 97ms} Kg7 {-407/9 33ms} 107. Kb4 {395/9 16ms} Kf7 {-417/9 34ms} 108. Kc5 {388/9 21ms}
+Ke7 {-406/9 19ms} 109. Kd5 {389/9 98ms} Kf7 {-410/9 34ms} 110. Ke5 {397/9 11ms} Ke8 {-411/9 49ms}
+111. Ra7 {394/9 14ms} Kd8 {-413/9 28ms} 112. Kf4 {388/9 29ms} Ke8 {-417/9 23ms} 113. Kg3 {393/9 29ms}
+Kf8 {-389/9 38ms} 114. Rd7 {368/9 28ms} Ke8 {-390/9 5ms} 115. Ra7 {360/9 6ms} Kd8 {-385/9 29ms}
+116. Kf2 {356/9 26ms} Ke8 {-365/9 27ms} 117. Rg7 {346/9 28ms} Kf8 {-357/9 18ms} 118. Ra7 {339/9 12ms}
+Ke8 {-361/9 7ms} 119. Rh7 {338/9 12ms} Kd8 {-362/9 18ms} 120. Kg1 {340/9 4ms} Ke8 {-337/9 27ms}
+121. Kg2 {337/9 22ms} Kd8 {-331/9 28ms} 122. Kh3 {331/9 21ms} Ke8 {-333/9 27ms} 123. Kh2 {327/9 29ms}
+Kd8 {-336/9 2ms} 124. Kg2 {312/9 20ms} Ke8 {-331/9 18ms} 125. Kf3 {310/9 31ms} Kf8 {-337/9 10ms}
+126. Kg3 {331/9 17ms} Kg8 {-317/9 22ms} 127. Re7 {299/9 20ms} Kf8 {-319/9 15ms} 128. Rb7 {295/9 27ms}
+Ke8 {-314/9 29ms} 129. Rc7 {298/9 7ms} Kf8 {-311/9 58ms} 130. Kf2 {315/9 12ms} Kg8 {-296/9 22ms}
+131. Ke3 {284/9 25ms} Kf8 {-308/9 5ms} 132. Kd4 {302/9 18ms} Ke8 {-300/9 21ms} 133. Kc5 {289/9 8ms}
+Kd8 {-314/9 17ms} 134. Kc6 {283/9 6ms} Ke8 {-303/9 5ms} 135. Rd7 {276/9 12ms} Kf8 {-303/9 28ms}
+136. Kd6 {276/9 5ms} Kg8 {-M6/9 6ms} 137. Ke6 {M5/9 5ms} Kh8 {-M5/9 1ms} 138. Kf6 {M4/9 1ms}
+Kg8 {-M4/9 0ms} 139. Rd1 {M3/9 1ms} Kh8 {-M2/9 0ms} 140. Kg6 {M2/9 0ms} Kg8 {-M1/9 0ms}
+141. Rd8# {M1/9 1ms} 1-0
+
+[Round "1.14"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqk1nr/1ppp1ppp/4p3/p7/1b6/1P4PP/P1PPPP2/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "190"]
+
+1. e4 {19/9 25ms} d5 {-14/9 25ms} 2. e5 {4/9 37ms} Nh6 {0/9 52ms} 3. Nf3 {-3/9 50ms}
+Nf5 {0/9 17ms} 4. c3 {-1/9 16ms} Be7 {7/9 15ms} 5. a4 {0/9 10ms} O-O {12/9 42ms}
+6. Bg2 {2/9 13ms} c5 {13/9 22ms} 7. Na3 {4/9 8ms} f6 {27/9 4ms} 8. exf6 {15/9 6ms}
+Bxf6 {21/9 17ms} 9. O-O {-9/9 24ms} Nc6 {25/9 15ms} 10. Ra2 {-8/9 35ms} e5 {9/9 62ms}
+11. d3 {-1/9 9ms} Be6 {7/9 19ms} 12. Nh2 {-1/9 14ms} Qd7 {6/9 37ms} 13. Nb5 {-2/9 30ms}
+Nh6 {-1/9 70ms} 14. Bxh6 {19/9 12ms} gxh6 {3/9 14ms} 15. c4 {9/9 45ms} Rad8 {6/9 3ms}
+16. Nc3 {0/9 29ms} dxc4 {16/9 16ms} 17. dxc4 {-15/9 41ms} Bxh3 {21/9 12ms} 18. Qxd7 {-21/9 25ms}
+Bxd7 {27/9 12ms} 19. Re1 {-26/9 83ms} Bf5 {31/9 45ms} 20. Be4 {-14/9 20ms} Bxe4 {12/9 64ms}
+21. Nxe4 {-21/9 23ms} b6 {9/9 13ms} 22. Kg2 {-11/9 8ms} h5 {15/9 30ms} 23. Nf3 {-11/9 35ms}
+Bg7 {10/9 27ms} 24. Rd2 {0/9 9ms} Nd4 {0/9 14ms} 25. Rd3 {0/9 13ms} Nxf3 {-6/9 8ms}
+26. Rxf3 {14/9 25ms} Rxf3 {-3/9 6ms} 27. Kxf3 {4/9 12ms} Rd4 {0/9 20ms} 28. g4 {-2/9 34ms}
+Bh6 {-1/9 29ms} 29. gxh5 {2/9 14ms} Kf7 {0/9 8ms} 30. Rg1 {5/9 8ms} Rd3+ {0/9 15ms}
+31. Kg4 {1/9 15ms} Ke6 {0/9 31ms} 32. Ng5+ {0/9 8ms} Bxg5 {11/9 23ms} 33. Kxg5 {5/9 7ms}
+Rxb3 {26/9 16ms} 34. Kh6 {-35/9 40ms} Rh3 {32/9 7ms} 35. Rg5 {-31/9 9ms} Kf6 {41/9 15ms}
+36. Rg4 {-61/9 13ms} Rh2 {49/9 6ms} 37. f3 {-60/9 2ms} Kf5 {54/9 2ms} 38. Rg7 {-45/9 6ms}
+Kf4 {13/9 13ms} 39. Rf7+ {-31/9 11ms} Ke3 {26/9 2ms} 40. Kg5 {-36/9 11ms} Kd3 {53/9 10ms}
+41. Rxh7 {-32/9 23ms} Kxc4 {53/9 4ms} 42. Rb7 {-44/9 15ms} Kd4 {35/9 15ms} 43. Rxb6 {-44/9 18ms}
+c4 {23/9 20ms} 44. Rd6+ {-42/9 8ms} Kc5 {59/9 13ms} 45. Re6 {-50/9 12ms} c3 {50/9 23ms}
+46. Rxe5+ {-37/9 7ms} Kb4 {32/9 16ms} 47. Re1 {-28/9 23ms} Rg2+ {32/9 13ms} 48. Kf5 {-20/9 5ms}
+c2 {25/9 9ms} 49. h6 {-4/9 5ms} Rh2 {0/9 9ms} 50. Kg6 {0/9 6ms} Rg2+ {0/9 7ms}
+51. Kf5 {0/9 5ms} Rh2 {0/9 4ms} 52. Kg6 {0/9 0ms} Rg2+ {0/9 0ms} 53. Kh5 {0/9 0ms}
+Rf2 {31/9 6ms} 54. Rc1 {-40/9 22ms} Kb3 {77/9 16ms} 55. h7 {-54/9 3ms} Rxf3 {197/9 5ms}
+56. Rxc2 {-184/9 6ms} Kxc2 {343/9 3ms} 57. Kg5 {-589/9 5ms} Rh3 {576/9 5ms} 58. Kg6 {-637/9 12ms}
+Kb3 {674/9 4ms} 59. Kg7 {-671/9 22ms} Rxh7+ {704/9 5ms} 60. Kxh7 {-661/9 9ms} Kxa4 {727/9 2ms}
+61. Kg6 {-642/9 5ms} Kb3 {695/9 10ms} 62. Kf5 {-637/9 6ms} a4 {695/9 5ms} 63. Ke4 {-637/9 0ms}
+a3 {695/9 2ms} 64. Ke3 {-637/9 3ms} Kc2 {693/9 3ms} 65. Ke2 {-627/9 3ms} a2 {693/9 1ms}
+66. Ke3 {-609/9 5ms} Kb2 {693/9 3ms} 67. Kf3 {-606/9 12ms} Kc3 {693/9 3ms} 68. Ke2 {-602/9 14ms}
+Kb2 {693/9 1ms} 69. Kf1 {-595/9 22ms} Kc2 {675/9 5ms} 70. Ke2 {-595/9 1ms} Kb3 {641/9 4ms}
+71. Ke1 {-580/9 9ms} Ka3 {632/9 3ms} 72. Ke2 {-573/9 4ms} Kb3 {589/9 8ms} 73. Ke1 {-576/9 6ms}
+Ka4 {617/9 17ms} 74. Kd2 {-555/9 11ms} Kb4 {579/9 4ms} 75. Kd3 {-544/9 56ms} Kb3 {569/9 6ms}
+76. Kd2 {-556/9 13ms} Kb2 {561/9 6ms} 77. Kd3 {-554/9 5ms} Kb3 {561/9 13ms} 78. Kd2 {-543/9 15ms}
+Kb2 {561/9 1ms} 79. Kd3 {-541/9 1ms} Kc1 {555/9 3ms} 80. Kc3 {-537/9 12ms} a1=Q+ {546/9 44ms}
+81. Kc4 {-537/9 25ms} Qa5 {544/9 28ms} 82. Kd4 {-529/9 16ms} Qb5 {533/9 25ms} 83. Ke4 {-513/9 40ms}
+Qb7+ {508/9 79ms} 84. Kf4 {-507/9 66ms} Qb8+ {506/9 59ms} 85. Kf3 {-500/9 18ms} Kd2 {497/9 28ms}
+86. Ke4 {-498/9 56ms} Qd8 {492/9 39ms} 87. Kf5 {-486/9 43ms} Kc2 {473/9 72ms} 88. Kf4 {-471/9 65ms}
+Qf8+ {463/9 91ms} 89. Ke4 {-484/9 40ms} Qf6 {477/9 7ms} 90. Ke3 {-478/9 18ms} Kd1 {487/9 42ms}
+91. Kd3 {-475/9 15ms} Qe5 {559/9 29ms} 92. Kc4 {-477/9 20ms} Kc2 {M4/9 6ms} 93. Kb4 {-M3/9 10ms}
+Qd5 {M3/9 1ms} 94. Ka4 {-M2/9 0ms} Kc3 {M2/9 2ms} 95. Ka3 {-M1/9 1ms} Qa5# {M1/9 1ms}
+0-1
+
+[Round "1.15"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/8/1P2P1P1/P1PP1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "112"]
+
+1. d4 {-1/9 47ms} a5 {-6/9 138ms} 2. Bg2 {11/9 26ms} a4 {-8/9 20ms} 3. Nc3 {9/9 16ms}
+axb3 {-6/9 20ms} 4. cxb3 {-12/9 51ms} g6 {-9/9 83ms} 5. Nf3 {16/9 28ms} Bg7 {-5/9 43ms}
+6. e4 {17/9 45ms} O-O {0/9 22ms} 7. O-O {16/9 24ms} Qa5 {2/9 36ms} 8. Bb2 {16/9 28ms}
+Bg4 {9/9 24ms} 9. h3 {24/9 7ms} Bxf3 {-18/9 39ms} 10. Qxf3 {32/9 14ms} Nfd7 {9/9 69ms}
+11. Rfd1 {51/9 20ms} c5 {-14/9 51ms} 12. Nd5 {30/9 18ms} e6 {-16/9 11ms} 13. Ne7+ {39/9 11ms}
+Kh8 {-61/9 6ms} 14. e5 {-20/9 14ms} d5 {22/9 4ms} 15. dxc5 {-36/9 29ms} Nxe5 {57/9 20ms}
+16. Qf4 {-20/9 13ms} Nf3+ {57/9 7ms} 17. Bxf3 {-59/9 23ms} Bxb2 {72/9 7ms} 18. Rab1 {-60/9 26ms}
+Bg7 {122/9 6ms} 19. b4 {-38/9 12ms} Qb5 {80/9 32ms} 20. Rd2 {-69/9 24ms} Qd7 {80/9 9ms}
+21. Nxd5 {-51/9 17ms} exd5 {81/9 4ms} 22. Bxd5 {-65/9 14ms} Nc6 {31/9 13ms} 23. b5 {-8/9 16ms}
+Ne5 {-13/9 17ms} 24. c6 {45/9 3ms} bxc6 {-36/9 9ms} 25. Bxc6 {107/9 1ms} g5 {29/9 5ms}
+26. Qb4 {9/9 13ms} Qxh3 {23/9 11ms} 27. Bxa8 {1/9 5ms} Rxa8 {28/9 6ms} 28. Qe4 {-33/9 15ms}
+Re8 {43/9 6ms} 29. Rbd1 {-31/9 7ms} g4 {127/9 2ms} 30. Rd3 {-161/9 4ms} Bf8 {175/9 3ms}
+31. Qf5 {-76/9 7ms} Nxd3 {150/9 12ms} 32. Qxd3 {-138/9 26ms} Qh5 {107/9 13ms} 33. Qc3+ {-104/9 10ms}
+Kg8 {138/9 13ms} 34. a4 {-149/9 19ms} Qf5 {155/9 9ms} 35. Re1 {-162/9 7ms} Rxe1+ {171/9 11ms}
+36. Qxe1 {-162/9 7ms} Bc5 {149/9 17ms} 37. a5 {-194/9 13ms} h5 {180/9 14ms} 38. b6 {-165/9 5ms}
+Qf3 {186/9 8ms} 39. Kh2 {-198/9 10ms} Bxf2 {224/9 5ms} 40. Qe8+ {-229/9 4ms} Kh7 {359/9 1ms}
+41. Qe5 {-362/9 3ms} Be3 {431/9 2ms} 42. Qxe3 {-532/9 7ms} Qxe3 {713/9 1ms} 43. b7 {-772/9 6ms}
+Qf2+ {885/9 1ms} 44. Kh1 {-812/9 2ms} Qf1+ {885/9 0ms} 45. Kh2 {-812/9 0ms} Qh3+ {885/9 1ms}
+46. Kg1 {-893/9 3ms} Qxg3+ {885/9 0ms} 47. Kf1 {-920/9 3ms} Qf3+ {888/9 3ms} 48. Ke1 {-1003/9 7ms}
+Qxb7 {948/9 8ms} 49. Kd2 {-1084/9 9ms} g3 {1023/9 9ms} 50. Ke3 {-971/9 17ms} Qb2 {1408/9 5ms}
+51. a6 {-926/9 7ms} g2 {1680/9 12ms} 52. Kf4 {-1509/9 6ms} Qf2+ {M7/9 5ms} 53. Ke5 {-M4/9 3ms}
+g1=Q {M4/9 1ms} 54. Kd6 {-M3/9 1ms} Qg6+ {M3/9 1ms} 55. Kd7 {-M2/9 1ms} Qe6+ {M2/9 0ms}
+56. Kd8 {-M1/9 1ms} Qfb6# {M1/9 0ms} 0-1
+
+[Round "1.16"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/pp2pppp/2pp1n2/8/8/1P2P1P1/P1PP1P1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "101"]
+
+1. d4 {8/9 61ms} Nbd7 {3/9 49ms} 2. Bb2 {4/9 33ms} e5 {10/9 9ms} 3. dxe5 {7/9 25ms}
+dxe5 {34/9 12ms} 4. Nf3 {11/9 29ms} e4 {26/9 52ms} 5. Nfd2 {-28/9 25ms} Qe7 {-1/9 70ms}
+6. Bg2 {31/9 20ms} Nc5 {-26/9 70ms} 7. Nc3 {29/9 36ms} Bg4 {-6/9 22ms} 8. Qc1 {21/9 29ms}
+h5 {-5/9 12ms} 9. h3 {20/9 4ms} Bf5 {-7/9 21ms} 10. b4 {17/9 19ms} Ncd7 {-5/9 17ms}
+11. O-O {19/9 71ms} h4 {27/9 19ms} 12. g4 {0/9 34ms} Bxg4 {46/9 5ms} 13. hxg4 {46/9 15ms}
+Nxg4 {-84/9 19ms} 14. Ncxe4 {88/9 22ms} h3 {-127/9 22ms} 15. Bf3 {113/9 16ms} Nde5 {-107/9 14ms}
+16. Ng3 {108/9 5ms} O-O-O {-97/9 14ms} 17. Kh1 {108/9 10ms} Qe6 {-69/9 7ms} 18. Be4 {117/9 10ms}
+g6 {-88/9 9ms} 19. Bd4 {105/9 18ms} f5 {-80/9 28ms} 20. f3 {122/9 13ms} Nf6 {-76/9 14ms}
+21. Qb2 {132/9 14ms} fxe4 {-52/9 9ms} 22. Bxe5 {126/9 4ms} Rxd2 {-72/9 5ms} 23. Bxf6 {70/9 13ms}
+Bd6 {-106/9 10ms} 24. Rfd1 {49/9 14ms} Qd5 {-88/9 10ms} 25. Qc1 {172/9 3ms} Rxd1+ {-244/9 6ms}
+26. Qxd1 {245/9 9ms} Bxg3 {-226/9 7ms} 27. Qxd5 {247/9 2ms} cxd5 {-290/9 5ms} 28. Bxh8 {210/9 3ms}
+exf3 {-333/9 6ms} 29. Rf1 {268/9 6ms} f2 {-361/9 9ms} 30. Bf6 {309/9 7ms} b5 {-295/9 27ms}
+31. Bg5 {383/9 9ms} a6 {-298/9 3ms} 32. Bf4 {456/9 5ms} d4 {-459/9 9ms} 33. Bxg3 {504/9 6ms}
+dxe3 {-496/9 6ms} 34. Bxf2 {512/9 2ms} g5 {-498/9 7ms} 35. Bxe3 {508/9 9ms} Kb7 {-538/9 20ms}
+36. Kh2 {563/9 11ms} g4 {-572/9 5ms} 37. Rg1 {565/9 4ms} Kc7 {-597/9 7ms} 38. Rxg4 {587/9 4ms}
+Kd6 {-650/9 10ms} 39. Rg6+ {608/9 3ms} Ke7 {-682/9 3ms} 40. Rxa6 {690/9 8ms} Kf8 {-796/9 11ms}
+41. c4 {724/9 4ms} bxc4 {-799/9 7ms} 42. Kxh3 {774/9 2ms} Ke7 {-832/9 13ms} 43. b5 {791/9 7ms}
+Ke8 {-876/9 12ms} 44. Ra4 {859/9 14ms} Kf8 {-792/9 12ms} 45. b6 {956/9 3ms} Kf7 {-1004/9 5ms}
+46. b7 {1396/9 5ms} c3 {-1388/9 3ms} 47. b8=Q {M6/9 9ms} c2 {-M6/9 14ms} 48. Qc7+ {M4/9 1ms}
+Ke6 {-M3/9 2ms} 49. Ra6+ {M3/9 1ms} Kd5 {-M2/9 0ms} 50. Qc6+ {M2/9 1ms} Ke5 {-M1/9 0ms}
+51. Qe6# {M1/9 0ms} 1-0
+
+[Round "1.17"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "adjudication"]
+[FEN "rnbqkb1r/1p1ppppp/5n2/p1p5/5B2/3P4/PPPNPPPP/R2QKBNR w KQkq - 0 1"]
+[PlyCount "198"]
+
+1. c3 {-20/9 68ms} Nc6 {30/9 42ms} 2. Ngf3 {-14/9 16ms} a4 {30/9 24ms} 3. e4 {-17/9 32ms}
+d5 {24/9 43ms} 4. Be2 {-20/9 19ms} g6 {23/9 34ms} 5. Ne5 {-22/9 15ms} Bg7 {19/9 37ms}
+6. Nxc6 {-24/9 39ms} bxc6 {20/9 23ms} 7. e5 {-14/9 18ms} Nd7 {32/9 19ms} 8. Nf3 {-15/9 27ms}
+Nf8 {26/9 63ms} 9. d4 {-14/9 12ms} cxd4 {31/9 30ms} 10. cxd4 {-2/9 14ms} Ne6 {34/9 51ms}
+11. Be3 {-10/9 12ms} Qa5+ {25/9 8ms} 12. Qd2 {-18/9 20ms} Kd7 {24/9 6ms} 13. Qc3 {1/9 6ms}
+f6 {3/9 22ms} 14. Rb1 {11/9 8ms} fxe5 {24/9 10ms} 15. dxe5 {-17/9 16ms} Kc7 {14/9 22ms}
+16. h4 {13/9 13ms} Rf8 {22/9 15ms} 17. h5 {12/9 16ms} Nf4 {35/9 35ms} 18. Qxa5+ {5/9 9ms}
+Rxa5 {107/9 2ms} 19. Bd2 {12/9 21ms} Rc5 {22/9 23ms} 20. hxg6 {13/9 3ms} h6 {-3/9 34ms}
+21. Bb4 {47/9 9ms} Rc2 {-18/9 24ms} 22. Ba5+ {44/9 11ms} Kd7 {3/9 25ms} 23. Nd4 {78/9 5ms}
+Rxe2+ {8/9 4ms} 24. Nxe2 {69/9 21ms} Nd3+ {9/9 3ms} 25. Kd2 {57/9 8ms} Nxf2 {-56/9 19ms}
+26. Bc3 {59/9 15ms} Nxh1 {-20/9 6ms} 27. e6+ {64/9 4ms} Kd6 {-93/9 6ms} 28. Bxg7 {87/9 2ms}
+Rg8 {-106/9 5ms} 29. Bd4 {106/9 6ms} c5 {-131/9 5ms} 30. Be3 {148/9 14ms} Ng3 {-127/9 14ms}
+31. Bf4+ {150/9 9ms} Kc6 {-117/9 6ms} 32. Nxg3 {150/9 2ms} Rxg6 {-148/9 10ms} 33. Rh1 {150/9 4ms}
+d4 {-139/9 13ms} 34. Rxh6 {116/9 4ms} Rxh6 {-132/9 3ms} 35. Bxh6 {118/9 12ms} Bxe6 {-132/9 6ms}
+36. Bg7 {150/9 9ms} Bxa2 {-103/9 11ms} 37. Nh5 {118/9 38ms} Bb1 {-100/9 10ms} 38. g4 {114/9 19ms}
+Kd6 {-87/9 8ms} 39. Bf8 {113/9 15ms} Be4 {-106/9 26ms} 40. Nf4 {128/9 11ms} Ke5 {-110/9 10ms}
+41. Nd3+ {109/9 6ms} Kd6 {-111/9 5ms} 42. g5 {133/9 9ms} c4 {-103/9 3ms} 43. Nc1 {101/9 14ms}
+Ke6 {-46/9 4ms} 44. Bg7 {48/9 20ms} Kd5 {-36/9 32ms} 45. Na2 {58/9 21ms} e5 {-53/9 4ms}
+46. Kc1 {65/9 15ms} Ke6 {-50/9 15ms} 47. Nb4 {68/9 21ms} Kf5 {-30/9 7ms} 48. Bf6 {68/9 12ms}
+a3 {-6/9 5ms} 49. bxa3 {19/9 14ms} c3 {-24/9 5ms} 50. Na2 {113/9 8ms} Bd5 {-29/9 3ms}
+51. Nb4 {36/9 7ms} Be4 {14/9 1ms} 52. Nc2 {29/9 3ms} Bf3 {-9/9 11ms} 53. Be7 {21/9 18ms}
+d3 {-2/9 22ms} 54. Ne3+ {24/9 8ms} Ke4 {-22/9 4ms} 55. Bc5 {84/9 4ms} Bh5 {-54/9 11ms}
+56. a4 {41/9 2ms} Be8 {-51/9 6ms} 57. a5 {31/9 2ms} Ba4 {-51/9 4ms} 58. Nf1 {79/9 4ms}
+d2+ {-19/9 3ms} 59. Nxd2+ {38/9 4ms} cxd2+ {-74/9 5ms} 60. Kxd2 {119/9 2ms} Kf5 {-109/9 6ms}
+61. Be3 {63/9 7ms} Ke6 {-143/9 8ms} 62. Kc3 {37/9 27ms} Kd6 {-37/9 5ms} 63. a6 {21/9 16ms}
+Kc7 {-35/9 13ms} 64. g6 {19/9 40ms} Bd7 {-29/9 6ms} 65. Kb4 {25/9 103ms} Be8 {0/9 13ms}
+66. g7 {22/9 20ms} Bf7 {-17/9 8ms} 67. Kc5 {21/9 13ms} Bg8 {-17/9 7ms} 68. Kb5 {22/9 13ms}
+Kb8 {-30/9 40ms} 69. Bb6 {21/9 9ms} Ka8 {-26/9 12ms} 70. Kc6 {22/9 9ms} e4 {-23/9 7ms}
+71. Kd6 {22/9 12ms} Ba2 {-36/9 9ms} 72. Be3 {21/9 9ms} Bg8 {-38/9 7ms} 73. Bg1 {9/9 24ms}
+Ba2 {-38/9 3ms} 74. Ke7 {7/9 22ms} Bb3 {-38/9 7ms} 75. Bc5 {7/9 12ms} Bd5 {-38/9 12ms}
+76. Kf8 {6/9 17ms} Ba2 {-38/9 7ms} 77. Be3 {7/9 9ms} Be6 {-38/9 8ms} 78. g8=B {6/9 10ms}
+Bxg8 {-34/9 4ms} 79. Kxg8 {7/9 11ms} Kb8 {-19/9 5ms} 80. a7+ {7/9 8ms} Kb7 {-13/9 18ms}
+81. Kg7 {2/9 17ms} Ka8 {-11/9 4ms} 82. Kf6 {0/9 9ms} Kb7 {-6/9 5ms} 83. Kf7 {0/9 6ms}
+Ka8 {-5/9 3ms} 84. Ke6 {0/9 2ms} Kb7 {-9/9 5ms} 85. Kd7 {0/9 4ms} Ka8 {-4/9 4ms}
+86. Ke6 {0/9 3ms} Kb7 {0/9 5ms} 87. Kd7 {0/9 2ms} Ka8 {0/9 1ms} 88. Kd6 {0/9 2ms}
+Kb7 {-1/9 1ms} 89. Ke5 {0/9 2ms} Ka8 {0/9 1ms} 90. Kd5 {0/9 3ms} Kb7 {0/9 3ms}
+91. Ke5 {0/9 2ms} Ka8 {0/9 1ms} 92. Kd5 {0/9 2ms} Kb7 {0/9 1ms} 93. Kc4 {1/9 2ms}
+Ka8 {0/9 0ms} 94. Kb3 {0/9 6ms} Kb7 {0/9 3ms} 95. Ka3 {0/9 9ms} Ka8 {0/9 2ms}
+96. Kb3 {0/9 6ms} Kb7 {0/9 1ms} 97. Kc2 {0/9 3ms} Ka8 {0/9 1ms} 98. Kc3 {0/9 9ms}
+Kb7 {0/9 3ms} 99. Kd2 {0/9 3ms} Ka8 {0/9 3ms} 1/2-1/2
+
+[Round "1.18"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/1p1ppppp/5n2/p1p5/5B2/3P4/PPPNPPPP/R2QKBNR w KQkq - 0 1"]
+[PlyCount "137"]
+
+1. e3 {-28/9 66ms} Nc6 {28/9 71ms} 2. Ngf3 {-27/9 22ms} a4 {27/9 31ms} 3. a3 {-25/9 30ms}
+d5 {31/9 38ms} 4. Be2 {-27/9 55ms} g6 {33/9 30ms} 5. d4 {-40/9 44ms} cxd4 {55/9 13ms}
+6. exd4 {-58/9 34ms} Qb6 {52/9 10ms} 7. b4 {-55/9 32ms} Nxd4 {57/9 22ms} 8. Be3 {-39/9 6ms}
+Nxf3+ {53/9 13ms} 9. Nxf3 {-37/9 16ms} Qd6 {40/9 53ms} 10. Rc1 {-41/9 26ms} Bg7 {42/9 13ms}
+11. O-O {-40/9 18ms} O-O {52/9 15ms} 12. c4 {-52/9 6ms} dxc4 {59/9 5ms} 13. Qxd6 {-44/9 11ms}
+exd6 {55/9 22ms} 14. Bxc4 {-62/9 28ms} d5 {63/9 18ms} 15. Bd3 {-48/9 50ms} Bd7 {62/9 7ms}
+16. Rc7 {-41/9 20ms} Bc6 {49/9 12ms} 17. b5 {-35/9 14ms} Ne8 {0/9 4ms} 18. bxc6 {101/9 3ms}
+Nxc7 {-78/9 7ms} 19. cxb7 {98/9 16ms} Rab8 {-96/9 7ms} 20. Rb1 {121/9 3ms} Rfd8 {-114/9 15ms}
+21. Ba7 {115/9 5ms} Ne8 {-94/9 7ms} 22. Ba6 {147/9 11ms} Nd6 {-104/9 16ms} 23. Bxb8 {251/9 3ms}
+Rxb8 {-101/9 50ms} 24. Rb6 {243/9 6ms} Bf8 {-181/9 6ms} 25. Ne5 {196/9 9ms} Nxb7 {-194/9 7ms}
+26. Nd7 {209/9 3ms} Rc8 {-101/9 10ms} 27. Rxb7 {197/9 5ms} Rc1+ {-143/9 2ms} 28. Bf1 {207/9 3ms}
+Bxa3 {-193/9 10ms} 29. Ra7 {266/9 11ms} d4 {-177/9 3ms} 30. Rxa4 {292/9 7ms} d3 {-265/9 7ms}
+31. Rd4 {309/9 11ms} Bb4 {-298/9 19ms} 32. Rxd3 {307/9 23ms} Rc2 {-291/9 16ms} 33. Nf6+ {305/9 29ms}
+Kg7 {-294/9 9ms} 34. Ne4 {306/9 18ms} f5 {-292/9 5ms} 35. Ng5 {304/9 27ms} Be1 {-317/9 34ms}
+36. Rd7+ {322/9 46ms} Kf8 {-326/9 32ms} 37. Nh3 {328/9 20ms} Rxf2 {-356/9 52ms} 38. Nxf2 {345/9 28ms}
+Ke8 {-363/9 69ms} 39. Rxh7 {356/9 27ms} Kd8 {-390/9 155ms} 40. Ne4 {402/9 48ms} Kc8 {-394/9 45ms}
+41. Bc4 {436/9 45ms} Kd8 {-459/9 36ms} 42. Nd6 {492/9 24ms} Bb4 {-577/9 10ms} 43. Bb5 {498/9 17ms}
+Bxd6 {-560/9 19ms} 44. Kf1 {518/9 23ms} Bb8 {-529/9 37ms} 45. Ke2 {530/9 28ms} Be5 {-552/9 67ms}
+46. Kd3 {524/9 18ms} Bf6 {-555/9 44ms} 47. Bc4 {542/9 19ms} Be5 {-555/9 16ms} 48. h4 {552/9 11ms}
+Bf6 {-553/9 29ms} 49. Be6 {563/9 6ms} Be7 {-560/9 18ms} 50. Bf7 {554/9 20ms} Bd6 {-569/9 7ms}
+51. Bxg6 {590/9 16ms} Bf8 {-709/9 3ms} 52. Bxf5 {609/9 4ms} Be7 {-742/9 4ms} 53. Rf7 {605/9 8ms}
+Ke8 {-742/9 2ms} 54. Rxe7+ {640/9 10ms} Kxe7 {-739/9 3ms} 55. Ke4 {631/9 19ms} Kd6 {-701/9 9ms}
+56. g3 {627/9 12ms} Kc5 {-677/9 10ms} 57. h5 {890/9 5ms} Kb4 {-723/9 7ms} 58. h6 {1143/9 3ms}
+Kc5 {-710/9 4ms} 59. h7 {1128/9 6ms} Kc6 {-1146/9 25ms} 60. h8=Q {1120/9 3ms} Kb7 {-1122/9 2ms}
+61. Qc3 {1062/9 6ms} Ka8 {-1113/9 6ms} 62. Kf4 {1164/9 16ms} Kb7 {-1188/9 8ms} 63. Be4+ {1182/9 3ms}
+Kb8 {-1185/9 3ms} 64. Qe5+ {M6/9 2ms} Kc8 {-1163/9 5ms} 65. Bf5+ {M5/9 1ms} Kb7 {-1159/9 2ms}
+66. Qd6 {M4/9 1ms} Ka8 {-M3/9 0ms} 67. Be4+ {M3/9 1ms} Ka7 {-M2/9 0ms} 68. Qc7+ {M2/9 1ms}
+Ka6 {-M1/9 0ms} 69. Bd3# {M1/9 1ms} 1-0
+
+[Round "1.19"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "50 moves rule"]
+[FEN "rnb1kbnr/pp2pppp/1qp5/3p4/3P1B2/1P6/P1P1PPPP/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "345"]
+
+1. e3 {6/9 29ms} Bf5 {-12/9 21ms} 2. a3 {21/9 29ms} Nf6 {-10/9 28ms} 3. Nd2 {20/9 30ms}
+Nbd7 {-31/9 41ms} 4. c4 {27/9 19ms} Qd8 {-34/9 21ms} 5. Be2 {26/9 20ms} h6 {-23/9 46ms}
+6. h3 {28/9 27ms} g5 {-21/9 23ms} 7. Bg3 {33/9 13ms} Bg7 {-23/9 18ms} 8. b4 {33/9 21ms}
+O-O {-10/9 20ms} 9. Rc1 {21/9 23ms} Ne4 {-5/9 9ms} 10. Nxe4 {2/9 13ms} dxe4 {0/9 7ms}
+11. Bg4 {-12/9 15ms} Bxg4 {15/9 6ms} 12. hxg4 {7/9 16ms} a5 {0/9 18ms} 13. Ne2 {3/9 10ms}
+Nf6 {2/9 8ms} 14. Nc3 {-23/9 19ms} axb4 {36/9 3ms} 15. axb4 {-33/9 8ms} Qc8 {35/9 14ms}
+16. Be5 {-32/9 17ms} Qxg4 {36/9 7ms} 17. Qxg4 {-15/9 3ms} Nxg4 {50/9 2ms} 18. Bxg7 {-21/9 14ms}
+Kxg7 {21/9 14ms} 19. Nxe4 {-15/9 8ms} Ra2 {13/9 20ms} 20. O-O {-13/9 12ms} Rfa8 {7/9 58ms}
+21. b5 {-10/9 13ms} Rb2 {15/9 21ms} 22. bxc6 {148/9 4ms} bxc6 {21/9 16ms} 23. Rb1 {-15/9 14ms}
+Rc2 {47/9 11ms} 24. Rb7 {-19/9 13ms} Kf8 {47/9 24ms} 25. Rc7 {-14/9 15ms} Raa2 {89/9 9ms}
+26. Ng3 {-56/9 28ms} Nxe3 {47/9 11ms} 27. Re1 {-101/9 12ms} Ng4 {74/9 4ms} 28. Nf5 {-35/9 6ms}
+Kg8 {57/9 11ms} 29. Nxe7+ {-64/9 12ms} Kg7 {71/9 8ms} 30. Rf1 {-31/9 4ms} Ne3 {63/9 7ms}
+31. Re1 {-74/9 6ms} Ng4 {54/9 3ms} 32. Rf1 {-57/9 7ms} Nxf2 {79/9 5ms} 33. Rc8 {-85/9 11ms}
+Re2 {94/9 9ms} 34. Rg8+ {-103/9 13ms} Kh7 {91/9 6ms} 35. Rf8 {-130/9 7ms} Rxe7 {96/9 3ms}
+36. Rxf2 {-130/9 2ms} Re1+ {112/9 2ms} 37. Rf1 {-136/9 5ms} Rxf1+ {77/9 3ms} 38. Kxf1 {-109/9 3ms}
+Kg7 {136/9 5ms} 39. Rd8 {-101/9 5ms} h5 {107/9 14ms} 40. Rd6 {-87/9 7ms} Rd2 {116/9 4ms}
+41. g3 {-106/9 6ms} f6 {114/9 4ms} 42. c5 {-97/9 7ms} Kg6 {95/9 3ms} 43. Kg1 {-130/9 9ms}
+Rd3 {113/9 13ms} 44. Kg2 {-106/9 10ms} Kf7 {103/9 15ms} 45. Rd7+ {-106/9 5ms} Kg6 {105/9 4ms}
+46. Rd6 {-99/9 7ms} Kf5 {85/9 6ms} 47. Kf2 {-65/9 3ms} Rd2+ {86/9 7ms} 48. Ke3 {-16/9 1ms}
+Rg2 {63/9 6ms} 49. Kf3 {-62/9 4ms} Ra2 {56/9 9ms} 50. Rxc6 {-47/9 3ms} g4+ {50/9 6ms}
+51. Ke3 {-36/9 6ms} Ra3+ {11/9 11ms} 52. Kf2 {-10/9 7ms} Rf3+ {25/9 7ms} 53. Kg2 {-9/9 17ms}
+Ke4 {17/9 6ms} 54. Re6+ {-38/9 32ms} Kxd4 {30/9 3ms} 55. c6 {-53/9 9ms} f5 {43/9 5ms}
+56. Rh6 {-48/9 6ms} Rc3 {57/9 7ms} 57. Rxh5 {-48/9 1ms} Ke4 {56/9 11ms} 58. Rh8 {-35/9 4ms}
+Rc2+ {28/9 8ms} 59. Kg1 {-13/9 4ms} f4 {33/9 8ms} 60. Rb8 {-33/9 19ms} f3 {32/9 11ms}
+61. Re8+ {-24/9 5ms} Kd4 {32/9 8ms} 62. Rd8+ {-17/9 7ms} Ke3 {29/9 5ms} 63. Re8+ {-17/9 1ms}
+Kd4 {32/9 3ms} 64. Rd8+ {-21/9 4ms} Ke3 {25/9 5ms} 65. Re8+ {-28/9 3ms} Kd2 {22/9 9ms}
+66. Kf1 {-38/9 7ms} Rxc6 {18/9 4ms} 67. Kf2 {-37/9 13ms} Kc3 {40/9 12ms} 68. Ke3 {-25/9 13ms}
+Rc4 {34/9 27ms} 69. Rg8 {-38/9 27ms} Ra4 {30/9 30ms} 70. Kf2 {-32/9 14ms} Ra2+ {48/9 9ms}
+71. Kf1 {-38/9 14ms} Ra4 {28/9 25ms} 72. Rc8+ {-32/9 7ms} Kb3 {30/9 34ms} 73. Rg8 {-30/9 15ms}
+Rc4 {29/9 12ms} 74. Kf2 {-31/9 28ms} Re4 {26/9 23ms} 75. Kf1 {-31/9 8ms} Ka3 {23/9 24ms}
+76. Rg7 {-32/9 11ms} Kb3 {28/9 28ms} 77. Rg8 {-34/9 10ms} Kc4 {32/9 16ms} 78. Kf2 {-31/9 6ms}
+Kd5 {53/9 8ms} 79. Kf1 {-30/9 15ms} Ra4 {57/9 33ms} 80. Rg5+ {-32/9 9ms} Ke6 {66/9 6ms}
+81. Rg8 {-30/9 14ms} Kf5 {54/9 37ms} 82. Rf8+ {-28/9 10ms} Kg5 {74/9 4ms} 83. Rg8+ {-28/9 10ms}
+Kf5 {77/9 6ms} 84. Rf8+ {-28/9 15ms} Kg6 {69/9 7ms} 85. Rg8+ {-22/9 8ms} Kf7 {143/9 3ms}
+86. Rg5 {-24/9 15ms} Kf6 {155/9 3ms} 87. Rg8 {-22/9 6ms} Kf7 {24/9 18ms} 88. Rg5 {-22/9 5ms}
+Re4 {15/9 18ms} 89. Rc5 {-24/9 19ms} Rb4 {19/9 19ms} 90. Rg5 {-21/9 12ms} Kf6 {13/9 14ms}
+91. Rg8 {-19/9 5ms} Rb1+ {13/9 11ms} 92. Kf2 {-18/9 11ms} Rb4 {13/9 3ms} 93. Kf1 {-18/9 6ms}
+Rc4 {13/9 9ms} 94. Ke1 {-19/9 6ms} Kf5 {13/9 13ms} 95. Rf8+ {-22/9 14ms} Kg6 {39/9 6ms}
+96. Kd2 {-42/9 12ms} Kg7 {132/9 8ms} 97. Ra8 {-119/9 23ms} Re4 {151/9 6ms} 98. Ra7+ {-115/9 13ms}
+Kg6 {132/9 12ms} 99. Ra6+ {-114/9 6ms} Kg7 {144/9 6ms} 100. Ra7+ {-111/9 4ms} Kg6 {160/9 3ms}
+101. Ra6+ {-131/9 8ms} Kf5 {147/9 2ms} 102. Ra5+ {-148/9 6ms} Re5 {190/9 4ms} 103. Ra4 {-205/9 13ms}
+Re2+ {207/9 4ms} 104. Kd3 {-294/9 4ms} Rg2 {257/9 2ms} 105. Ra5+ {-279/9 3ms} Ke6 {258/9 3ms}
+106. Ra6+ {-339/9 11ms} Kd7 {281/9 4ms} 107. Ra7+ {-278/9 9ms} Ke6 {307/9 4ms} 108. Ra6+ {-319/9 11ms}
+Kd5 {334/9 4ms} 109. Ra5+ {-249/9 4ms} Kc6 {297/9 3ms} 110. Ke3 {-319/9 3ms} Rxg3 {334/9 5ms}
+111. Ra6+ {-354/9 7ms} Kb5 {278/9 19ms} 112. Ra2 {-279/9 3ms} Rg1 {297/9 14ms} 113. Rc2 {-381/9 12ms}
+Kb4 {290/9 5ms} 114. Ra2 {-419/9 17ms} Kc3 {319/9 11ms} 115. Rf2 {-407/9 22ms} Re1+ {478/9 2ms}
+116. Kf4 {-350/9 2ms} Rg1 {353/9 7ms} 117. Ke3 {-419/9 5ms} Rd1 {318/9 9ms} 118. Kf4 {-421/9 11ms}
+Rd2 {325/9 3ms} 119. Rf1 {-413/9 7ms} Rg2 {402/9 9ms} 120. Ke3 {-445/9 7ms} Kc4 {421/9 3ms}
+121. Kf4 {-435/9 16ms} f2 {473/9 5ms} 122. Rxf2 {-424/9 14ms} Rxf2+ {469/9 11ms} 123. Kxg4 {-418/9 12ms}
+Rf7 {460/9 32ms} 124. Kg5 {-410/9 31ms} Kb3 {444/9 28ms} 125. Kg6 {-400/9 28ms} Ra7 {433/9 54ms}
+126. Kf6 {-399/9 15ms} Kc2 {419/9 31ms} 127. Ke6 {-396/9 21ms} Kb2 {418/9 40ms} 128. Kf5 {-389/9 29ms}
+Ra6 {415/9 12ms} 129. Ke5 {-384/9 34ms} Ka1 {412/9 40ms} 130. Kf5 {-372/9 30ms} Kb2 {401/9 48ms}
+131. Ke4 {-376/9 23ms} Ra5 {403/9 21ms} 132. Kf3 {-371/9 27ms} Re5 {392/9 44ms} 133. Kf4 {-356/9 46ms}
+Rc5 {377/9 41ms} 134. Ke4 {-354/9 9ms} Kc2 {393/9 24ms} 135. Kd4 {-356/9 29ms} Rc3 {375/9 50ms}
+136. Ke5 {-353/9 9ms} Re3+ {364/9 56ms} 137. Kf6 {-347/9 65ms} Kb2 {360/9 19ms} 138. Kg6 {-340/9 36ms}
+Rf3 {376/9 9ms} 139. Kg7 {-340/9 21ms} Kc2 {369/9 38ms} 140. Kg6 {-331/9 20ms} Kd3 {365/9 13ms}
+141. Kg5 {-328/9 33ms} Kc2 {345/9 22ms} 142. Kg6 {-327/9 6ms} Kb2 {340/9 17ms} 143. Kg5 {-322/9 19ms}
+Rf1 {334/9 20ms} 144. Kg6 {-322/9 26ms} Kc3 {332/9 15ms} 145. Kg5 {-310/9 38ms} Kd3 {332/9 9ms}
+146. Kg4 {-304/9 21ms} Kc4 {323/9 27ms} 147. Kg5 {-302/9 14ms} Kb5 {308/9 26ms} 148. Kg6 {-300/9 19ms}
+Kc6 {304/9 17ms} 149. Kg5 {-300/9 5ms} Kb6 {308/9 12ms} 150. Kg6 {-293/9 38ms} Rf2 {298/9 19ms}
+151. Kg7 {-291/9 30ms} Kb5 {296/9 56ms} 152. Kg6 {-287/9 24ms} Kc4 {291/9 11ms} 153. Kg5 {-275/9 29ms}
+Kb4 {287/9 15ms} 154. Kg6 {-272/9 36ms} Rf3 {279/9 19ms} 155. Kg5 {-265/9 62ms} Rf1 {274/9 30ms}
+156. Kg6 {-256/9 24ms} Kc3 {280/9 7ms} 157. Kg5 {-261/9 21ms} Rg1+ {280/9 11ms} 158. Kf6 {-259/9 13ms}
+Kb2 {283/9 19ms} 159. Ke6 {-243/9 55ms} Rf1 {257/9 44ms} 160. Ke7 {-243/9 20ms} Kc3 {261/9 66ms}
+161. Ke6 {-240/9 22ms} Kd4 {252/9 11ms} 162. Kd6 {-238/9 16ms} Re1 {259/9 20ms} 163. Kc7 {-238/9 24ms}
+Ke5 {258/9 23ms} 164. Kb6 {-235/9 35ms} Kf4 {250/9 21ms} 165. Kc6 {-222/9 75ms} Rd1 {243/9 25ms}
+166. Kb6 {-213/9 66ms} Rc1 {236/9 43ms} 167. Kb7 {-42/9 63ms} Ke5 {221/9 55ms} 168. Kb6 {-76/9 22ms}
+Kd5 {11/9 87ms} 169. Kb7 {-9/9 17ms} Rc6 {4/9 49ms} 170. Kb8 {-4/9 35ms} Rb6+ {4/9 51ms}
+171. Kc7 {-3/9 3ms} Rb7+ {0/9 21ms} 172. Kc8 {0/9 1ms} Kc4 {0/9 1ms} 173. Kd8 {0/9 0ms}
+1/2-1/2
+
+[Round "1.20"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnb1kbnr/pp2pppp/1qp5/3p4/3P1B2/1P6/P1P1PPPP/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "162"]
+
+1. e3 {21/9 147ms} Bf5 {-15/9 64ms} 2. Bd3 {24/9 15ms} Bxd3 {-22/9 23ms} 3. Qxd3 {22/9 10ms}
+Qa6 {-22/9 17ms} 4. c4 {21/9 18ms} e6 {-18/9 12ms} 5. Nf3 {29/9 39ms} Bb4+ {-24/9 27ms}
+6. Nbd2 {40/9 12ms} Nf6 {-34/9 58ms} 7. O-O {40/9 26ms} O-O {-34/9 20ms} 8. Qc2 {52/9 8ms}
+Nbd7 {-32/9 24ms} 9. a3 {46/9 21ms} Be7 {-32/9 8ms} 10. c5 {46/9 18ms} Nh5 {-38/9 22ms}
+11. Be5 {55/9 16ms} f6 {-39/9 30ms} 12. Bd6 {45/9 18ms} Bxd6 {-36/9 25ms} 13. cxd6 {47/9 43ms}
+g6 {-39/9 52ms} 14. b4 {50/9 12ms} e5 {-50/9 59ms} 15. Nb3 {55/9 24ms} Qa4 {-58/9 23ms}
+16. dxe5 {59/9 14ms} fxe5 {-43/9 21ms} 17. Qc3 {60/9 22ms} b6 {-32/9 23ms} 18. Rfc1 {77/9 27ms}
+Rac8 {-19/9 8ms} 19. h3 {57/9 18ms} c5 {-6/9 17ms} 20. Nxe5 {46/9 15ms} Nxe5 {0/9 4ms}
+21. Qxe5 {28/9 11ms} Qxb3 {0/9 4ms} 22. bxc5 {0/9 6ms} Rce8 {38/9 6ms} 23. Qd4 {-59/9 8ms}
+bxc5 {51/9 3ms} 24. Rxc5 {-41/9 6ms} Nf6 {96/9 3ms} 25. Rc6 {-55/9 16ms} Rf7 {99/9 7ms}
+26. Rac1 {-60/9 18ms} Qxa3 {99/9 10ms} 27. Ra1 {-64/9 6ms} Qb3 {67/9 9ms} 28. Rxa7 {-59/9 6ms}
+Qb1+ {75/9 8ms} 29. Kh2 {-98/9 7ms} Qe4 {94/9 17ms} 30. Qxe4 {-49/9 6ms} dxe4 {56/9 7ms}
+31. Rcc7 {-40/9 12ms} Ref8 {69/9 15ms} 32. Kg3 {-74/9 24ms} Kg7 {79/9 21ms} 33. Rab7 {-62/9 11ms}
+h6 {68/9 17ms} 34. h4 {-54/9 8ms} g5 {84/9 9ms} 35. hxg5 {-59/9 6ms} hxg5 {58/9 11ms}
+36. Rb5 {-38/9 7ms} Kh6 {50/9 17ms} 37. Rxf7 {-51/9 7ms} Rxf7 {45/9 6ms} 38. f4 {-58/9 13ms}
+g4 {78/9 13ms} 39. Rf5 {-90/9 6ms} Rf8 {68/9 7ms} 40. d7 {-69/9 3ms} Kg6 {82/9 4ms}
+41. Rg5+ {-60/9 5ms} Kf7 {69/9 12ms} 42. Ra5 {-40/9 5ms} Kg6 {69/9 12ms} 43. Rg5+ {-52/9 14ms}
+Kf7 {46/9 13ms} 44. Ra5 {-59/9 5ms} Rd8 {42/9 18ms} 45. f5 {-48/9 11ms} Rxd7 {38/9 16ms}
+46. Kf4 {-42/9 17ms} Rb7 {44/9 12ms} 47. g3 {-23/9 10ms} Rc7 {38/9 50ms} 48. Kg5 {-20/9 35ms}
+Rb7 {21/9 65ms} 49. Kf4 {-21/9 10ms} Re7 {20/9 22ms} 50. Kg5 {-15/9 15ms} Rd7 {45/9 13ms}
+51. Kf4 {-15/9 29ms} Re7 {32/9 6ms} 52. Kg5 {-12/9 12ms} Rc7 {32/9 10ms} 53. Kf4 {-9/9 11ms}
+Rd7 {36/9 18ms} 54. Ra6 {-25/9 34ms} Re7 {19/9 21ms} 55. Ra5 {-23/9 10ms} Rd7 {21/9 21ms}
+56. Ra3 {-17/9 12ms} Re7 {12/9 35ms} 57. Ra5 {-11/9 4ms} Rb7 {9/9 12ms} 58. Kg5 {-10/9 9ms}
+Rd7 {45/9 2ms} 59. Ra4 {-8/9 9ms} Rd6 {8/9 21ms} 60. Ra7+ {-7/9 10ms} Kf8 {8/9 9ms}
+61. Ra8+ {0/9 7ms} Ke7 {2/9 14ms} 62. Ra7+ {0/9 10ms} Kd8 {0/9 25ms} 63. Kf4 {0/9 14ms}
+Ke8 {2/9 30ms} 64. Kg5 {0/9 7ms} Kf8 {2/9 10ms} 65. Ra8+ {0/9 4ms} Kf7 {0/9 5ms}
+66. Ra7+ {0/9 4ms} Ke8 {3/9 6ms} 67. Ra8+ {0/9 3ms} Kd7 {2/9 4ms} 68. Ra7+ {-5/9 15ms}
+Ke8 {0/9 18ms} 69. Ra8+ {-4/9 5ms} Kd7 {0/9 3ms} 70. Ra7+ {-5/9 8ms} Kd8 {8/9 4ms}
+71. Ra5 {-4/9 14ms} Kc7 {16/9 16ms} 72. Kf4 {-2/9 13ms} Rc6 {4/9 87ms} 73. Kg5 {0/9 13ms}
+Rd6 {0/9 46ms} 74. Kf4 {-4/9 17ms} Kb7 {0/9 10ms} 75. Kg5 {0/9 8ms} Kb6 {0/9 12ms}
+76. Re5 {0/9 5ms} Kc6 {0/9 3ms} 77. Ra5 {0/9 3ms} Kb6 {0/9 12ms} 78. Re5 {0/9 4ms}
+Kc7 {0/9 5ms} 79. Ra5 {0/9 3ms} Nd5 {0/9 11ms} 80. Ra4 {0/9 15ms} Nf6 {0/9 4ms}
+81. Ra5 {0/9 4ms} Kb6 {0/9 5ms} 1/2-1/2
+
+[Round "1.21"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "50 moves rule"]
+[FEN "1rbqkbnr/pppnpppp/3p4/8/8/P1N3P1/1PPPPP1P/R1BQKBNR w KQk - 0 1"]
+[PlyCount "236"]
+
+1. d4 {23/9 83ms} g6 {-34/9 18ms} 2. e4 {23/9 29ms} c5 {-28/9 44ms} 3. dxc5 {64/9 15ms}
+Nxc5 {-43/9 19ms} 4. e5 {28/9 26ms} Bg7 {-5/9 8ms} 5. exd6 {37/9 16ms} Nf6 {-21/9 41ms}
+6. Bb5+ {60/9 16ms} Bd7 {-49/9 16ms} 7. Qe2 {57/9 22ms} Ne6 {-30/9 13ms} 8. dxe7 {54/9 14ms}
+Qxe7 {-16/9 6ms} 9. Bxd7+ {41/9 24ms} Nxd7 {-19/9 24ms} 10. Bd2 {44/9 14ms} O-O {-7/9 8ms}
+11. Nf3 {23/9 32ms} Qc5 {-19/9 27ms} 12. O-O {27/9 23ms} Nb6 {-13/9 42ms} 13. Rfe1 {16/9 52ms}
+Rfe8 {-8/9 19ms} 14. Rad1 {34/9 14ms} Qc6 {-18/9 19ms} 15. Ne5 {38/9 8ms} Bxe5 {-32/9 11ms}
+16. Qxe5 {43/9 5ms} Rbd8 {-98/9 32ms} 17. Ne4 {142/9 6ms} Nc4 {-51/9 11ms} 18. Nf6+ {70/9 5ms}
+Kh8 {-112/9 5ms} 19. Qc3 {32/9 6ms} Nxd2 {-275/9 8ms} 20. Qxc6 {184/9 1ms} bxc6 {-2/9 4ms}
+21. Rxd2 {8/9 10ms} Rxd2 {6/9 9ms} 22. Nxe8 {0/9 23ms} Rxc2 {7/9 9ms} 23. b4 {0/9 4ms}
+Rc3 {2/9 20ms} 24. Re3 {7/9 9ms} Rc2 {-4/9 11ms} 25. Rd3 {33/9 11ms} Ng5 {-20/9 33ms}
+26. Rd7 {23/9 22ms} Nh3+ {-22/9 7ms} 27. Kf1 {15/9 19ms} Rxf2+ {-9/9 3ms} 28. Ke1 {5/9 6ms}
+a6 {0/9 5ms} 29. Nd6 {10/9 28ms} Rxh2 {-1/9 11ms} 30. Nxf7+ {-2/9 26ms} Kg8 {-4/9 12ms}
+31. Ne5 {0/9 26ms} Ra2 {-6/9 20ms} 32. Rd3 {0/9 20ms} Kg7 {-5/9 15ms} 33. Nxc6 {6/9 14ms}
+Nf2 {0/9 9ms} 34. Rd2 {21/9 4ms} Rxd2 {3/9 2ms} 35. Kxd2 {5/9 11ms} Ne4+ {3/9 4ms}
+36. Kd3 {32/9 3ms} Nxg3 {21/9 3ms} 37. a4 {13/9 19ms} h5 {10/9 6ms} 38. b5 {0/9 20ms}
+axb5 {3/9 6ms} 39. a5 {26/9 9ms} h4 {26/9 6ms} 40. Ne5 {-18/9 49ms} Nh5 {38/9 4ms}
+41. Kd4 {-5/9 26ms} h3 {13/9 8ms} 42. Ng4 {19/9 17ms} Nf6 {0/9 10ms} 43. a6 {14/9 4ms}
+Ne8 {-27/9 5ms} 44. Kc5 {5/9 14ms} b4 {-7/9 3ms} 45. Kxb4 {0/9 5ms} Nc7 {110/9 3ms}
+46. a7 {0/9 6ms} Kf7 {0/9 8ms} 47. Kc5 {0/9 10ms} Ke6 {2/9 19ms} 48. Kc6 {0/9 15ms}
+Na8 {0/9 4ms} 49. Kb7 {0/9 2ms} Kd6 {0/9 3ms} 50. Nh2 {0/9 23ms} g5 {0/9 8ms}
+51. Ng4 {0/9 16ms} Nc7 {0/9 4ms} 52. Nh2 {0/9 2ms} Na8 {0/9 2ms} 53. Ng4 {0/9 1ms}
+Nc7 {0/9 1ms} 54. Kc8 {0/9 1ms} Kc6 {18/9 37ms} 55. Kd8 {-10/9 11ms} Kb7 {33/9 5ms}
+56. Ke7 {-8/9 16ms} Nd5+ {149/9 3ms} 57. Kd6 {-52/9 14ms} Nf6 {54/9 7ms} 58. Nf2 {-80/9 9ms}
+h2 {85/9 6ms} 59. Nh1 {-40/9 10ms} Nh5 {87/9 4ms} 60. Kd5 {-32/9 4ms} Kxa7 {74/9 7ms}
+61. Ke4 {-26/9 6ms} Ng3+ {44/9 8ms} 62. Nxg3 {-26/9 5ms} h1=Q+ {38/9 9ms} 63. Nxh1 {-19/9 4ms}
+Kb6 {38/9 3ms} 64. Kd5 {-20/9 11ms} Kc7 {37/9 10ms} 65. Ng3 {-20/9 6ms} Kb7 {37/9 10ms}
+66. Kc4 {-20/9 21ms} Kc6 {37/9 19ms} 67. Kc3 {-20/9 6ms} Kb6 {37/9 15ms} 68. Kb2 {-20/9 11ms}
+g4 {40/9 11ms} 69. Kc2 {-20/9 6ms} Ka7 {36/9 4ms} 70. Kb3 {-20/9 3ms} Kb6 {36/9 3ms}
+71. Kc2 {-20/9 3ms} Ka7 {33/9 5ms} 72. Kc3 {-17/9 2ms} Kb7 {33/9 3ms} 73. Kc2 {-16/9 4ms}
+Kb6 {32/9 6ms} 74. Kd2 {-16/9 4ms} Ka5 {31/9 4ms} 75. Kc2 {-16/9 8ms} Ka4 {31/9 5ms}
+76. Kb1 {-15/9 7ms} Kb3 {31/9 6ms} 77. Kc1 {-14/9 3ms} Kc3 {29/9 6ms} 78. Kd1 {-19/9 4ms}
+Kd3 {32/9 8ms} 79. Ke1 {-20/9 5ms} Kc4 {29/9 10ms} 80. Kd2 {-16/9 11ms} Kd4 {29/9 5ms}
+81. Ke2 {-16/9 5ms} Kc4 {28/9 9ms} 82. Kd2 {-15/9 10ms} Kb4 {26/9 4ms} 83. Kc2 {-14/9 4ms}
+Kb5 {26/9 4ms} 84. Kd2 {-14/9 6ms} Kc6 {23/9 7ms} 85. Ke3 {-13/9 7ms} Kc7 {22/9 6ms}
+86. Kf2 {-12/9 5ms} Kb7 {22/9 5ms} 87. Ke2 {-12/9 7ms} Kb6 {22/9 2ms} 88. Kd3 {-12/9 3ms}
+Kc5 {22/9 6ms} 89. Kc3 {-12/9 7ms} Kd5 {23/9 8ms} 90. Kd3 {-12/9 5ms} Kd6 {24/9 5ms}
+91. Ke2 {-12/9 6ms} Ke6 {23/9 9ms} 92. Kf2 {-12/9 11ms} Kd6 {23/9 11ms} 93. Ke2 {-12/9 6ms}
+Ke6 {21/9 4ms} 94. Kf2 {-11/9 7ms} Kd7 {21/9 4ms} 95. Ke3 {-12/9 6ms} Kc6 {20/9 5ms}
+96. Kd2 {-11/9 6ms} Kb7 {20/9 4ms} 97. Kc1 {-10/9 7ms} Ka7 {19/9 5ms} 98. Kd2 {-12/9 6ms}
+Ka6 {18/9 3ms} 99. Kc3 {-11/9 5ms} Ka5 {18/9 2ms} 100. Kc4 {-10/9 12ms} Ka4 {18/9 5ms}
+101. Kc3 {-10/9 6ms} Ka3 {18/9 4ms} 102. Kd3 {-9/9 5ms} Kb3 {18/9 5ms} 103. Kd2 {-10/9 3ms}
+Ka3 {17/9 4ms} 104. Kc3 {-5/9 6ms} Ka4 {18/9 3ms} 105. Kc4 {-3/9 3ms} Ka5 {18/9 4ms}
+106. Kc5 {-4/9 3ms} Ka6 {7/9 4ms} 107. Kc6 {-4/9 4ms} Ka7 {3/9 2ms} 108. Kc7 {-6/9 7ms}
+Ka6 {8/9 3ms} 109. Kc6 {-4/9 1ms} Ka5 {12/9 3ms} 110. Kc5 {-4/9 1ms} Ka4 {0/9 1ms}
+111. Kc4 {0/9 2ms} Ka3 {0/9 3ms} 112. Kc3 {-5/9 6ms} Ka2 {0/9 3ms} 113. Kc2 {0/9 3ms}
+Ka1 {0/9 2ms} 114. Kb3 {0/9 3ms} Kb1 {0/9 9ms} 115. Kc3 {0/9 2ms} Ka1 {0/9 4ms}
+116. Kb3 {0/9 3ms} Kb1 {0/9 1ms} 117. Kc3 {0/9 2ms} Ka2 {0/9 1ms} 118. Kc2 {0/9 1ms}
+Ka1 {0/9 0ms} 1/2-1/2
+
+[Round "1.22"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "1rbqkbnr/pppnpppp/3p4/8/8/P1N3P1/1PPPPP1P/R1BQKBNR w KQk - 0 1"]
+[PlyCount "118"]
+
+1. d4 {38/9 24ms} g6 {-18/9 27ms} 2. Nf3 {30/9 31ms} Bg7 {-16/9 26ms} 3. e4 {16/9 69ms}
+c5 {-6/9 23ms} 4. Be3 {34/9 27ms} cxd4 {6/9 4ms} 5. Bxd4 {44/9 7ms} Ngf6 {-28/9 31ms}
+6. Bg2 {29/9 65ms} O-O {-27/9 34ms} 7. Qe2 {45/9 32ms} b5 {-21/9 19ms} 8. O-O {54/9 27ms}
+a6 {-23/9 11ms} 9. Rad1 {33/9 11ms} Bb7 {-6/9 21ms} 10. e5 {14/9 10ms} dxe5 {-14/9 8ms}
+11. Nxe5 {8/9 19ms} Bxg2 {-10/9 13ms} 12. Kxg2 {13/9 31ms} Qc8 {-9/9 12ms} 13. Nxd7 {17/9 45ms}
+Qxd7 {-8/9 6ms} 14. Qf3 {2/9 40ms} Qb7 {-2/9 7ms} 15. Rd2 {0/9 9ms} b4 {0/9 22ms}
+16. axb4 {27/9 18ms} Qxf3+ {-17/9 20ms} 17. Kxf3 {24/9 21ms} Rxb4 {-8/9 18ms} 18. Na2 {12/9 34ms}
+Rb7 {-5/9 30ms} 19. Rfd1 {2/9 49ms} Ne8 {-4/9 31ms} 20. b3 {3/9 27ms} Bxd4 {-21/9 37ms}
+21. Rxd4 {38/9 23ms} Nd6 {-13/9 15ms} 22. Ra4 {32/9 24ms} Rc8 {-26/9 35ms} 23. Rd2 {30/9 32ms}
+Nb5 {-31/9 28ms} 24. Ke2 {27/9 50ms} Rb6 {-20/9 34ms} 25. Kd1 {36/9 19ms} e5 {-19/9 66ms}
+26. f4 {17/9 23ms} exf4 {-32/9 36ms} 27. Rxf4 {27/9 28ms} Rcc6 {-39/9 35ms} 28. Kc1 {35/9 30ms}
+Rd6 {-36/9 16ms} 29. Nb4 {31/9 26ms} Rxd2 {-26/9 10ms} 30. Kxd2 {38/9 31ms} Rd6+ {-42/9 40ms}
+31. Ke3 {36/9 21ms} Kf8 {-48/9 45ms} 32. Nd3 {46/9 46ms} g5 {-43/9 24ms} 33. Rf5 {24/9 61ms}
+Nd4 {-47/9 40ms} 34. Rf2 {32/9 38ms} Ke7 {-38/9 28ms} 35. Nc5 {44/9 48ms} Nc6 {-18/9 15ms}
+36. Ne4 {25/9 41ms} Re6 {-21/9 35ms} 37. c3 {27/9 71ms} f6 {-18/9 16ms} 38. b4 {21/9 15ms}
+h6 {-40/9 32ms} 39. g4 {28/9 19ms} Kf7 {-42/9 28ms} 40. h3 {32/9 17ms} Ne5 {-43/9 39ms}
+41. Rf5 {42/9 20ms} Ng6 {-29/9 24ms} 42. Rf2 {22/9 37ms} Nf4 {-11/9 8ms} 43. h4 {69/9 30ms}
+Nh3 {-21/9 37ms} 44. Rf3 {46/9 14ms} Ng1 {-3/9 9ms} 45. Rg3 {190/9 6ms} Ne2 {-2/9 8ms}
+46. Kxe2 {-11/9 5ms} Rxe4+ {-6/9 14ms} 47. Kd3 {-4/9 4ms} gxh4 {-2/9 2ms} 48. Kxe4 {0/9 3ms}
+hxg3 {-6/9 12ms} 49. Kf3 {0/9 3ms} f5 {-16/9 12ms} 50. Kxg3 {8/9 4ms} Ke6 {-6/9 3ms}
+51. c4 {4/9 7ms} fxg4 {-3/9 2ms} 52. Kxg4 {7/9 2ms} Ke5 {-4/9 3ms} 53. Kh5 {8/9 2ms}
+Kd4 {-3/9 2ms} 54. c5 {2/9 5ms} Kd5 {-2/9 2ms} 55. Kxh6 {2/9 1ms} Kc6 {-3/9 3ms}
+56. Kg7 {2/9 6ms} a5 {-3/9 2ms} 57. bxa5 {2/9 1ms} Kxc5 {-2/9 1ms} 58. Kh6 {1/9 3ms}
+Kb5 {-1/9 1ms} 59. a6 {0/9 7ms} Kxa6 {0/9 13ms} 1/2-1/2
+
+[Round "1.23"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "r1bqkbnr/pppp1pp1/2n4p/4p3/2P5/1P1P4/P3PPPP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "103"]
+
+1. a3 {-12/9 83ms} d5 {-1/9 78ms} 2. cxd5 {-6/9 36ms} Qxd5 {-3/9 20ms} 3. Nc3 {3/9 36ms}
+Qe6 {0/9 62ms} 4. e3 {5/9 17ms} Bd6 {-5/9 40ms} 5. Nf3 {9/9 23ms} b6 {-3/9 46ms}
+6. d4 {40/9 7ms} exd4 {18/9 17ms} 7. Bc4 {-3/9 32ms} Qg6 {11/9 32ms} 8. exd4 {8/9 20ms}
+Nge7 {17/9 14ms} 9. O-O {-12/9 38ms} Bg4 {22/9 13ms} 10. Nb5 {-15/9 47ms} Rd8 {24/9 36ms}
+11. Re1 {-15/9 38ms} O-O {48/9 8ms} 12. Bb2 {-13/9 10ms} Qh5 {46/9 9ms} 13. h3 {-26/9 23ms}
+Bxf3 {61/9 1ms} 14. Qxf3 {-37/9 16ms} Qxf3 {59/9 4ms} 15. gxf3 {-22/9 11ms} a6 {44/9 27ms}
+16. Nxd6 {-18/9 22ms} Rxd6 {31/9 9ms} 17. a4 {-30/9 33ms} Nf5 {74/9 16ms} 18. d5 {-20/9 8ms}
+Ncd4 {36/9 9ms} 19. Red1 {-34/9 13ms} Nxf3+ {57/9 13ms} 20. Kh1 {-28/9 11ms} Rfd8 {58/9 25ms}
+21. b4 {-36/9 23ms} b5 {52/9 26ms} 22. Be2 {-53/9 18ms} Ng5 {90/9 6ms} 23. Be5 {-31/9 10ms}
+Rxd5 {98/9 4ms} 24. Bxc7 {-54/9 9ms} Rxd1+ {98/9 2ms} 25. Bxd1 {-41/9 10ms} Rd7 {54/9 21ms}
+26. Bb6 {-38/9 17ms} Nd4 {34/9 16ms} 27. axb5 {-18/9 16ms} axb5 {48/9 6ms} 28. Bg4 {-5/9 26ms}
+f5 {47/9 16ms} 29. Bh5 {-17/9 24ms} Kh7 {36/9 11ms} 30. h4 {-39/9 28ms} Nh3 {43/9 14ms}
+31. Be8 {-48/9 8ms} Rd6 {33/9 7ms} 32. Bxd4 {-29/9 6ms} Rxd4 {36/9 16ms} 33. Ra6 {-33/9 29ms}
+Kg8 {46/9 20ms} 34. Kg2 {-38/9 28ms} Nf4+ {63/9 13ms} 35. Kf3 {-38/9 11ms} Rxb4 {54/9 12ms}
+36. Rb6 {-42/9 30ms} Nh3 {38/9 33ms} 37. Kg3 {-34/9 9ms} Ng1 {40/9 12ms} 38. Bh5 {-25/9 11ms}
+Kf8 {44/9 10ms} 39. Rb8+ {-19/9 6ms} Ke7 {30/9 14ms} 40. Rb7+ {-28/9 8ms} Kf6 {18/9 11ms}
+41. Rf7+ {-20/9 10ms} Ke5 {4/9 20ms} 42. Re7+ {-16/9 8ms} Kf6 {3/9 13ms} 43. Rf7+ {-13/9 4ms}
+Ke6 {6/9 5ms} 44. Rxg7 {0/9 9ms} Rd4 {4/9 7ms} 45. Rg6+ {0/9 9ms} Ke5 {-8/9 10ms}
+46. Rb6 {-1/9 6ms} Rd3+ {0/9 7ms} 47. Kg2 {0/9 5ms} Nh3 {0/9 5ms} 48. Rxb5+ {0/9 2ms}
+Kf6 {0/9 2ms} 49. Rb4 {0/9 4ms} Ke5 {0/9 7ms} 50. Rb5+ {0/9 4ms} Kf6 {0/9 1ms}
+51. Rb4 {0/9 2ms} Ke5 {0/9 2ms} 52. Rb5+ {0/9 1ms} 1/2-1/2
+
+[Round "1.24"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "adjudication"]
+[FEN "r1bqkbnr/pppp1pp1/2n4p/4p3/2P5/1P1P4/P3PPPP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "198"]
+
+1. a3 {-6/9 25ms} Nge7 {3/9 68ms} 2. Bb2 {-1/9 19ms} g5 {-2/9 15ms} 3. h4 {15/9 34ms}
+g4 {21/9 11ms} 4. e4 {-15/9 51ms} d6 {23/9 6ms} 5. Ne2 {-6/9 9ms} Bg7 {35/9 19ms}
+6. g3 {-3/9 13ms} O-O {11/9 64ms} 7. Bg2 {0/9 29ms} Nd4 {6/9 50ms} 8. Nd2 {-1/9 18ms}
+a5 {4/9 18ms} 9. b4 {-2/9 19ms} Nxe2 {19/9 15ms} 10. Qxe2 {10/9 3ms} axb4 {-5/9 8ms}
+11. axb4 {0/9 17ms} Rxa1+ {-21/9 40ms} 12. Bxa1 {26/9 6ms} Be6 {-16/9 46ms} 13. b5 {-2/9 35ms}
+Qd7 {10/9 27ms} 14. O-O {7/9 10ms} Ra8 {-10/9 39ms} 15. Rb1 {20/9 12ms} c6 {-19/9 36ms}
+16. bxc6 {15/9 43ms} bxc6 {-11/9 16ms} 17. Nf1 {10/9 20ms} Ra3 {-9/9 25ms} 18. Qd2 {12/9 24ms}
+Qa7 {0/9 14ms} 19. Bc3 {10/9 7ms} h5 {6/9 14ms} 20. Bb2 {3/9 11ms} Ra2 {4/9 10ms}
+21. Qg5 {3/9 12ms} Ng6 {67/9 6ms} 22. Qd2 {-24/9 16ms} Qb6 {46/9 28ms} 23. Qc1 {-4/9 10ms}
+Qb3 {11/9 44ms} 24. Bc3 {-46/9 14ms} Qa3 {28/9 9ms} 25. Rb2 {-7/9 17ms} Rxb2 {17/9 9ms}
+26. Qxb2 {8/9 2ms} Qxb2 {14/9 8ms} 27. Bxb2 {-3/9 18ms} c5 {4/9 21ms} 28. Ne3 {-6/9 54ms}
+Ne7 {0/9 44ms} 29. Bf1 {-2/9 15ms} Bh6 {7/9 10ms} 30. Nd1 {-4/9 29ms} Nc6 {10/9 49ms}
+31. Nc3 {-10/9 17ms} Kf8 {8/9 7ms} 32. Nd5 {-5/9 9ms} f5 {20/9 30ms} 33. exf5 {-14/9 30ms}
+Bxf5 {26/9 47ms} 34. Bc3 {-13/9 11ms} Kf7 {26/9 10ms} 35. Be2 {-9/9 21ms} Nd4 {25/9 47ms}
+36. Bxd4 {-23/9 23ms} cxd4 {29/9 71ms} 37. Nc7 {-27/9 12ms} e4 {37/9 9ms} 38. dxe4 {7/9 3ms}
+Bxe4 {51/9 16ms} 39. Nb5 {4/9 19ms} d3 {64/9 3ms} 40. Bxg4 {-36/9 7ms} hxg4 {13/9 6ms}
+41. Nxd6+ {-12/9 2ms} Ke6 {12/9 3ms} 42. Nxe4 {-39/9 22ms} Ke5 {-6/9 5ms} 43. Nc3 {-6/9 4ms}
+Kd4 {10/9 4ms} 44. Nd1 {-15/9 3ms} Kxc4 {30/9 7ms} 45. f4 {-19/9 26ms} d2 {1/9 15ms}
+46. Kf1 {4/9 5ms} Kd3 {1/9 5ms} 47. Nf2+ {0/9 5ms} Ke3 {1/9 6ms} 48. Nxg4+ {-3/9 4ms}
+Kf3 {0/9 8ms} 49. Ne5+ {0/9 7ms} Kxg3 {0/9 3ms} 50. Ke2 {1/9 4ms} Bxf4 {-1/9 8ms}
+51. Kd1 {0/9 14ms} Kxh4 {0/9 11ms} 52. Nf3+ {0/9 6ms} Kg4 {0/9 13ms} 53. Nxd2 {0/9 8ms}
+Be3 {0/9 21ms} 54. Ne4 {0/9 10ms} Bd2 {0/9 24ms} 55. Ng5 {0/9 18ms} Kg3 {-1/9 26ms}
+56. Ke2 {0/9 9ms} Kh2 {-1/9 11ms} 57. Kf3 {1/9 24ms} Bc3 {0/9 18ms} 58. Nh3 {1/9 17ms}
+Ba5 {-1/9 21ms} 59. Ng1 {0/9 21ms} Bd8 {0/9 12ms} 60. Ne2 {0/9 15ms} Ba5 {-1/9 12ms}
+61. Ng3 {0/9 10ms} Bb6 {0/9 15ms} 62. Nf5 {0/9 19ms} Bd4 {-1/9 13ms} 63. Ne3 {0/9 17ms}
+Bc3 {0/9 20ms} 64. Ke2 {0/9 13ms} Bd2 {0/9 6ms} 65. Kd3 {0/9 8ms} Kg1 {0/9 8ms}
+66. Kd4 {0/9 27ms} Bc3+ {0/9 11ms} 67. Kc4 {0/9 20ms} Kh2 {0/9 15ms} 68. Kb5 {0/9 20ms}
+Bf6 {-1/9 15ms} 69. Ka5 {0/9 13ms} Bc3+ {0/9 9ms} 70. Kb6 {0/9 9ms} Bb4 {0/9 13ms}
+71. Ng2 {0/9 17ms} Kg1 {-1/9 20ms} 72. Kc6 {0/9 16ms} Kh2 {-1/9 10ms} 73. Kd5 {0/9 21ms}
+Bd6 {0/9 16ms} 74. Nf4 {0/9 20ms} Bb4 {0/9 9ms} 75. Ne2 {0/9 21ms} Bd6 {0/9 6ms}
+76. Ke4 {0/9 12ms} Kg2 {0/9 10ms} 77. Nf4+ {0/9 11ms} Kh2 {0/9 14ms} 78. Kf3 {0/9 15ms}
+Kh1 {-1/9 13ms} 79. Ne2 {0/9 12ms} Kh2 {-1/9 5ms} 80. Kf2 {0/9 16ms} Bb8 {-1/9 15ms}
+81. Ke3 {0/9 8ms} Ba7+ {0/9 8ms} 82. Kd3 {0/9 9ms} Bd4 {0/9 19ms} 83. Nf4 {0/9 16ms}
+Bf2 {0/9 9ms} 84. Ng2 {0/9 14ms} Kg1 {0/9 15ms} 85. Nf4 {0/9 14ms} Bd4 {0/9 7ms}
+86. Ke2 {0/9 15ms} Bf2 {0/9 18ms} 87. Nh3+ {0/9 8ms} Kg2 {-1/9 6ms} 88. Ng1 {0/9 12ms}
+Bg3 {-1/9 13ms} 89. Nh3 {0/9 8ms} Be1 {-1/9 10ms} 90. Nf4+ {0/9 12ms} Kh2 {-2/9 5ms}
+91. Ke3 {0/9 14ms} Bb4 {-1/9 10ms} 92. Kf2 {0/9 10ms} Bc5+ {0/9 6ms} 93. Kf3 {0/9 6ms}
+Kg1 {-1/9 9ms} 94. Ne2+ {0/9 7ms} Kh2 {-1/9 10ms} 95. Nd4 {0/9 9ms} Bd6 {-1/9 19ms}
+96. Ke3 {0/9 10ms} Bf4+ {0/9 11ms} 97. Ke2 {0/9 11ms} Bd6 {-1/9 17ms} 98. Kf2 {0/9 14ms}
+Bb4 {-1/9 12ms} 99. Nf3+ {0/9 9ms} Kh1 {0/9 7ms} 1/2-1/2
+
+[Round "1.25"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rn1qkbnr/pp2pppp/8/2pp4/5Pb1/BP6/P1PPP1PP/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "154"]
+
+1. Bxc5 {-21/9 227ms} Qc7 {26/9 28ms} 2. Bf2 {-4/9 38ms} Qxf4 {23/9 23ms} 3. e3 {-11/9 25ms}
+Qxf2+ {204/9 2ms} 4. Kxf2 {-306/9 8ms} Bxd1 {334/9 3ms} 5. Nc3 {-299/9 2ms} Bg4 {298/9 5ms}
+6. Nxd5 {-332/9 16ms} Kd8 {259/9 7ms} 7. c4 {-311/9 22ms} e6 {320/9 11ms} 8. h3 {-354/9 10ms}
+Bf5 {327/9 24ms} 9. Nc3 {-354/9 13ms} Nf6 {302/9 26ms} 10. g4 {-322/9 7ms} Be4 {327/9 4ms}
+11. Bg2 {-301/9 11ms} Bxg2 {322/9 3ms} 12. Kxg2 {-321/9 6ms} Bb4 {327/9 8ms} 13. Nge2 {-314/9 9ms}
+h6 {311/9 28ms} 14. Na4 {-295/9 17ms} Ke8 {368/9 10ms} 15. d4 {-297/9 19ms} Nc6 {336/9 18ms}
+16. a3 {-288/9 12ms} Bd6 {308/9 20ms} 17. b4 {-269/9 33ms} Ne7 {312/9 18ms} 18. c5 {-270/9 20ms}
+Bc7 {288/9 18ms} 19. Kf3 {-275/9 22ms} Rd8 {285/9 25ms} 20. Nb2 {-265/9 32ms} e5 {320/9 17ms}
+21. Nc4 {-290/9 27ms} Ng6 {300/9 36ms} 22. h4 {-292/9 16ms} exd4 {300/9 6ms} 23. exd4 {-267/9 8ms}
+Nd5 {280/9 13ms} 24. Rae1 {-240/9 34ms} Kf8 {268/9 8ms} 25. h5 {-222/9 8ms} Nge7 {246/9 16ms}
+26. Rhf1 {-237/9 8ms} Rg8 {275/9 4ms} 27. b5 {-269/9 13ms} g6 {286/9 3ms} 28. Ng3 {-252/9 5ms}
+gxh5 {307/9 9ms} 29. Nxh5 {-253/9 15ms} Rg6 {308/9 14ms} 30. Ne5 {-276/9 32ms} Re6 {285/9 13ms}
+31. a4 {-250/9 27ms} Ng6 {288/9 7ms} 32. Nxg6+ {-274/9 10ms} Rxg6 {280/9 28ms} 33. Rc1 {-286/9 14ms}
+Rg5 {261/9 9ms} 34. a5 {-237/9 26ms} Bxa5 {257/9 10ms} 35. Ra1 {-277/9 6ms} b6 {289/9 27ms}
+36. c6 {-299/9 7ms} Nc7 {327/9 12ms} 37. Nf6 {-322/9 10ms} Ke7 {326/9 20ms} 38. Ke3 {-346/9 10ms}
+Nxb5 {361/9 10ms} 39. Ne4 {-378/9 18ms} Rxg4 {388/9 11ms} 40. Rf5 {-418/9 15ms} Rxe4+ {451/9 14ms}
+41. Kxe4 {-384/9 2ms} Nd6+ {491/9 4ms} 42. Ke5 {-416/9 23ms} Nxf5 {483/9 7ms} 43. c7 {-478/9 20ms}
+Rc8 {509/9 10ms} 44. Kxf5 {-481/9 31ms} Rxc7 {538/9 14ms} 45. Ra3 {-500/9 24ms} Bc3 {566/9 13ms}
+46. Ke4 {-519/9 46ms} Bxd4 {584/9 26ms} 47. Kxd4 {-465/9 31ms} h5 {566/9 51ms} 48. Ra1 {-486/9 34ms}
+a5 {584/9 47ms} 49. Re1+ {-477/9 21ms} Kd7 {577/9 35ms} 50. Ke5 {-492/9 16ms} Rc5+ {596/9 62ms}
+51. Kf6 {-474/9 36ms} a4 {603/9 40ms} 52. Re3 {-513/9 45ms} b5 {640/9 159ms} 53. Re7+ {-517/9 9ms}
+Kc6 {623/9 167ms} 54. Re8 {-505/9 31ms} Kb6 {634/9 239ms} 55. Ke7 {-531/9 35ms} Ka5 {647/9 83ms}
+56. Kd6 {-509/9 6ms} Rc1 {647/9 68ms} 57. Kd7 {-550/9 7ms} h4 {657/9 64ms} 58. Re3 {-572/9 11ms}
+Rc4 {657/9 51ms} 59. Rf3 {-529/9 13ms} Kb4 {654/9 62ms} 60. Kd6 {-617/9 5ms} a3 {651/9 69ms}
+61. Rd3 {-637/9 2ms} a2 {675/9 66ms} 62. Rd1 {-586/9 6ms} Ka4 {676/9 27ms} 63. Ra1 {-556/9 5ms}
+Rc2 {680/9 23ms} 64. Ke7 {-687/9 9ms} b4 {684/9 22ms} 65. Ke8 {-679/9 6ms} b3 {683/9 60ms}
+66. Kxf7 {-753/9 6ms} h3 {701/9 21ms} 67. Re1 {-646/9 10ms} h2 {670/9 15ms} 68. Kg8 {-709/9 3ms}
+b2 {781/9 4ms} 69. Rd1 {-839/9 4ms} a1=Q {1027/9 3ms} 70. Rd4+ {-1240/9 8ms} Kb5 {1189/9 9ms}
+71. Rd5+ {-1135/9 6ms} Rc5 {1389/9 6ms} 72. Rd8 {-1323/9 7ms} h1=Q {2227/9 11ms} 73. Re8 {-1880/9 8ms}
+Qh7+ {M5/9 4ms} 74. Kxh7 {-M4/9 1ms} b1=Q+ {M4/9 1ms} 75. Re4 {-M3/9 1ms} Qxe4+ {M3/9 0ms}
+76. Kg8 {-M2/9 1ms} Rg5+ {M2/9 0ms} 77. Kf7 {-M1/9 1ms} Qf1# {M1/9 1ms} 0-1
+
+[Round "1.26"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rn1qkbnr/pp2pppp/8/2pp4/5Pb1/BP6/P1PPP1PP/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "46"]
+
+1. Bxc5 {-2/9 54ms} e5 {34/9 32ms} 2. Bxf8 {22/9 7ms} Kxf8 {-37/9 16ms} 3. fxe5 {52/9 13ms}
+d4 {-21/9 8ms} 4. Nf3 {49/9 12ms} Nc6 {-24/9 35ms} 5. Qc1 {44/9 17ms} h5 {-18/9 8ms}
+6. Na3 {14/9 22ms} Qe7 {-11/9 6ms} 7. Kd1 {3/9 11ms} Rd8 {7/9 7ms} 8. h3 {-12/9 8ms}
+Bxf3 {43/9 3ms} 9. exf3 {-14/9 6ms} Qxe5 {50/9 13ms} 10. Nc4 {-24/9 7ms} Qg3 {64/9 11ms}
+11. Na5 {10/9 3ms} Rh6 {50/9 13ms} 12. Qa3+ {61/9 2ms} Nge7 {-5/9 11ms} 13. Nxb7 {50/9 3ms}
+Re6 {41/9 9ms} 14. Kc1 {27/9 10ms} Qe1+ {58/9 11ms} 15. Kb2 {-6/9 4ms} Qxd2 {0/9 23ms}
+16. Rc1 {15/9 8ms} Nb4 {0/9 11ms} 17. Nxd8 {114/9 10ms} Re1 {0/9 2ms} 18. Rxe1 {156/9 2ms}
+Qc3+ {0/9 1ms} 19. Kb1 {0/9 0ms} Qxc2+ {0/9 1ms} 20. Ka1 {0/9 1ms} Qc3+ {0/9 0ms}
+21. Kb1 {0/9 1ms} Qc2+ {0/9 0ms} 22. Ka1 {0/9 1ms} Qc3+ {0/9 0ms} 23. Kb1 {0/9 1ms}
+Qc2+ {0/9 0ms} 1/2-1/2
+
+[Round "1.27"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqk1nr/ppp1bppp/3pp3/8/2B5/2P1P3/PP1P1PPP/RNBQK1NR w KQkq - 0 1"]
+[PlyCount "121"]
+
+1. d4 {-12/9 69ms} Nf6 {7/9 27ms} 2. Bd3 {-6/9 11ms} c5 {-4/9 68ms} 3. e4 {19/9 32ms}
+Nc6 {-4/9 15ms} 4. Nf3 {21/9 21ms} O-O {-2/9 28ms} 5. O-O {4/9 38ms} cxd4 {0/9 20ms}
+6. cxd4 {11/9 11ms} Qb6 {0/9 25ms} 7. e5 {11/9 14ms} Nd7 {0/9 19ms} 8. exd6 {16/9 3ms}
+Bxd6 {-14/9 19ms} 9. Nc3 {25/9 26ms} Nf6 {-11/9 20ms} 10. a3 {20/9 69ms} Rd8 {-25/9 131ms}
+11. Be3 {37/9 37ms} Qc7 {-23/9 59ms} 12. Rc1 {36/9 63ms} h6 {-42/9 57ms} 13. Ne4 {45/9 20ms}
+Nxe4 {-39/9 58ms} 14. Bxe4 {40/9 31ms} Qa5 {-35/9 48ms} 15. Nd2 {22/9 57ms} Bd7 {-35/9 39ms}
+16. Nc4 {54/9 25ms} Qc7 {-30/9 14ms} 17. g3 {50/9 11ms} Rac8 {-39/9 40ms} 18. b4 {42/9 46ms}
+Qb8 {-40/9 29ms} 19. d5 {61/9 6ms} Ne5 {-39/9 16ms} 20. Bxa7 {69/9 4ms} Qxa7 {-21/9 5ms}
+21. Nxd6 {47/9 14ms} Rxc1 {-93/9 13ms} 22. Qxc1 {76/9 4ms} exd5 {-73/9 4ms} 23. Bxd5 {57/9 13ms}
+Bc6 {-21/9 11ms} 24. Bxc6 {90/9 10ms} Nxc6 {-65/9 31ms} 25. Qf4 {120/9 20ms} Rf8 {-121/9 28ms}
+26. Qe3 {114/9 12ms} Qxe3 {-45/9 3ms} 27. fxe3 {104/9 9ms} Ra8 {-43/9 9ms} 28. Rxf7 {33/9 30ms}
+Rd8 {-46/9 6ms} 29. Nxb7 {39/9 8ms} Kxf7 {-44/9 3ms} 30. Nxd8+ {44/9 10ms} Nxd8 {-54/9 31ms}
+31. Kf2 {53/9 15ms} Ke6 {-59/9 15ms} 32. Ke2 {62/9 5ms} Kd5 {-69/9 75ms} 33. Kd3 {83/9 17ms}
+Nf7 {-74/9 16ms} 34. e4+ {74/9 22ms} Kd6 {-82/9 13ms} 35. Kc4 {76/9 28ms} Ng5 {-42/9 16ms}
+36. e5+ {64/9 7ms} Kxe5 {-42/9 17ms} 37. b5 {35/9 14ms} Kd6 {-1/9 5ms} 38. a4 {19/9 26ms}
+Nf3 {-5/9 9ms} 39. a5 {17/9 27ms} Nxh2 {20/9 7ms} 40. a6 {4/9 6ms} Kc7 {2/9 10ms}
+41. Kc5 {5/9 14ms} Nf3 {-14/9 16ms} 42. b6+ {20/9 17ms} Kc8 {-17/9 15ms} 43. Kd6 {101/9 4ms}
+Nd4 {-17/9 7ms} 44. b7+ {386/9 1ms} Kb8 {-393/9 3ms} 45. Kc5 {341/9 3ms} h5 {-354/9 5ms}
+46. Kxd4 {471/9 4ms} g5 {-592/9 5ms} 47. Ke4 {521/9 3ms} h4 {-505/9 3ms} 48. gxh4 {566/9 2ms}
+gxh4 {-569/9 2ms} 49. Kf4 {535/9 6ms} Ka7 {-557/9 6ms} 50. Kf3 {539/9 3ms} Kb8 {-558/9 6ms}
+51. Kg4 {550/9 3ms} h3 {-608/9 5ms} 52. Kxh3 {546/9 9ms} Ka7 {-558/9 2ms} 53. Kg3 {536/9 7ms}
+Kb6 {-558/9 5ms} 54. b8=Q+ {579/9 5ms} Kxa6 {-543/9 8ms} 55. Kg2 {M9/9 2ms} Ka5 {-564/9 11ms}
+56. Kf3 {M8/9 1ms} Ka4 {-M4/9 4ms} 57. Qb1 {M7/9 1ms} Ka3 {-M5/9 2ms} 58. Ke4 {M4/9 0ms}
+Ka4 {-M4/9 1ms} 59. Kd4 {M3/9 0ms} Ka5 {-M3/9 1ms} 60. Kc5 {M2/9 0ms} Ka6 {-M1/9 0ms}
+61. Qb6# {M1/9 0ms} 1-0
+
+[Round "1.28"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqk1nr/ppp1bppp/3pp3/8/2B5/2P1P3/PP1P1PPP/RNBQK1NR w KQkq - 0 1"]
+[PlyCount "74"]
+
+1. Nf3 {-2/9 64ms} Nf6 {13/9 39ms} 2. d4 {-2/9 20ms} O-O {6/9 15ms} 3. Bd3 {8/9 17ms}
+b6 {-2/9 31ms} 4. e4 {15/9 19ms} Bb7 {-14/9 19ms} 5. Qe2 {12/9 33ms} Nbd7 {-33/9 72ms}
+6. O-O {21/9 23ms} e5 {-21/9 46ms} 7. d5 {36/9 31ms} Nc5 {-37/9 47ms} 8. Bc2 {47/9 24ms}
+c6 {-45/9 10ms} 9. c4 {51/9 39ms} cxd5 {-30/9 15ms} 10. exd5 {-6/9 20ms} b5 {27/9 13ms}
+11. b3 {-8/9 15ms} bxc4 {70/9 4ms} 12. bxc4 {-9/9 28ms} Nfd7 {17/9 76ms} 13. a4 {5/9 17ms}
+f5 {30/9 8ms} 14. Nc3 {-7/9 45ms} Bf6 {55/9 11ms} 15. Bxf5 {98/9 3ms} e4 {119/9 2ms}
+16. Nxe4 {-26/9 8ms} Bxa1 {65/9 5ms} 17. Bxh7+ {18/9 7ms} Kxh7 {154/9 3ms} 18. Nxc5 {-19/9 3ms}
+Nxc5 {70/9 5ms} 19. Ng5+ {-70/9 6ms} Kg6 {90/9 16ms} 20. h4 {-94/9 18ms} Qe8 {75/9 12ms}
+21. Be3 {-37/9 11ms} Rh8 {60/9 25ms} 22. Qc2+ {127/9 3ms} Kf6 {-70/9 12ms} 23. Bxc5 {13/9 8ms}
+Rxh4 {43/9 6ms} 24. g3 {-45/9 15ms} Qh5 {73/9 7ms} 25. Ne4+ {-42/9 3ms} Rxe4 {19/9 5ms}
+26. Qxe4 {-81/9 5ms} Qf5 {82/9 5ms} 27. Qxf5+ {-112/9 7ms} Kxf5 {96/9 7ms} 28. Bxd6 {-78/9 11ms}
+Bf6 {78/9 12ms} 29. Rd1 {-90/9 14ms} Ba6 {152/9 6ms} 30. c5 {-149/9 7ms} Be2 {218/9 2ms}
+31. Rd2 {-136/9 8ms} Bf3 {256/9 5ms} 32. Rd3 {-194/9 9ms} Kg4 {278/9 6ms} 33. Bc7 {-190/9 4ms}
+Rh8 {323/9 1ms} 34. Rxf3 {-487/9 9ms} Kxf3 {427/9 4ms} 35. a5 {-422/9 8ms} Bd4 {M3/9 0ms}
+36. Bb6 {-M2/9 1ms} Bxf2+ {M2/9 0ms} 37. Kf1 {-M1/9 1ms} Rh1# {M1/9 0ms} 0-1
+
+[Round "1.29"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/ppp2ppp/3p1n2/4p3/5P2/2P1P3/PP1P2PP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "114"]
+
+1. Be2 {-44/9 91ms} exf4 {49/9 25ms} 2. exf4 {-52/9 41ms} g6 {49/9 9ms} 3. Bf3 {-43/9 40ms}
+d5 {53/9 32ms} 4. Ne2 {-51/9 34ms} Bg7 {62/9 8ms} 5. O-O {-42/9 43ms} Nc6 {71/9 23ms}
+6. Na3 {-43/9 44ms} O-O {79/9 16ms} 7. Nc2 {-43/9 13ms} Re8 {61/9 36ms} 8. d3 {-45/9 9ms}
+h5 {39/9 49ms} 9. h3 {-41/9 21ms} a5 {39/9 27ms} 10. Be3 {-11/9 11ms} Ne7 {32/9 30ms}
+11. Qd2 {-25/9 33ms} b6 {31/9 29ms} 12. Bd4 {-27/9 23ms} c5 {41/9 18ms} 13. Be5 {-48/9 20ms}
+Nf5 {41/9 14ms} 14. Rae1 {-82/9 70ms} Ba6 {67/9 71ms} 15. Rf2 {-73/9 83ms} Ra7 {81/9 34ms}
+16. g4 {-87/9 20ms} Nh4 {75/9 12ms} 17. gxh5 {-84/9 14ms} Nxf3+ {76/9 9ms} 18. Rxf3 {-75/9 5ms}
+Nxh5 {149/9 3ms} 19. Bxg7 {-109/9 23ms} Nxg7 {128/9 16ms} 20. Kh2 {-130/9 31ms} d4 {132/9 27ms}
+21. Ng3 {-130/9 6ms} Rxe1 {130/9 9ms} 22. Nxe1 {-109/9 8ms} dxc3 {124/9 42ms} 23. bxc3 {-98/9 15ms}
+Bc8 {128/9 35ms} 24. Re3 {-84/9 39ms} Qh4 {153/9 17ms} 25. Ng2 {-107/9 27ms} Qxh3+ {112/9 16ms}
+26. Kg1 {-105/9 28ms} Qd7 {131/9 8ms} 27. Qe1 {-87/9 24ms} Bb7 {110/9 37ms} 28. Re7 {-122/9 24ms}
+Qxd3 {83/9 8ms} 29. f5 {-97/9 25ms} gxf5 {62/9 65ms} 30. Qe5 {-72/9 11ms} Qd1+ {71/9 25ms}
+31. Ne1 {337/9 4ms} Qg4 {80/9 6ms} 32. Ng2 {-62/9 13ms} Bxg2 {76/9 12ms} 33. Rxa7 {-76/9 9ms}
+Bc6 {85/9 14ms} 34. Qc7 {-63/9 6ms} Qd1+ {53/9 15ms} 35. Nf1 {-53/9 6ms} Qd5 {72/9 3ms}
+36. Qb8+ {0/9 6ms} Ne8 {0/9 11ms} 37. Qg3+ {-18/9 12ms} Kf8 {12/9 11ms} 38. Qh2 {-55/9 20ms}
+Bb7 {35/9 10ms} 39. Qh6+ {-62/9 36ms} Ke7 {81/9 7ms} 40. Ne3 {-45/9 15ms} Qe4 {76/9 17ms}
+41. c4 {-66/9 12ms} Kd7 {42/9 26ms} 42. Nd5 {-45/9 3ms} Qe1+ {48/9 12ms} 43. Kg2 {-5/9 6ms}
+Qe2+ {48/9 1ms} 44. Kg1 {0/9 13ms} Nd6 {50/9 9ms} 45. Rxb7+ {-20/9 4ms} Nxb7 {0/9 5ms}
+46. Qxb6 {-13/9 3ms} Qg4+ {0/9 5ms} 47. Kf2 {0/9 5ms} Qd4+ {0/9 3ms} 48. Kf3 {0/9 2ms}
+Qe4+ {0/9 2ms} 49. Kf2 {0/9 2ms} Qh4+ {0/9 1ms} 50. Kf3 {0/9 3ms} Qe4+ {0/9 2ms}
+51. Kf2 {0/9 1ms} Qh4+ {0/9 3ms} 52. Kf3 {0/9 3ms} Qh3+ {0/9 4ms} 53. Kf2 {0/9 2ms}
+Qh2+ {0/9 1ms} 54. Kf3 {0/9 1ms} Qh3+ {0/9 1ms} 55. Kf2 {0/9 2ms} Qh2+ {0/9 1ms}
+56. Kf3 {0/9 2ms} Qh1+ {0/9 2ms} 57. Kf2 {0/9 1ms} Qh4+ {0/9 0ms} 1/2-1/2
+
+[Round "1.30"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/ppp2ppp/3p1n2/4p3/5P2/2P1P3/PP1P2PP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "81"]
+
+1. d4 {-34/9 79ms} e4 {39/9 47ms} 2. c4 {-37/9 27ms} c6 {25/9 36ms} 3. Nc3 {-43/9 41ms}
+d5 {47/9 22ms} 4. Bd2 {-39/9 43ms} Be7 {46/9 25ms} 5. cxd5 {-44/9 53ms} cxd5 {75/9 11ms}
+6. Bb5+ {-46/9 34ms} Nc6 {47/9 41ms} 7. Nge2 {-43/9 9ms} O-O {50/9 22ms} 8. O-O {-38/9 32ms}
+Na5 {69/9 8ms} 9. Ng3 {-39/9 27ms} a6 {35/9 21ms} 10. Be2 {-50/9 31ms} b5 {59/9 10ms}
+11. h3 {-55/9 77ms} b4 {56/9 32ms} 12. Na4 {-36/9 26ms} Nc4 {32/9 17ms} 13. Bxc4 {-18/9 6ms}
+dxc4 {44/9 10ms} 14. a3 {-11/9 7ms} a5 {40/9 24ms} 15. Nc5 {16/9 8ms} c3 {137/9 4ms}
+16. bxc3 {50/9 2ms} Bxc5 {89/9 6ms} 17. dxc5 {-37/9 9ms} b3 {26/9 10ms} 18. c4 {2/9 9ms}
+Qd3 {26/9 11ms} 19. Qe1 {-12/9 11ms} Ba6 {9/9 19ms} 20. Bc3 {25/9 4ms} Qxc4 {20/9 12ms}
+21. Bxf6 {37/9 12ms} gxf6 {11/9 8ms} 22. Rc1 {27/9 13ms} Qd5 {6/9 5ms} 23. Rf2 {13/9 18ms}
+Bd3 {5/9 18ms} 24. Qc3 {0/9 17ms} Rfc8 {9/9 10ms} 25. a4 {0/9 2ms} Ra6 {-13/9 31ms}
+26. Rb2 {23/9 2ms} Bc2 {12/9 4ms} 27. Rcxc2 {38/9 8ms} bxc2 {6/9 7ms} 28. Rxc2 {6/9 7ms}
+Qd3 {-65/9 25ms} 29. Nf5 {37/9 3ms} Qxc3 {-86/9 18ms} 30. Rxc3 {70/9 5ms} Kf8 {-97/9 17ms}
+31. Nd4 {64/9 15ms} Rd6 {-56/9 15ms} 32. c6 {54/9 20ms} Rd5 {-70/9 10ms} 33. Kf2 {70/9 19ms}
+Ke7 {-68/9 20ms} 34. g4 {63/9 21ms} Kd8 {-59/9 19ms} 35. Rb3 {97/9 12ms} Rc5 {-17/9 12ms}
+36. Kg3 {11/9 24ms} Rc4 {-3/9 10ms} 37. Rb7 {2/9 20ms} Rc7 {0/9 4ms} 38. Rb8+ {0/9 7ms}
+Rc8 {-11/9 11ms} 39. Rb7 {0/9 3ms} Rc7 {-6/9 5ms} 40. Rb8+ {0/9 6ms} Rc8 {0/9 1ms}
+41. Rb7 {0/9 2ms} 1/2-1/2
+
+[Round "1.31"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "insufficient material"]
+[FEN "1rbqkbnr/pp1ppppp/2n5/2p5/2P1P3/6P1/PP1P1P1P/RNBQKBNR w KQk - 0 1"]
+[PlyCount "117"]
+
+1. Ne2 {3/9 47ms} e5 {-7/9 36ms} 2. d3 {9/9 22ms} b5 {0/9 18ms} 3. Nbc3 {11/9 24ms}
+a6 {-7/9 47ms} 4. Bg2 {9/9 19ms} d6 {-17/9 23ms} 5. O-O {5/9 27ms} Be7 {-28/9 46ms}
+6. b3 {20/9 23ms} Nf6 {-19/9 19ms} 7. f4 {22/9 84ms} bxc4 {-20/9 32ms} 8. dxc4 {29/9 43ms}
+O-O {-11/9 24ms} 9. Rb1 {27/9 23ms} Bb7 {-10/9 37ms} 10. fxe5 {27/9 57ms} dxe5 {-3/9 26ms}
+11. Qxd8 {35/9 19ms} Bxd8 {-36/9 52ms} 12. Na4 {39/9 17ms} Ba5 {-32/9 58ms} 13. Nec3 {47/9 20ms}
+Bxc3 {-44/9 35ms} 14. Nxc3 {46/9 5ms} Nd4 {-40/9 15ms} 15. Ba3 {37/9 14ms} Rfc8 {-18/9 6ms}
+16. Nd5 {23/9 15ms} Bxd5 {-8/9 5ms} 17. exd5 {37/9 4ms} h5 {-36/9 29ms} 18. Bb2 {39/9 22ms}
+Re8 {-25/9 18ms} 19. Rbe1 {51/9 19ms} a5 {-18/9 21ms} 20. Ba3 {54/9 11ms} Rbc8 {-30/9 11ms}
+21. Rf2 {56/9 38ms} Ng4 {2/9 15ms} 22. Rd2 {45/9 16ms} f5 {11/9 12ms} 23. Bxc5 {43/9 9ms}
+Nxb3 {-44/9 5ms} 24. axb3 {36/9 6ms} Rxc5 {-30/9 8ms} 25. h3 {62/9 132ms} Nf6 {-1/9 12ms}
+26. Ra2 {9/9 35ms} Kf7 {-6/9 19ms} 27. Rea1 {28/9 13ms} Rb8 {-50/9 9ms} 28. Rxa5 {28/9 32ms}
+Rxa5 {-47/9 4ms} 29. Rxa5 {33/9 9ms} Rxb3 {-42/9 10ms} 30. Ra7+ {29/9 9ms} Kg6 {-6/9 6ms}
+31. d6 {24/9 16ms} e4 {-27/9 22ms} 32. c5 {23/9 5ms} Rb1+ {-34/9 8ms} 33. Bf1 {30/9 9ms}
+e3 {-44/9 17ms} 34. Kg2 {43/9 4ms} Rb2+ {-44/9 5ms} 35. Kf3 {59/9 2ms} Rc2 {-43/9 11ms}
+36. d7 {57/9 15ms} Nxd7 {-46/9 3ms} 37. Rxd7 {32/9 9ms} Rf2+ {-42/9 5ms} 38. Kxe3 {51/9 6ms}
+Rxf1 {-58/9 16ms} 39. Rd3 {57/9 22ms} Rc1 {-43/9 18ms} 40. Kd4 {61/9 7ms} Kf6 {-31/9 8ms}
+41. Kd5 {61/9 9ms} g5 {-40/9 15ms} 42. Kd6 {99/9 10ms} g4 {-30/9 5ms} 43. hxg4 {208/9 4ms}
+hxg4 {-22/9 7ms} 44. Rd5 {40/9 6ms} f4 {-18/9 4ms} 45. gxf4 {24/9 11ms} g3 {-25/9 7ms}
+46. Rg5 {14/9 7ms} Rd1+ {-36/9 10ms} 47. Kc6 {11/9 8ms} Rg1 {-8/9 12ms} 48. Kc7 {26/9 7ms}
+g2 {-24/9 5ms} 49. c6 {11/9 7ms} Ke6 {-26/9 6ms} 50. Re5+ {34/9 10ms} Kf6 {-31/9 2ms}
+51. Re2 {38/9 7ms} Kf5 {-39/9 6ms} 52. Rf2 {59/9 13ms} Kg4 {-13/9 8ms} 53. f5 {59/9 10ms}
+Kg3 {-34/9 15ms} 54. Rxg2+ {46/9 15ms} Rxg2 {-33/9 6ms} 55. f6 {46/9 9ms} Rf2 {-23/9 5ms}
+56. Kd7 {39/9 10ms} Rxf6 {-17/9 3ms} 57. c7 {37/9 4ms} Rf8 {-14/9 2ms} 58. c8=Q {2/9 16ms}
+Rxc8 {0/9 2ms} 59. Kxc8 {1/9 2ms} 1/2-1/2
+
+[Round "1.32"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "1rbqkbnr/pp1ppppp/2n5/2p5/2P1P3/6P1/PP1P1P1P/RNBQKBNR w KQk - 0 1"]
+[PlyCount "103"]
+
+1. Bg2 {-11/9 22ms} g6 {5/9 11ms} 2. d3 {-13/9 49ms} Bg7 {12/9 12ms} 3. Nc3 {-8/9 57ms}
+a6 {18/9 12ms} 4. a4 {-17/9 19ms} Nf6 {24/9 31ms} 5. h3 {-7/9 19ms} O-O {12/9 31ms}
+6. Nge2 {-10/9 16ms} Ne8 {0/9 81ms} 7. Be3 {3/9 19ms} Nd4 {5/9 21ms} 8. Rb1 {21/9 29ms}
+d6 {-15/9 97ms} 9. b4 {25/9 43ms} cxb4 {-26/9 53ms} 10. Rxb4 {49/9 16ms} Qa5 {-14/9 20ms}
+11. Nd5 {78/9 5ms} e6 {-24/9 10ms} 12. Nxd4 {84/9 4ms} exd5 {-85/9 23ms} 13. Qd2 {97/9 4ms}
+dxc4 {-108/9 16ms} 14. dxc4 {79/9 22ms} Nc7 {-93/9 15ms} 15. Nb3 {138/9 7ms} Qh5 {-84/9 11ms}
+16. Rb6 {131/9 14ms} Be6 {-91/9 23ms} 17. g4 {271/9 3ms} Bxg4 {-294/9 10ms} 18. hxg4 {224/9 6ms}
+Qxg4 {-281/9 10ms} 19. Kf1 {236/9 13ms} Rfd8 {-281/9 8ms} 20. Rh3 {239/9 7ms} h6 {-271/9 11ms}
+21. a5 {295/9 13ms} h5 {-303/9 49ms} 22. Rg3 {298/9 9ms} Qe6 {-281/9 10ms} 23. Qd3 {286/9 18ms}
+Qe8 {-283/9 9ms} 24. Bh3 {285/9 7ms} Na8 {-272/9 9ms} 25. Rb4 {358/9 9ms} Qe7 {-289/9 13ms}
+26. Bg5 {387/9 5ms} Bf6 {-290/9 10ms} 27. Bxf6 {273/9 11ms} Qxf6 {-270/9 7ms} 28. Qf3 {298/9 19ms}
+Qe5 {-287/9 8ms} 29. Bf5 {252/9 35ms} Kg7 {-275/9 23ms} 30. Qe3 {253/9 48ms} b6 {-198/9 29ms}
+31. axb6 {263/9 15ms} Rb7 {-207/9 29ms} 32. Nd4 {264/9 49ms} Re8 {-256/9 28ms} 33. Bxg6 {340/9 25ms}
+fxg6 {-285/9 5ms} 34. Nf5+ {310/9 5ms} Qxf5 {-298/9 6ms} 35. exf5 {348/9 6ms} Rxe3 {-349/9 5ms}
+36. Rxg6+ {412/9 1ms} Kh7 {-338/9 8ms} 37. fxe3 {352/9 4ms} a5 {-413/9 7ms} 38. Rb5 {493/9 6ms}
+a4 {-383/9 5ms} 39. Rxd6 {453/9 6ms} a3 {-403/9 9ms} 40. c5 {484/9 2ms} Nxb6 {-519/9 12ms}
+41. cxb6 {515/9 6ms} h4 {-541/9 10ms} 42. Ra5 {583/9 7ms} h3 {-599/9 5ms} 43. Ra7 {754/9 4ms}
+Rg7 {-697/9 3ms} 44. Rdd7 {688/9 2ms} Rxd7 {-626/9 3ms} 45. Rxd7+ {581/9 8ms} Kh6 {-561/9 6ms}
+46. Rd2 {700/9 9ms} Kg5 {-574/9 4ms} 47. b7 {695/9 3ms} Kh6 {-715/9 3ms} 48. b8=Q {1104/9 3ms}
+Kg7 {-1135/9 9ms} 49. Qe5+ {M5/9 4ms} Kh6 {-M3/9 1ms} 50. Qf6+ {M3/9 1ms} Kh7 {-M2/9 0ms}
+51. Qg6+ {M2/9 1ms} Kh8 {-M1/9 0ms} 52. Rd8# {M1/9 0ms} 1-0
+
+[Round "1.33"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "0-1"]
+[Termination "checkmate"]
+[FEN "rnbqkb1r/1pp1pppp/5n2/p2p4/8/PP4P1/2PPPP1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "130"]
+
+1. Bb2 {-9/9 75ms} g6 {16/9 18ms} 2. Nf3 {-5/9 28ms} c5 {20/9 25ms} 3. Bg2 {-17/9 41ms}
+Bg7 {26/9 23ms} 4. Nc3 {-18/9 39ms} d4 {33/9 61ms} 5. Na4 {-10/9 19ms} Qc7 {36/9 29ms}
+6. b4 {8/9 14ms} axb4 {-18/9 29ms} 7. axb4 {13/9 13ms} cxb4 {-9/9 14ms} 8. Bxd4 {-13/9 21ms}
+Nbd7 {22/9 6ms} 9. O-O {-35/9 18ms} e5 {52/9 6ms} 10. Be3 {-29/9 7ms} Ng4 {57/9 30ms}
+11. Ng5 {-40/9 34ms} h6 {94/9 11ms} 12. Ne4 {-63/9 24ms} O-O {69/9 12ms} 13. c4 {-26/9 9ms}
+f5 {66/9 22ms} 14. Nec5 {-46/9 16ms} Nxe3 {57/9 18ms} 15. dxe3 {-112/9 2ms} Nxc5 {62/9 3ms}
+16. Nxc5 {-26/9 2ms} Rxa1 {119/9 1ms} 17. Qd5+ {-55/9 3ms} Kh7 {97/9 1ms} 18. Rxa1 {-221/9 4ms}
+Rd8 {234/9 1ms} 19. Ne6 {-50/9 2ms} Rxd5 {88/9 3ms} 20. Nxc7 {-34/9 7ms} Rc5 {80/9 6ms}
+21. Nd5 {-95/9 21ms} e4 {103/9 8ms} 22. Rb1 {-150/9 12ms} b5 {125/9 6ms} 23. Nxb4 {-104/9 4ms}
+bxc4 {93/9 10ms} 24. Nc2 {-140/9 27ms} Rd5 {150/9 11ms} 25. Nd4 {-78/9 9ms} Bxd4 {120/9 8ms}
+26. Rd1 {-104/9 6ms} c3 {100/9 6ms} 27. exd4 {-71/9 13ms} Rb5 {107/9 8ms} 28. Rc1 {-45/9 6ms}
+Ba6 {104/9 27ms} 29. Bf1 {-29/9 5ms} Rb3 {125/9 22ms} 30. f4 {-178/9 49ms} e3 {158/9 8ms}
+31. h3 {-151/9 23ms} Bc4 {194/9 11ms} 32. Kh2 {-106/9 7ms} g5 {222/9 27ms} 33. Rc2 {-163/9 40ms}
+Bd5 {237/9 28ms} 34. Rc1 {-152/9 17ms} Bc4 {184/9 19ms} 35. Rc2 {-160/9 11ms} Kg7 {174/9 10ms}
+36. fxg5 {-152/9 11ms} hxg5 {228/9 12ms} 37. Bg2 {-152/9 18ms} Kf6 {198/9 16ms} 38. h4 {-179/9 12ms}
+g4 {239/9 3ms} 39. h5 {-167/9 7ms} Kg5 {145/9 12ms} 40. d5 {-156/9 9ms} Bb5 {143/9 6ms}
+41. d6 {-195/9 12ms} Rb2 {184/9 6ms} 42. Rxc3 {-215/9 7ms} Rxe2 {208/9 6ms} 43. Rc5 {-187/9 4ms}
+Rb2 {289/9 7ms} 44. Rd5 {-230/9 13ms} e2 {297/9 5ms} 45. Re5 {-248/9 5ms} Rd2 {299/9 7ms}
+46. h6 {-346/9 10ms} Kxh6 {383/9 4ms} 47. d7 {-445/9 9ms} Rxd7 {375/9 4ms} 48. Rxb5 {-493/9 11ms}
+e1=Q {599/9 6ms} 49. Rxf5 {-580/9 8ms} Rd1 {632/9 1ms} 50. Rf1 {-577/9 2ms} Qxf1 {642/9 3ms}
+51. Bxf1 {-621/9 6ms} Rxf1 {668/9 9ms} 52. Kg2 {-657/9 4ms} Ra1 {665/9 7ms} 53. Kf2 {-649/9 5ms}
+Kg5 {714/9 15ms} 54. Ke2 {-720/9 6ms} Kf5 {860/9 3ms} 55. Ke3 {-845/9 6ms} Ke5 {855/9 7ms}
+56. Kd3 {-807/9 3ms} Ra3+ {913/9 2ms} 57. Ke2 {-979/9 5ms} Ke4 {965/9 2ms} 58. Kf2 {-979/9 0ms}
+Ra2+ {974/9 1ms} 59. Kf1 {-979/9 0ms} Kf3 {987/9 2ms} 60. Ke1 {-1208/9 11ms} Kxg3 {992/9 3ms}
+61. Kd1 {-1130/9 3ms} Kf3 {M5/9 4ms} 62. Kc1 {-1135/9 8ms} g3 {M4/9 1ms} 63. Kb1 {-1184/9 8ms}
+Rf2 {M3/9 1ms} 64. Ka1 {-M2/9 0ms} g2 {M2/9 0ms} 65. Kb1 {-M1/9 1ms} g1=Q# {M1/9 0ms}
+0-1
+
+[Round "1.34"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkb1r/1pp1pppp/5n2/p2p4/8/PP4P1/2PPPP1P/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "158"]
+
+1. Nf3 {-12/9 54ms} d4 {0/9 47ms} 2. Bg2 {-8/9 25ms} c5 {2/9 14ms} 3. d3 {-5/9 25ms}
+Nc6 {0/9 17ms} 4. O-O {5/9 11ms} e5 {0/9 38ms} 5. e3 {-2/9 37ms} Bd6 {5/9 20ms}
+6. a4 {1/9 44ms} O-O {-2/9 90ms} 7. e4 {22/9 60ms} Bc7 {-8/9 72ms} 8. Nfd2 {29/9 18ms}
+Ra6 {-30/9 55ms} 9. Na3 {26/9 22ms} Ne8 {-32/9 36ms} 10. Ndc4 {22/9 33ms} f6 {-35/9 32ms}
+11. Nb5 {36/9 20ms} Bb8 {-30/9 21ms} 12. Qe2 {34/9 20ms} Nb4 {-25/9 26ms} 13. c3 {31/9 12ms}
+dxc3 {6/9 9ms} 14. Nxc3 {33/9 18ms} Nc7 {13/9 35ms} 15. Bb2 {0/9 58ms} Be6 {31/9 37ms}
+16. Rfd1 {-15/9 44ms} Qd7 {44/9 40ms} 17. Kh1 {-29/9 31ms} Nc6 {46/9 74ms} 18. Nb5 {-26/9 11ms}
+Nd4 {34/9 32ms} 19. Nxd4 {-13/9 9ms} cxd4 {26/9 42ms} 20. Rdc1 {-20/9 28ms} b5 {12/9 27ms}
+21. axb5 {9/9 25ms} Nxb5 {22/9 5ms} 22. Nxa5 {-11/9 29ms} Rc8 {11/9 69ms} 23. Nc4 {7/9 13ms}
+Rac6 {4/9 66ms} 24. Qd2 {0/9 91ms} Bd6 {-1/9 52ms} 25. f4 {-7/9 65ms} h6 {0/9 29ms}
+26. Bf3 {-9/9 42ms} Kh7 {0/9 86ms} 27. f5 {11/9 26ms} Bf7 {39/9 20ms} 28. g4 {15/9 28ms}
+Nc3 {-35/9 90ms} 29. h4 {49/9 12ms} Be7 {-64/9 70ms} 30. Bxc3 {50/9 20ms} dxc3 {-35/9 33ms}
+31. Qxc3 {62/9 9ms} Rc5 {-38/9 41ms} 32. Ra4 {70/9 96ms} R5c7 {-43/9 50ms} 33. Qd2 {46/9 38ms}
+Bxc4 {-35/9 44ms} 34. Rcxc4 {19/9 18ms} Rxc4 {-17/9 4ms} 35. Rxc4 {14/9 10ms} Rxc4 {-4/9 9ms}
+36. bxc4 {12/9 8ms} Qd4 {-6/9 39ms} 37. Kh2 {2/9 54ms} Kg8 {-10/9 62ms} 38. g5 {2/9 24ms}
+fxg5 {-8/9 38ms} 39. hxg5 {2/9 17ms} Bxg5 {0/9 8ms} 40. Qe2 {1/9 33ms} Bf4+ {-3/9 97ms}
+41. Kg2 {8/9 34ms} Qd8 {0/9 17ms} 42. Bh5 {9/9 28ms} Qh4 {0/9 25ms} 43. Qf3 {0/9 11ms}
+Qh2+ {-2/9 14ms} 44. Kf1 {7/9 6ms} Qc2 {0/9 5ms} 45. Qe2 {14/9 7ms} Qc1+ {0/9 7ms}
+46. Kg2 {12/9 9ms} Be3 {0/9 9ms} 47. Qd1 {5/9 17ms} Qxd1 {0/9 17ms} 48. Bxd1 {10/9 9ms}
+Kf7 {0/9 9ms} 49. Kf3 {10/9 25ms} Ba7 {0/9 8ms} 50. Ba4 {9/9 11ms} Kf6 {0/9 10ms}
+51. Kg4 {7/9 8ms} Bc5 {0/9 15ms} 52. Bd7 {8/9 11ms} Ba7 {0/9 8ms} 53. Ba4 {6/9 7ms}
+Bg1 {0/9 3ms} 54. Kh5 {9/9 9ms} Bc5 {0/9 3ms} 55. Bd7 {8/9 9ms} Bf2 {0/9 5ms}
+56. Be6 {8/9 5ms} Ba7 {0/9 9ms} 57. Bc8 {0/9 7ms} Bc5 {0/9 7ms} 58. Bb7 {0/9 2ms}
+Ba7 {0/9 4ms} 59. Ba6 {0/9 2ms} Bg1 {0/9 3ms} 60. Kg4 {0/9 2ms} Ba7 {0/9 4ms}
+61. Bb5 {0/9 6ms} Bf2 {0/9 8ms} 62. Ba6 {0/9 3ms} Bg1 {0/9 4ms} 63. Bb5 {0/9 5ms}
+Bf2 {0/9 4ms} 64. Kh5 {5/9 4ms} Bb6 {0/9 4ms} 65. Bc6 {0/9 7ms} Bf2 {0/9 4ms}
+66. Ba4 {0/9 3ms} Bb6 {0/9 3ms} 67. Kg4 {0/9 5ms} Bg1 {0/9 7ms} 68. Kh4 {0/9 6ms}
+Bb6 {0/9 3ms} 69. Bc6 {4/9 3ms} Bf2+ {0/9 5ms} 70. Kh5 {0/9 3ms} Bb6 {0/9 5ms}
+71. Bd5 {1/9 7ms} Ba7 {0/9 4ms} 72. Bc6 {1/9 6ms} Bf2 {0/9 3ms} 73. Bd5 {0/9 2ms}
+Bb6 {0/9 2ms} 74. Bb7 {0/9 4ms} Ba7 {0/9 3ms} 75. Bd5 {0/9 6ms} Bg1 {0/9 4ms}
+76. Kg4 {0/9 3ms} Bd4 {0/9 4ms} 77. Kh5 {0/9 3ms} Bb6 {0/9 4ms} 78. Kg4 {0/9 3ms}
+Bg1 {0/9 3ms} 79. Kh5 {0/9 3ms} Bb6 {0/9 2ms} 1/2-1/2
+
+[Round "1.35"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "r1bqkbnr/1pppppp1/p1n5/7p/2P2P2/3P4/PP2P1PP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "171"]
+
+1. d4 {31/9 31ms} e5 {-22/9 53ms} 2. d5 {28/9 12ms} exf4 {-19/9 15ms} 3. dxc6 {31/9 7ms}
+Qh4+ {119/9 7ms} 4. Kd2 {34/9 10ms} Rh6 {11/9 20ms} 5. e4 {-28/9 24ms} fxe3+ {60/9 18ms}
+6. Kc2 {15/9 4ms} Qf2+ {37/9 25ms} 7. Qe2 {76/9 12ms} Qf5+ {0/9 16ms} 8. Qd3 {130/9 2ms}
+dxc6 {4/9 7ms} 9. Nc3 {1/9 16ms} Rd6 {37/9 12ms} 10. Qxf5 {58/9 4ms} Bxf5+ {11/9 20ms}
+11. Kb3 {22/9 12ms} Re6 {16/9 9ms} 12. Nge2 {61/9 15ms} Rd8 {-26/9 25ms} 13. Nf4 {65/9 3ms}
+Re5 {20/9 2ms} 14. Nxh5 {0/9 35ms} b5 {0/9 16ms} 15. a3 {-6/9 12ms} Ne7 {-21/9 29ms}
+16. Nf4 {0/9 37ms} g5 {0/9 16ms} 17. Nh5 {16/9 5ms} Bh6 {0/9 17ms} 18. Nf6+ {30/9 34ms}
+Kf8 {38/9 22ms} 19. h3 {53/9 14ms} Bg7 {-12/9 32ms} 20. Ng4 {54/9 8ms} e2 {-12/9 7ms}
+21. Bxe2 {79/9 2ms} Rxe2 {4/9 1ms} 22. Nxe2 {110/9 4ms} bxc4+ {-158/9 20ms} 23. Ka2 {162/9 5ms}
+c3 {-124/9 14ms} 24. b3 {162/9 3ms} c5 {-153/9 10ms} 25. Bxg5 {282/9 5ms} c4 {-187/9 14ms}
+26. b4 {202/9 7ms} a5 {-164/9 33ms} 27. Rad1 {187/9 17ms} Bd3 {-201/9 9ms} 28. Rhe1 {139/9 18ms}
+c2 {-115/9 13ms} 29. Bxe7+ {231/9 1ms} Kxe7 {-172/9 5ms} 30. Nd4+ {132/9 6ms} Kf8 {-143/9 14ms}
+31. Nxc2 {208/9 3ms} Rb8 {-249/9 11ms} 32. Nge3 {247/9 11ms} Bc3 {-249/9 11ms} 33. Rh1 {213/9 11ms}
+f5 {-221/9 18ms} 34. Nd5 {232/9 6ms} Be5 {-208/9 13ms} 35. Rde1 {218/9 5ms} Bg7 {-175/9 13ms}
+36. Rc1 {211/9 9ms} c5 {-188/9 6ms} 37. b5 {184/9 4ms} Rxb5 {-188/9 5ms} 38. Rb1 {229/9 3ms}
+Rb3 {-290/9 6ms} 39. Rxb3 {127/9 6ms} cxb3+ {-217/9 3ms} 40. Kxb3 {236/9 2ms} c4+ {-207/9 7ms}
+41. Ka4 {120/9 10ms} Bxc2+ {-204/9 5ms} 42. Kb5 {144/9 1ms} c3 {-195/9 7ms} 43. Kc4 {138/9 3ms}
+Be4 {-141/9 6ms} 44. Nxc3 {127/9 2ms} Bxg2 {-165/9 7ms} 45. Rd1 {76/9 7ms} Bxh3 {-100/9 15ms}
+46. Rd5 {82/9 10ms} Ke7 {-110/9 15ms} 47. Rxa5 {107/9 31ms} Bf1+ {-109/9 22ms} 48. Kb3 {89/9 23ms}
+Ke6 {-95/9 13ms} 49. Kc2 {102/9 11ms} f4 {-140/9 18ms} 50. Kd2 {80/9 16ms} Bd4 {-90/9 11ms}
+51. Nd5 {84/9 13ms} f3 {-85/9 8ms} 52. Ne3 {80/9 28ms} Be2 {-68/9 11ms} 53. Ng4 {59/9 46ms}
+Kd6 {-35/9 36ms} 54. Rf5 {52/9 24ms} Bc5 {-62/9 26ms} 55. a4 {67/9 3ms} Ba7 {-59/9 30ms}
+56. Ne5 {87/9 26ms} Ke6 {-71/9 7ms} 57. Rh5 {79/9 31ms} Kd6 {-64/9 10ms} 58. Nf7+ {99/9 9ms}
+Ke6 {-77/9 54ms} 59. Ng5+ {161/9 35ms} Kf6 {-92/9 7ms} 60. Ne4+ {135/9 10ms} Kg6 {-178/9 10ms}
+61. Rd5 {142/9 13ms} Bb8 {-141/9 5ms} 62. Ke1 {117/9 27ms} Ba7 {-143/9 10ms} 63. Rd6+ {343/9 3ms}
+Kf5 {-442/9 5ms} 64. Ng3+ {256/9 3ms} Ke5 {-361/9 3ms} 65. Rd7 {337/9 3ms} Bc5 {-394/9 11ms}
+66. Nxe2 {366/9 3ms} Bb4+ {-431/9 12ms} 67. Kf1 {389/9 3ms} fxe2+ {-440/9 18ms} 68. Kxe2 {419/9 6ms}
+Ke6 {-417/9 16ms} 69. Rd3 {401/9 7ms} Ba5 {-403/9 17ms} 70. Kf3 {390/9 8ms} Ke5 {-420/9 28ms}
+71. Rd7 {383/9 7ms} Bb6 {-410/9 23ms} 72. Rb7 {382/9 3ms} Bd8 {-406/9 10ms} 73. a5 {415/9 7ms}
+Bxa5 {-442/9 23ms} 74. Rb5+ {420/9 7ms} Kd4 {-443/9 9ms} 75. Rxa5 {424/9 3ms} Kc4 {-423/9 49ms}
+76. Ke4 {406/9 38ms} Kc3 {-435/9 34ms} 77. Rh5 {407/9 24ms} Kc2 {-418/9 68ms} 78. Rh2+ {404/9 57ms}
+Kc3 {-428/9 40ms} 79. Rh5 {389/9 82ms} Kd2 {-416/9 43ms} 80. Kd4 {388/9 22ms} Ke2 {-409/9 24ms}
+81. Rh2+ {413/9 22ms} Kf3 {-391/9 75ms} 82. Rb2 {394/9 9ms} Kg3 {-393/9 34ms} 83. Ke3 {383/9 24ms}
+Kh4 {-399/9 13ms} 84. Kf4 {M3/9 1ms} Kh3 {-M2/9 7ms} 85. Rc2 {M2/9 1ms} Kh4 {-M1/9 0ms}
+86. Rh2# {M1/9 0ms} 1-0
+
+[Round "1.36"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "r1bqkbnr/1pppppp1/p1n5/7p/2P2P2/3P4/PP2P1PP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "53"]
+
+1. Nf3 {29/9 37ms} e6 {-31/9 24ms} 2. d4 {29/9 29ms} d5 {-26/9 59ms} 3. e3 {24/9 58ms}
+Nf6 {-26/9 11ms} 4. a3 {21/9 45ms} b6 {-32/9 59ms} 5. cxd5 {46/9 4ms} exd5 {-11/9 9ms}
+6. Bd3 {10/9 57ms} Bd6 {-4/9 48ms} 7. Ne5 {5/9 24ms} Ne7 {14/9 8ms} 8. O-O {-1/9 19ms}
+c5 {10/9 35ms} 9. Nc3 {4/9 42ms} c4 {1/9 45ms} 10. Bb1 {5/9 25ms} Bg4 {-6/9 25ms}
+11. Qe1 {5/9 10ms} Bf5 {-25/9 15ms} 12. Bd2 {-18/9 16ms} b5 {-4/9 36ms} 13. Nxd5 {1/9 14ms}
+Bxb1 {7/9 7ms} 14. Ba5 {41/9 10ms} Qb8 {12/9 4ms} 15. Nxf6+ {53/9 4ms} gxf6 {5/9 3ms}
+16. Qxb1 {48/9 7ms} fxe5 {-61/9 9ms} 17. fxe5 {46/9 5ms} Bc7 {-26/9 5ms} 18. Bb4 {54/9 6ms}
+Qb7 {19/9 3ms} 19. Bxe7 {39/9 3ms} Kxe7 {-11/9 4ms} 20. Rxf7+ {0/9 12ms} Kxf7 {0/9 2ms}
+21. Qf5+ {0/9 2ms} Ke8 {0/9 1ms} 22. Qg6+ {0/9 2ms} Kd7 {0/9 2ms} 23. Qf5+ {0/9 2ms}
+Kd8 {0/9 1ms} 24. Qf6+ {0/9 1ms} Kd7 {0/9 1ms} 25. Qf5+ {0/9 1ms} Ke7 {0/9 0ms}
+26. Qf6+ {0/9 0ms} Kd7 {0/9 1ms} 27. Qf5+ {0/9 0ms} 1/2-1/2
+
+[Round "1.37"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rn1qkbnr/ppp1pppp/8/5b2/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 1"]
+[PlyCount "225"]
+
+1. e3 {46/9 26ms} e6 {-35/9 25ms} 2. Bxc4 {55/9 15ms} c6 {-40/9 38ms} 3. Nc3 {41/9 43ms}
+Nf6 {-38/9 38ms} 4. O-O {43/9 18ms} Be7 {-46/9 49ms} 5. Re1 {41/9 20ms} Bg6 {-51/9 52ms}
+6. e4 {52/9 23ms} Bh5 {-60/9 33ms} 7. Be3 {63/9 52ms} O-O {-54/9 35ms} 8. h3 {59/9 56ms}
+Bb4 {-50/9 32ms} 9. g4 {39/9 51ms} Bg6 {-41/9 12ms} 10. Bg5 {60/9 30ms} Qc7 {-44/9 19ms}
+11. Bd3 {47/9 38ms} c5 {-39/9 13ms} 12. a3 {65/9 24ms} Bxc3 {-68/9 20ms} 13. bxc3 {75/9 40ms}
+Nbd7 {-52/9 36ms} 14. Nh4 {72/9 22ms} Qc6 {-59/9 64ms} 15. Qe2 {87/9 26ms} cxd4 {-73/9 24ms}
+16. cxd4 {87/9 49ms} Qa4 {-82/9 22ms} 17. Nxg6 {149/9 5ms} hxg6 {-156/9 14ms} 18. e5 {162/9 8ms}
+Nh7 {-122/9 11ms} 19. Be7 {143/9 16ms} Rfe8 {-119/9 24ms} 20. Bb4 {155/9 18ms} Red8 {-114/9 16ms}
+21. Rab1 {175/9 14ms} a6 {-191/9 11ms} 22. Bc2 {199/9 9ms} Qb5 {-183/9 7ms} 23. Be4 {208/9 13ms}
+Nb6 {-153/9 15ms} 24. Qxb5 {202/9 12ms} axb5 {-149/9 14ms} 25. Bxb7 {210/9 6ms} Rab8 {-156/9 13ms}
+26. Bg2 {186/9 18ms} Nc4 {-146/9 16ms} 27. Bc5 {167/9 12ms} Nf8 {-127/9 10ms} 28. Bc6 {235/9 7ms}
+Nd2 {-165/9 13ms} 29. Rb4 {205/9 12ms} Rdc8 {-167/9 10ms} 30. Bg2 {250/9 6ms} g5 {-237/9 18ms}
+31. Rd1 {250/9 5ms} Nc4 {-250/9 5ms} 32. Ba7 {288/9 2ms} Ra8 {-268/9 4ms} 33. Bxa8 {273/9 2ms}
+Rxa8 {-320/9 8ms} 34. Bc5 {282/9 5ms} Ng6 {-355/9 6ms} 35. Rxb5 {360/9 4ms} Nf4 {-378/9 12ms}
+36. Rb3 {303/9 10ms} Kh7 {-297/9 34ms} 37. Bd6 {294/9 20ms} Kg6 {-290/9 9ms} 38. Kh2 {277/9 11ms}
+Rh8 {-271/9 13ms} 39. Bb4 {272/9 15ms} Rb8 {-292/9 15ms} 40. Rf3 {310/9 10ms} f5 {-271/9 6ms}
+41. exf6 {350/9 7ms} gxf6 {-326/9 4ms} 42. Re1 {365/9 9ms} Rd8 {-305/9 14ms} 43. Re4 {365/9 8ms}
+Kf7 {-308/9 7ms} 44. Rexf4 {364/9 4ms} gxf4 {-346/9 2ms} 45. Rxf4 {333/9 7ms} Nb2 {-376/9 10ms}
+46. Bc3 {383/9 6ms} Nd1 {-331/9 3ms} 47. Be1 {354/9 7ms} Rc8 {-337/9 8ms} 48. Rf3 {376/9 11ms}
+Rc2 {-348/9 10ms} 49. Kg3 {394/9 21ms} Rc4 {-346/9 7ms} 50. Rd3 {382/9 8ms} Nb2 {-337/9 3ms}
+51. Rb3 {344/9 6ms} Nd1 {-327/9 2ms} 52. Kf3 {403/9 6ms} Rxd4 {-385/9 5ms} 53. Ke2 {385/9 8ms}
+f5 {-372/9 7ms} 54. gxf5 {439/9 6ms} exf5 {-426/9 11ms} 55. Rb1 {420/9 8ms} f4 {-471/9 12ms}
+56. Rb4 {442/9 3ms} f3+ {-429/9 11ms} 57. Kxf3 {471/9 8ms} Rd3+ {-429/9 3ms} 58. Ke2 {444/9 5ms}
+Nxf2 {-414/9 5ms} 59. h4 {461/9 15ms} Rxa3 {-422/9 18ms} 60. Bxf2 {459/9 18ms} Kg6 {-431/9 19ms}
+61. Rd4 {459/9 30ms} Rh3 {-411/9 22ms} 62. Kf1 {468/9 59ms} Rb3 {-415/9 38ms} 63. Kg2 {459/9 43ms}
+Kh7 {-427/9 24ms} 64. Bg3 {467/9 20ms} Kg7 {-428/9 38ms} 65. Kh3 {472/9 32ms} Rb1 {-475/9 27ms}
+66. Kg4 {484/9 18ms} Rg1 {-448/9 12ms} 67. Rd7+ {507/9 36ms} Kg6 {-454/9 8ms} 68. Rd8 {509/9 36ms}
+Kh7 {-454/9 29ms} 69. Rd7+ {509/9 24ms} Kh6 {-471/9 11ms} 70. Rd6+ {508/9 7ms} Kh7 {-467/9 41ms}
+71. h5 {514/9 9ms} Kg7 {-465/9 6ms} 72. Ra6 {513/9 17ms} Kh7 {-468/9 8ms} 73. Rc6 {525/9 8ms}
+Kg7 {-464/9 24ms} 74. Ra6 {508/9 22ms} Rg2 {-454/9 15ms} 75. Kh4 {529/9 18ms} Rg1 {-462/9 27ms}
+76. Ra7+ {524/9 17ms} Kg8 {-451/9 11ms} 77. Kg4 {526/9 23ms} Kh8 {-454/9 10ms} 78. h6 {544/9 5ms}
+Kg8 {-470/9 5ms} 79. Kh4 {539/9 5ms} Rh1+ {-427/9 2ms} 80. Kg5 {543/9 2ms} Rg1 {-472/9 4ms}
+81. Kg4 {473/9 5ms} Kh8 {-439/9 8ms} 82. Re7 {507/9 14ms} Kg8 {-459/9 3ms} 83. Ra7 {473/9 11ms}
+Kh8 {-484/9 5ms} 84. Ra3 {505/9 4ms} Kh7 {-415/9 3ms} 85. Kg5 {549/9 5ms} Rg2 {-423/9 5ms}
+86. Rb3 {554/9 4ms} Rg1 {-434/9 4ms} 87. Ra3 {540/9 4ms} Rg2 {-433/9 2ms} 88. Rb3 {567/9 10ms}
+Re2 {-453/9 3ms} 89. Bf4 {514/9 11ms} Re7 {-388/9 12ms} 90. Ra3 {506/9 22ms} Rb7 {-435/9 11ms}
+91. Be5 {587/9 7ms} Rd7 {-509/9 4ms} 92. Rb3 {542/9 5ms} Rf7 {-560/9 8ms} 93. Bf6 {592/9 4ms}
+Rd7 {-525/9 3ms} 94. Re3 {743/9 2ms} Kg8 {-630/9 1ms} 95. Re7 {894/9 1ms} Rxe7 {-937/9 2ms}
+96. Bxe7 {896/9 0ms} Kf7 {-788/9 2ms} 97. Ba3 {923/9 4ms} Ke6 {-878/9 4ms} 98. Bb2 {903/9 16ms}
+Kd7 {-773/9 4ms} 99. h7 {917/9 30ms} Kc8 {-864/9 6ms} 100. Be5 {937/9 21ms} Kb7 {-1025/9 11ms}
+101. Kf6 {894/9 17ms} Ka6 {-884/9 4ms} 102. Bc3 {862/9 26ms} Kb5 {-861/9 2ms} 103. Ke6 {856/9 35ms}
+Kc4 {-877/9 17ms} 104. Be1 {842/9 10ms} Kb5 {-877/9 18ms} 105. Ke7 {837/9 11ms} Ka6 {-742/9 9ms}
+106. Bg3 {783/9 48ms} Kb6 {-742/9 19ms} 107. Bf4 {791/9 36ms} Kb7 {-750/9 12ms} 108. Ke6 {834/9 18ms}
+Kc6 {-772/9 14ms} 109. Be3 {828/9 18ms} Kc7 {-761/9 21ms} 110. h8=Q {M10/9 1ms} Kc6 {-M6/9 2ms}
+111. Qe8+ {M5/9 2ms} Kb7 {-M5/9 1ms} 112. Qd8 {M2/9 0ms} Ka6 {-M1/9 0ms} 113. Qb6# {M1/9 0ms}
+1-0
+
+[Round "1.38"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rn1qkbnr/ppp1pppp/8/5b2/2pP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 1"]
+[PlyCount "143"]
+
+1. Nc3 {44/9 22ms} Nf6 {-40/9 41ms} 2. Ne5 {55/9 19ms} Nbd7 {-31/9 60ms} 3. Nxc4 {41/9 17ms}
+e5 {-26/9 27ms} 4. dxe5 {31/9 34ms} Ng4 {-16/9 26ms} 5. Bf4 {97/9 8ms} g5 {-62/9 18ms}
+6. Bg3 {70/9 15ms} Bg7 {-56/9 17ms} 7. e4 {78/9 15ms} Be6 {-70/9 24ms} 8. Qc2 {79/9 8ms}
+Ngxe5 {-67/9 62ms} 9. Ne3 {68/9 10ms} c6 {-81/9 35ms} 10. h4 {65/9 71ms} Qb6 {-77/9 40ms}
+11. hxg5 {86/9 39ms} h6 {-109/9 23ms} 12. Nf5 {113/9 6ms} Bxf5 {-130/9 18ms} 13. exf5 {115/9 4ms}
+hxg5 {-85/9 12ms} 14. Rxh8+ {123/9 7ms} Bxh8 {-144/9 20ms} 15. O-O-O {127/9 2ms} Nc5 {-166/9 38ms}
+16. Qe2 {206/9 8ms} Qc7 {-159/9 16ms} 17. b4 {196/9 8ms} Nd7 {-189/9 19ms} 18. Ne4 {228/9 10ms}
+c5 {-173/9 9ms} 19. f6 {247/9 11ms} cxb4+ {-186/9 40ms} 20. Kb1 {212/9 11ms} b3 {-227/9 50ms}
+21. axb3 {174/9 10ms} Rd8 {-230/9 17ms} 22. Qh5 {356/9 5ms} Bxf6 {-460/9 3ms} 23. Nxf6+ {186/9 3ms}
+Nxf6 {-407/9 2ms} 24. Qh8+ {134/9 3ms} Ke7 {-447/9 2ms} 25. Rxd8 {314/9 2ms} Qxd8 {-381/9 5ms}
+26. Qxd8+ {352/9 3ms} Kxd8 {-446/9 6ms} 27. Bxe5 {352/9 3ms} Ne4 {-477/9 8ms} 28. Kc1 {357/9 8ms}
+Nxf2 {-411/9 9ms} 29. Bd4 {376/9 9ms} Ng4 {-416/9 22ms} 30. Be2 {412/9 8ms} f5 {-427/9 7ms}
+31. Bxg4 {551/9 3ms} fxg4 {-431/9 13ms} 32. Bxa7 {575/9 10ms} g3 {-438/9 22ms} 33. Kc2 {602/9 30ms}
+Kc7 {-463/9 11ms} 34. Be3 {636/9 10ms} Kd6 {-490/9 13ms} 35. Bxg5 {636/9 4ms} Ke6 {-509/9 17ms}
+36. Kd3 {630/9 16ms} Kf5 {-542/9 10ms} 37. Bh6 {622/9 10ms} Ke5 {-540/9 10ms} 38. b4 {655/9 16ms}
+Kd6 {-559/9 14ms} 39. Kd4 {677/9 24ms} Kc6 {-576/9 11ms} 40. Bf8 {640/9 10ms} Kb6 {-584/9 12ms}
+41. Kc4 {642/9 13ms} Kc6 {-545/9 4ms} 42. b5+ {667/9 13ms} Kd7 {-588/9 6ms} 43. Kd5 {701/9 9ms}
+Kc7 {-600/9 6ms} 44. Bc5 {655/9 9ms} Kb8 {-638/9 8ms} 45. Kd6 {692/9 6ms} Kc8 {-623/9 3ms}
+46. Ke6 {692/9 5ms} Kc7 {-595/9 4ms} 47. Ke7 {728/9 5ms} Kb8 {-629/9 2ms} 48. Kd7 {817/9 2ms}
+Ka8 {-721/9 2ms} 49. Kc8 {790/9 1ms} b6 {-794/9 1ms} 50. Bf8 {807/9 1ms} Ka7 {-800/9 0ms}
+51. Bg7 {807/9 1ms} Ka8 {-843/9 1ms} 52. Be5 {807/9 1ms} Ka7 {-899/9 1ms} 53. Bf4 {807/9 1ms}
+Ka8 {-899/9 0ms} 54. Bc1 {785/9 1ms} Ka7 {-797/9 1ms} 55. Be3 {761/9 1ms} Ka8 {-899/9 1ms}
+56. Kc7 {805/9 2ms} Ka7 {-914/9 1ms} 57. Bg1 {885/9 1ms} Ka8 {-844/9 1ms} 58. Kxb6 {1058/9 2ms}
+Kb8 {-769/9 2ms} 59. Be3 {1058/9 1ms} Kc8 {-675/9 4ms} 60. Ka6 {1058/9 2ms} Kc7 {-800/9 6ms}
+61. Bf4+ {1024/9 8ms} Kd7 {-1124/9 5ms} 62. b6 {1024/9 0ms} Ke8 {-1110/9 5ms} 63. b7 {1100/9 6ms}
+Kf7 {-1105/9 6ms} 64. b8=Q {1119/9 6ms} Kg7 {-1104/9 6ms} 65. Qe5+ {1133/9 10ms} Kg6 {-1125/9 5ms}
+66. Qe6+ {M7/9 3ms} Kg7 {-1142/9 2ms} 67. Be5+ {M6/9 0ms} Kf8 {-1177/9 4ms} 68. Bxg3 {M5/9 1ms}
+Kg7 {-1151/9 3ms} 69. Bd6 {M4/9 1ms} Kh8 {-M3/9 0ms} 70. Be5+ {M3/9 1ms} Kh7 {-M2/9 0ms}
+71. Qf7+ {M2/9 1ms} Kh6 {-M1/9 0ms} 72. Bf4# {M1/9 1ms} 1-0
+
+[Round "1.39"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1/2-1/2"]
+[Termination "50 moves rule"]
+[FEN "r1bqkbnr/pp1ppppp/2n5/8/3p4/1P2P3/P1P2PPP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "225"]
+
+1. exd4 {-19/9 41ms} d5 {26/9 48ms} 2. c3 {-23/9 38ms} Nf6 {30/9 96ms} 3. Nf3 {-23/9 16ms}
+a6 {21/9 89ms} 4. Be2 {-25/9 70ms} Bf5 {30/9 54ms} 5. Ba3 {-25/9 46ms} e6 {18/9 61ms}
+6. Bxf8 {-25/9 11ms} Kxf8 {20/9 31ms} 7. Nbd2 {-18/9 43ms} Rg8 {18/9 106ms} 8. Nh4 {-3/9 17ms}
+g6 {19/9 18ms} 9. Rc1 {-11/9 34ms} Rc8 {18/9 59ms} 10. O-O {-17/9 39ms} Kg7 {26/9 15ms}
+11. Re1 {-15/9 25ms} Re8 {33/9 30ms} 12. b4 {-1/9 52ms} h5 {17/9 40ms} 13. Bf1 {-9/9 51ms}
+Bg4 {38/9 27ms} 14. f3 {23/9 22ms} Bf5 {-6/9 34ms} 15. Nb3 {29/9 17ms} a5 {-9/9 35ms}
+16. Qd2 {39/9 13ms} b6 {-18/9 26ms} 17. a4 {33/9 23ms} Qd6 {1/9 26ms} 18. Bb5 {10/9 39ms}
+Rh8 {13/9 7ms} 19. bxa5 {3/9 20ms} Nxa5 {9/9 4ms} 20. Nxa5 {-15/9 18ms} bxa5 {21/9 9ms}
+21. Qe3 {-19/9 27ms} Rc7 {22/9 12ms} 22. Nxf5+ {5/9 7ms} exf5 {0/9 9ms} 23. Qe5 {-7/9 24ms}
+Qb6 {0/9 18ms} 24. h4 {-7/9 10ms} Rhc8 {2/9 11ms} 25. Re3 {-1/9 23ms} Rb8 {0/9 23ms}
+26. c4 {-9/9 19ms} dxc4 {32/9 6ms} 27. Rec3 {-6/9 5ms} Rbc8 {14/9 6ms} 28. Rxc4 {10/9 5ms}
+Rxc4 {12/9 4ms} 29. Rxc4 {0/9 6ms} Rxc4 {-2/9 8ms} 30. Bxc4 {0/9 10ms} Qb4 {-6/9 12ms}
+31. Bb5 {0/9 4ms} Qb2 {-3/9 10ms} 32. Be8 {0/9 6ms} Qd2 {0/9 7ms} 33. Bb5 {0/9 4ms}
+f4 {0/9 6ms} 34. Kh2 {32/9 17ms} Qe3 {-6/9 4ms} 35. Qd6 {0/9 17ms} Qf2 {20/9 10ms}
+36. Qe5 {0/9 7ms} Qe3 {0/9 2ms} 37. Qd6 {0/9 11ms} Qf2 {0/9 4ms} 38. Qe5 {0/9 2ms}
+Qxh4+ {10/9 1ms} 39. Kg1 {13/9 4ms} Qg3 {28/9 2ms} 40. Bf1 {23/9 2ms} h4 {21/9 3ms}
+41. d5 {7/9 6ms} h3 {79/9 2ms} 42. Qd4 {-59/9 11ms} hxg2 {77/9 15ms} 43. Bxg2 {-64/9 3ms}
+Qe1+ {105/9 2ms} 44. Bf1 {-62/9 2ms} Qg3+ {125/9 3ms} 45. Bg2 {-122/9 1ms} Qe1+ {100/9 2ms}
+46. Bf1 {-100/9 1ms} Qe3+ {105/9 3ms} 47. Qxe3 {-81/9 3ms} fxe3 {115/9 2ms} 48. d6 {-122/9 5ms}
+Kf8 {175/9 3ms} 49. Bc4 {-111/9 4ms} Nh5 {162/9 7ms} 50. d7 {-57/9 2ms} Ke7 {57/9 3ms}
+51. Bxf7 {-34/9 5ms} Kxd7 {21/9 13ms} 52. Bxg6 {-34/9 5ms} Nf4 {14/9 9ms} 53. Be4 {-35/9 6ms}
+Kd6 {15/9 8ms} 54. Kf1 {-26/9 4ms} Kc5 {14/9 9ms} 55. Ke1 {-20/9 8ms} Ne6 {7/9 19ms}
+56. Bf5 {-9/9 12ms} Nd4 {19/9 6ms} 57. Be4 {17/9 9ms} Kb4 {48/9 2ms} 58. f4 {-17/9 3ms}
+Kxa4 {41/9 4ms} 59. f5 {-18/9 7ms} Nxf5 {41/9 3ms} 60. Bxf5 {-20/9 6ms} Ka3 {43/9 8ms}
+61. Bd7 {-19/9 6ms} a4 {38/9 10ms} 62. Ke2 {-18/9 4ms} Ka2 {32/9 5ms} 63. Bxa4 {-17/9 3ms}
+Kb2 {18/9 12ms} 64. Be8 {-18/9 5ms} Kc3 {18/9 5ms} 65. Bh5 {-18/9 3ms} Kd4 {33/9 14ms}
+66. Bf3 {-18/9 6ms} Ke5 {34/9 6ms} 67. Bc6 {-19/9 19ms} Kf4 {31/9 9ms} 68. Be8 {-18/9 8ms}
+Ke5 {31/9 2ms} 69. Bd7 {-18/9 5ms} Kf6 {31/9 4ms} 70. Bf5 {-17/9 7ms} Kg7 {31/9 7ms}
+71. Bg6 {-17/9 5ms} Kh6 {20/9 8ms} 72. Bc2 {-17/9 5ms} Kg7 {19/9 11ms} 73. Bb1 {-17/9 5ms}
+Kf7 {18/9 7ms} 74. Bh7 {-17/9 3ms} Ke6 {19/9 4ms} 75. Bg6 {-17/9 3ms} Kd5 {17/9 3ms}
+76. Be4+ {-17/9 10ms} Kd6 {16/9 9ms} 77. Bd3 {-17/9 7ms} Ke5 {16/9 8ms} 78. Bg6 {-16/9 4ms}
+Kf4 {16/9 2ms} 79. Bf5 {-15/9 7ms} Ke5 {16/9 3ms} 80. Be6 {-16/9 7ms} Kd4 {16/9 9ms}
+81. Bb3 {-17/9 9ms} Kc5 {15/9 6ms} 82. Bc4 {-17/9 8ms} Kc6 {15/9 5ms} 83. Ba6 {-15/9 6ms}
+Kc5 {15/9 5ms} 84. Bc4 {-14/9 4ms} Kd4 {15/9 2ms} 85. Be6 {-14/9 5ms} Kc3 {15/9 4ms}
+86. Bh3 {-14/9 6ms} Kd4 {15/9 5ms} 87. Be6 {-14/9 1ms} Kc3 {15/9 4ms} 88. Bd5 {-11/9 7ms}
+Kc2 {15/9 4ms} 89. Be6 {-11/9 5ms} Kb2 {14/9 2ms} 90. Bc4 {-10/9 4ms} Ka3 {13/9 2ms}
+91. Bb3 {-11/9 3ms} Kb4 {13/9 4ms} 92. Bd5 {-10/9 7ms} Kb5 {14/9 7ms} 93. Bf7 {-10/9 7ms}
+Kc6 {14/9 5ms} 94. Bd5+ {-11/9 10ms} Kd6 {14/9 7ms} 95. Bc6 {-10/9 8ms} Ke7 {14/9 13ms}
+96. Bd5 {-10/9 3ms} Ke8 {14/9 2ms} 97. Bc4 {-10/9 4ms} Kd7 {14/9 4ms} 98. Bb3 {-9/9 4ms}
+Ke7 {14/9 5ms} 99. Bg8 {-9/9 4ms} Kf6 {14/9 5ms} 100. Bc4 {-9/9 9ms} Kg7 {14/9 3ms}
+101. Bf7 {-9/9 9ms} Kf6 {14/9 2ms} 102. Be8 {-9/9 7ms} Kg7 {14/9 5ms} 103. Bd7 {-8/9 16ms}
+Kg6 {14/9 5ms} 104. Bc8 {-7/9 5ms} Kg5 {14/9 6ms} 105. Bf5 {-8/9 15ms} Kf4 {14/9 3ms}
+106. Bd7 {-8/9 21ms} Ke4 {14/9 4ms} 107. Bc8 {-7/9 8ms} Kd5 {14/9 4ms} 108. Bf5 {-7/9 20ms}
+Ke5 {14/9 9ms} 109. Bh3 {-4/9 8ms} Kd6 {0/9 15ms} 110. Bg4 {0/9 7ms} Ke7 {0/9 7ms}
+111. Bc8 {0/9 4ms} Kd6 {0/9 2ms} 112. Ba6 {0/9 1ms} Kc5 {0/9 0ms} 113. Bc4 {0/9 0ms}
+1/2-1/2
+
+[Round "1.40"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "50 moves rule"]
+[FEN "r1bqkbnr/pp1ppppp/2n5/8/3p4/1P2P3/P1P2PPP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "266"]
+
+1. exd4 {-20/9 21ms} d5 {23/9 31ms} 2. c3 {-30/9 64ms} Bf5 {24/9 14ms} 3. Bd3 {-30/9 59ms}
+Bxd3 {27/9 9ms} 4. Qxd3 {-31/9 12ms} Nf6 {24/9 27ms} 5. Nf3 {-26/9 61ms} e6 {24/9 44ms}
+6. O-O {-16/9 38ms} Be7 {25/9 48ms} 7. Nbd2 {-11/9 36ms} O-O {25/9 56ms} 8. g3 {-24/9 92ms}
+Qb6 {36/9 12ms} 9. Bb2 {-26/9 36ms} Rfc8 {31/9 32ms} 10. h3 {-25/9 21ms} Rc7 {38/9 46ms}
+11. Rfe1 {-33/9 62ms} h6 {40/9 34ms} 12. a4 {-35/9 34ms} Na5 {31/9 57ms} 13. Qb5 {-22/9 10ms}
+Nd7 {25/9 31ms} 14. Ne5 {-31/9 25ms} Nxe5 {47/9 13ms} 15. Qxb6 {-21/9 14ms} Nf3+ {27/9 11ms}
+16. Nxf3 {-18/9 6ms} axb6 {23/9 15ms} 17. Nd2 {-17/9 18ms} Bg5 {26/9 33ms} 18. f4 {-13/9 19ms}
+Be7 {22/9 38ms} 19. Kf2 {-5/9 27ms} Rac8 {24/9 27ms} 20. Rf1 {-10/9 45ms} Bd6 {22/9 56ms}
+21. Ke2 {-13/9 55ms} g5 {18/9 22ms} 22. Rf3 {-23/9 79ms} gxf4 {22/9 23ms} 23. gxf4 {-24/9 27ms}
+f5 {17/9 8ms} 24. Kf2 {-9/9 21ms} Rg7 {24/9 33ms} 25. Ba3 {-8/9 54ms} Bb8 {54/9 6ms}
+26. Rg1 {-12/9 33ms} Rxg1 {39/9 11ms} 27. Kxg1 {-24/9 21ms} Kf7 {37/9 31ms} 28. Kf2 {-15/9 30ms}
+Nc6 {43/9 16ms} 29. Ke3 {-32/9 68ms} Rg8 {59/9 21ms} 30. c4 {-39/9 22ms} Rg2 {57/9 8ms}
+31. cxd5 {-84/9 29ms} exd5 {80/9 9ms} 32. Bc1 {-66/9 27ms} Nb4 {104/9 7ms} 33. Rf1 {-30/9 55ms}
+Nc6 {30/9 59ms} 34. Nf3 {-20/9 24ms} Rc2 {34/9 28ms} 35. Bd2 {-27/9 24ms} Rb2 {55/9 28ms}
+36. b4 {-23/9 10ms} Nxb4 {43/9 38ms} 37. Ne5+ {-51/9 44ms} Ke6 {43/9 47ms} 38. Rg1 {-51/9 11ms}
+Bxe5 {101/9 13ms} 39. dxe5 {-88/9 2ms} d4+ {58/9 6ms} 40. Kxd4 {-46/9 7ms} Rxd2+ {46/9 6ms}
+41. Kc3 {-53/9 4ms} Rf2 {36/9 6ms} 42. Rg6+ {-59/9 6ms} Kd5 {41/9 8ms} 43. Kxb4 {-53/9 8ms}
+Rxf4+ {44/9 6ms} 44. Kb3 {-52/9 30ms} Rh4 {45/9 11ms} 45. Rxb6 {-45/9 1ms} Rxh3+ {44/9 7ms}
+46. Kb4 {-62/9 35ms} f4 {56/9 26ms} 47. Rxb7 {-56/9 9ms} Kxe5 {48/9 19ms} 48. a5 {-31/9 15ms}
+f3 {39/9 20ms} 49. a6 {-31/9 13ms} Rh4+ {45/9 18ms} 50. Kc5 {-29/9 10ms} Ra4 {86/9 9ms}
+51. Kb6 {-42/9 12ms} Rb4+ {86/9 8ms} 52. Kc5 {-39/9 9ms} Ra4 {56/9 4ms} 53. Kb6 {-42/9 10ms}
+f2 {109/9 12ms} 54. Rf7 {-31/9 5ms} Rf4 {28/9 5ms} 55. Rxf4 {-34/9 6ms} Kxf4 {25/9 6ms}
+56. a7 {-29/9 5ms} f1=Q {14/9 12ms} 57. a8=Q {-26/9 4ms} Qg1+ {10/9 19ms} 58. Kb5 {-19/9 7ms}
+Qb1+ {28/9 10ms} 59. Kc5 {-10/9 21ms} Qf5+ {12/9 18ms} 60. Kd6 {-18/9 27ms} Qe5+ {16/9 35ms}
+61. Kd7 {-17/9 15ms} Qf5+ {15/9 24ms} 62. Kc7 {-20/9 27ms} Qc5+ {12/9 27ms} 63. Kd7 {-17/9 11ms}
+h5 {15/9 13ms} 64. Qa2 {-22/9 39ms} h4 {16/9 36ms} 65. Qa4+ {-23/9 30ms} Kg5 {19/9 29ms}
+66. Qa1 {-25/9 22ms} h3 {22/9 10ms} 67. Qg7+ {-12/9 7ms} Kf4 {29/9 4ms} 68. Qh6+ {-25/9 10ms}
+Kg4 {25/9 11ms} 69. Qg6+ {-25/9 2ms} Qg5 {21/9 8ms} 70. Qd6 {-28/9 15ms} Qf4 {26/9 13ms}
+71. Qg6+ {-32/9 12ms} Kf3 {24/9 16ms} 72. Qd3+ {-28/9 10ms} Qe3 {24/9 5ms} 73. Qd5+ {-28/9 11ms}
+Ke2 {35/9 25ms} 74. Kc8 {-26/9 17ms} Qe8+ {29/9 15ms} 75. Kb7 {-21/9 16ms} Qe7+ {29/9 3ms}
+76. Kb8 {-14/9 15ms} Qf8+ {29/9 6ms} 77. Ka7 {-16/9 18ms} Qa3+ {34/9 3ms} 78. Kb8 {-16/9 3ms}
+Qg3+ {46/9 2ms} 79. Kc8 {-21/9 37ms} Qc3+ {46/9 6ms} 80. Kb8 {-25/9 4ms} Qg3+ {29/9 12ms}
+81. Ka7 {-22/9 20ms} Qe3+ {47/9 2ms} 82. Kb8 {-23/9 3ms} Qf4+ {44/9 4ms} 83. Ka7 {-38/9 14ms}
+h2 {40/9 5ms} 84. Qb5+ {-27/9 3ms} Kf2 {40/9 8ms} 85. Qb2+ {-55/9 5ms} Kf3 {46/9 2ms}
+86. Qb7+ {-55/9 4ms} Kg3 {35/9 7ms} 87. Qg7+ {-55/9 1ms} Kf2 {33/9 2ms} 88. Qb2+ {-54/9 2ms}
+Kf3 {35/9 1ms} 89. Qb7+ {-57/9 6ms} Qe4 {43/9 2ms} 90. Qf7+ {-36/9 2ms} Ke3 {32/9 3ms}
+91. Qb3+ {-43/9 3ms} Kf4 {34/9 1ms} 92. Qf7+ {-43/9 1ms} Qf5 {36/9 1ms} 93. Qc4+ {-43/9 3ms}
+Kg5 {97/9 7ms} 94. Qc1+ {-91/9 7ms} Qf4 {21/9 18ms} 95. Qc5+ {-64/9 5ms} Kg6 {17/9 8ms}
+96. Qc6+ {-24/9 5ms} Kg7 {27/9 4ms} 97. Qg2+ {-18/9 11ms} Kf7 {18/9 3ms} 98. Qb7+ {-23/9 6ms}
+Ke6 {23/9 4ms} 99. Qc8+ {-29/9 3ms} Kd5 {23/9 2ms} 100. Qb7+ {-25/9 6ms} Kc4 {18/9 7ms}
+101. Qa6+ {-36/9 22ms} Kb4 {14/9 11ms} 102. Qb6+ {-14/9 8ms} Ka4 {13/9 4ms} 103. Qa6+ {-17/9 7ms}
+Kb4 {13/9 1ms} 104. Qb6+ {-23/9 10ms} Ka3 {8/9 7ms} 105. Qc5+ {-21/9 4ms} Kb2 {8/9 7ms}
+106. Qb5+ {-21/9 3ms} Kc3 {8/9 2ms} 107. Qa5+ {-20/9 4ms} Kd3 {7/9 5ms} 108. Qa3+ {-11/9 7ms}
+Ke2 {6/9 4ms} 109. Qb2+ {-11/9 3ms} Kf1 {9/9 2ms} 110. Qb1+ {-10/9 4ms} Kg2 {11/9 6ms}
+111. Qg6+ {-10/9 2ms} Kf3 {7/9 5ms} 112. Qc6+ {-7/9 5ms} Qe4 {10/9 5ms} 113. Qf6+ {-5/9 3ms}
+Ke3 {10/9 3ms} 114. Qc3+ {-6/9 4ms} Kf4 {9/9 7ms} 115. Qf6+ {-8/9 5ms} Ke3 {6/9 5ms}
+116. Qc3+ {-5/9 1ms} Kf4 {5/9 4ms} 117. Qf6+ {-7/9 4ms} Kg4 {10/9 6ms} 118. Qg7+ {-7/9 3ms}
+Kf3 {7/9 3ms} 119. Qf6+ {-4/9 8ms} Qf4 {6/9 9ms} 120. Qc6+ {-3/9 4ms} Kg3 {5/9 6ms}
+121. Qg6+ {-5/9 6ms} Qg4 {6/9 3ms} 122. Qd6+ {-6/9 3ms} Kg2 {5/9 8ms} 123. Qc6+ {-4/9 6ms}
+Qf3 {0/9 4ms} 124. Qg6+ {-2/9 4ms} Kf1 {2/9 7ms} 125. Qb1+ {-8/9 4ms} Kg2 {6/9 2ms}
+126. Qg6+ {-8/9 4ms} Kf2 {2/9 5ms} 127. Qc2+ {0/9 7ms} Kg1 {2/9 6ms} 128. Qg6+ {0/9 4ms}
+Qg2 {0/9 3ms} 129. Qb1+ {0/9 2ms} Qf1 {0/9 2ms} 130. Qg6+ {0/9 3ms} Kh1 {0/9 4ms}
+131. Qe4+ {0/9 4ms} Qg2 {0/9 2ms} 132. Qh4 {0/9 3ms} Qg7+ {0/9 4ms} 133. Ka8 {0/9 1ms}
+Qa1+ {0/9 1ms} 1/2-1/2
+
+[Round "1.41"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "rnbqkbnr/1pp1ppp1/p6p/3p4/5P2/3P4/PPPBP1PP/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "107"]
+
+1. e4 {7/9 32ms} e6 {-17/9 41ms} 2. Nf3 {11/9 26ms} b5 {0/9 28ms} 3. a4 {1/9 42ms}
+b4 {4/9 21ms} 4. c3 {-7/9 62ms} dxe4 {20/9 9ms} 5. dxe4 {7/9 12ms} Bb7 {22/9 18ms}
+6. cxb4 {-15/9 28ms} Nf6 {25/9 11ms} 7. Nc3 {-19/9 15ms} Bxb4 {17/9 44ms} 8. e5 {-13/9 11ms}
+Nd5 {21/9 27ms} 9. Bd3 {-10/9 21ms} Nd7 {13/9 33ms} 10. Nxd5 {-4/9 16ms} Bxd2+ {67/9 13ms}
+11. Qxd2 {-12/9 27ms} Bxd5 {15/9 25ms} 12. Rc1 {-3/9 14ms} Bxf3 {3/9 36ms} 13. gxf3 {-7/9 30ms}
+O-O {6/9 18ms} 14. Rg1 {10/9 8ms} Kh8 {0/9 46ms} 15. Be4 {4/9 41ms} Qh4+ {14/9 10ms}
+16. Kf1 {19/9 35ms} Rad8 {24/9 10ms} 17. Rg4 {19/9 8ms} Qh3+ {-10/9 13ms} 18. Qg2 {32/9 2ms}
+Qxg2+ {-57/9 12ms} 19. Rxg2 {41/9 7ms} Nb6 {-45/9 12ms} 20. a5 {50/9 25ms} Nd5 {-40/9 4ms}
+21. Rd2 {33/9 5ms} Nxf4 {-59/9 8ms} 22. Rxd8 {49/9 6ms} Rxd8 {-59/9 1ms} 23. Rxc7 {49/9 5ms}
+g5 {-57/9 8ms} 24. Rxf7 {63/9 2ms} Rd1+ {-52/9 4ms} 25. Kf2 {67/9 4ms} Rd2+ {-47/9 5ms}
+26. Ke3 {46/9 12ms} Rxb2 {-29/9 3ms} 27. Rh7+ {58/9 5ms} Kg8 {-47/9 6ms} 28. Rxh6 {59/9 6ms}
+Rb5 {-43/9 5ms} 29. h4 {87/9 6ms} Ng2+ {-73/9 8ms} 30. Kd4 {130/9 5ms} Nxh4 {-135/9 15ms}
+31. Rxe6 {132/9 5ms} Rxa5 {-156/9 14ms} 32. Rh6 {151/9 10ms} Ra3 {-201/9 37ms} 33. Kd5 {224/9 6ms}
+a5 {-240/9 14ms} 34. f4 {284/9 12ms} Ra2 {-272/9 26ms} 35. fxg5 {292/9 10ms} Rd2+ {-280/9 7ms}
+36. Kc6 {332/9 5ms} Ng2 {-268/9 6ms} 37. e6 {367/9 5ms} Re2 {-262/9 19ms} 38. Bxg2 {436/9 3ms}
+Rxg2 {-223/9 5ms} 39. e7 {488/9 2ms} Kf7 {-427/9 2ms} 40. Kd7 {502/9 1ms} Re2 {-621/9 3ms}
+41. Rf6+ {552/9 2ms} Kg7 {-662/9 1ms} 42. Re6 {516/9 6ms} Rd2+ {-702/9 21ms} 43. Kc6 {591/9 2ms}
+Rc2+ {-610/9 2ms} 44. Kd7 {551/9 4ms} Rd2+ {-614/9 2ms} 45. Kc6 {495/9 2ms} Rc2+ {-808/9 3ms}
+46. Kb7 {775/9 7ms} Rb2+ {-811/9 2ms} 47. Ka8 {781/9 4ms} Rb6 {-836/9 2ms} 48. e8=Q {833/9 4ms}
+Rxe6 {-912/9 4ms} 49. Qxe6 {884/9 2ms} Kf8 {-1077/9 5ms} 50. g6 {1290/9 2ms} Kg7 {-1362/9 0ms}
+51. Qf7+ {M4/9 1ms} Kh6 {-1422/9 7ms} 52. g7 {M3/9 1ms} Kh7 {-M2/9 0ms} 53. g8=Q+ {M2/9 1ms}
+Kh6 {-M1/9 0ms} 54. Qfh7# {M1/9 0ms} 1-0
+
+[Round "1.42"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1/2-1/2"]
+[Termination "3-fold repetition"]
+[FEN "rnbqkbnr/1pp1ppp1/p6p/3p4/5P2/3P4/PPPBP1PP/RN1QKBNR w KQkq - 0 1"]
+[PlyCount "166"]
+
+1. e4 {7/9 13ms} e6 {-7/9 43ms} 2. Nf3 {11/9 60ms} b5 {-5/9 22ms} 3. g3 {5/9 25ms}
+dxe4 {6/9 18ms} 4. dxe4 {16/9 9ms} Bb7 {-4/9 23ms} 5. Bg2 {16/9 32ms} Nf6 {-10/9 48ms}
+6. Qe2 {27/9 16ms} Be7 {-21/9 32ms} 7. e5 {21/9 13ms} Nd5 {-20/9 16ms} 8. Nc3 {33/9 15ms}
+Nxc3 {-18/9 17ms} 9. Bxc3 {18/9 14ms} b4 {-27/9 50ms} 10. Bd2 {17/9 28ms} Qd7 {-30/9 30ms}
+11. O-O {17/9 27ms} O-O {-23/9 43ms} 12. Be3 {35/9 53ms} Bd5 {-28/9 29ms} 13. f5 {66/9 11ms}
+Qb5 {-60/9 5ms} 14. Qf2 {55/9 14ms} Nc6 {-32/9 7ms} 15. f6 {60/9 8ms} gxf6 {-39/9 6ms}
+16. exf6 {56/9 11ms} Bxf6 {-12/9 7ms} 17. Bxh6 {53/9 9ms} Bxb2 {-22/9 15ms} 18. Rad1 {60/9 14ms}
+Qc4 {-85/9 23ms} 19. Rxd5 {90/9 16ms} Qxd5 {-4/9 10ms} 20. c4 {46/9 3ms} bxc3 {-74/9 8ms}
+21. Ng5 {46/9 8ms} Qc4 {14/9 9ms} 22. Bxc6 {-29/9 11ms} c2 {14/9 3ms} 23. Ne4 {-29/9 4ms}
+f5 {26/9 7ms} 24. Bxa8 {-54/9 21ms} Rxa8 {0/9 10ms} 25. Nd2 {55/9 5ms} Qxa2 {-46/9 6ms}
+26. Nf3 {69/9 9ms} Qb3 {-53/9 9ms} 27. Nd4 {123/9 5ms} Qb6 {-67/9 5ms} 28. Nxc2 {183/9 3ms}
+Qxf2+ {-61/9 3ms} 29. Kxf2 {118/9 13ms} a5 {-89/9 14ms} 30. Rb1 {115/9 22ms} Be5 {-110/9 28ms}
+31. Na3 {108/9 25ms} Bd6 {-76/9 14ms} 32. Nc4 {108/9 10ms} a4 {-120/9 25ms} 33. Ra1 {115/9 13ms}
+e5 {-110/9 20ms} 34. Bc1 {112/9 19ms} Kf7 {-118/9 38ms} 35. Ba3 {133/9 48ms} Ke6 {-118/9 39ms}
+36. Nb2 {123/9 47ms} f4 {-133/9 47ms} 37. Bxd6 {114/9 10ms} cxd6 {-83/9 3ms} 38. Rxa4 {109/9 15ms}
+Rb8 {-123/9 21ms} 39. Nc4 {98/9 19ms} fxg3+ {-103/9 1ms} 40. hxg3 {93/9 11ms} d5 {-77/9 10ms}
+41. Ne3 {97/9 12ms} e4 {-100/9 21ms} 42. Ra6+ {110/9 35ms} Ke5 {-87/9 4ms} 43. Ra5 {125/9 61ms}
+Rb2+ {-68/9 4ms} 44. Ke1 {87/9 21ms} Rb3 {-70/9 8ms} 45. Kf2 {71/9 12ms} Rb2+ {-73/9 4ms}
+46. Ke1 {52/9 28ms} Rb3 {-57/9 2ms} 47. Kd2 {96/9 10ms} Ke6 {-68/9 8ms} 48. Ra6+ {95/9 6ms}
+Ke5 {-61/9 4ms} 49. Ra5 {56/9 11ms} Ke6 {-60/9 7ms} 50. g4 {63/9 11ms} d4 {-51/9 14ms}
+51. Nf5 {68/9 23ms} Rb2+ {-56/9 18ms} 52. Kd1 {66/9 10ms} d3 {-48/9 21ms} 53. Ne3 {43/9 28ms}
+Re2 {-36/9 17ms} 54. Nd5 {46/9 18ms} Rf2 {-46/9 14ms} 55. Ne3 {60/9 27ms} Re2 {-49/9 10ms}
+56. Nc4 {61/9 20ms} Kf7 {-50/9 11ms} 57. Re5 {74/9 45ms} Kf6 {-43/9 12ms} 58. Rf5+ {42/9 28ms}
+Kg6 {-36/9 11ms} 59. Ne5+ {42/9 12ms} Kg7 {-37/9 40ms} 60. Nc4 {42/9 10ms} Kg6 {-32/9 11ms}
+61. Ne5+ {61/9 5ms} Kg7 {-27/9 4ms} 62. Rf7+ {39/9 5ms} Kh6 {-11/9 4ms} 63. Rf6+ {8/9 14ms}
+Kg5 {-4/9 12ms} 64. Rf5+ {46/9 5ms} Kh4 {-2/9 9ms} 65. Rf1 {4/9 92ms} Ra2 {0/9 20ms}
+66. Rf8 {0/9 10ms} e3 {6/9 56ms} 67. Nxd3 {-5/9 44ms} Kxg4 {3/9 36ms} 68. Ke1 {-8/9 64ms}
+Kg5 {1/9 87ms} 69. Nf4 {-11/9 110ms} Kh6 {0/9 108ms} 70. Rb8 {-2/9 41ms} Kg7 {1/9 29ms}
+71. Rb6 {0/9 48ms} Kf8 {0/9 52ms} 72. Rb7 {-4/9 34ms} Ra1+ {0/9 38ms} 73. Ke2 {0/9 17ms}
+Ra2+ {0/9 11ms} 74. Kxe3 {0/9 18ms} Ra3+ {-1/9 10ms} 75. Ke4 {0/9 23ms} Ra1 {-9/9 38ms}
+76. Ne6+ {0/9 15ms} Ke8 {-9/9 16ms} 77. Ke5 {0/9 23ms} Re1+ {-6/9 7ms} 78. Kf5 {0/9 10ms}
+Rf1+ {-12/9 12ms} 79. Ke5 {0/9 12ms} Re1+ {-4/9 3ms} 80. Kd6 {0/9 5ms} Rd1+ {-5/9 6ms}
+81. Kc5 {0/9 10ms} Rc1+ {-5/9 24ms} 82. Kd4 {0/9 10ms} Rd1+ {-4/9 19ms} 83. Ke5 {0/9 6ms}
+Re1+ {0/9 2ms} 1/2-1/2
+
+[Round "1.43"]
+[White "regular_model"]
+[Black "no_bishop_pair_advantage"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "r1bqkb1r/pp1ppppp/2n4n/2p5/4PP2/P7/1PPP2PP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "141"]
+
+1. Nc3 {0/9 46ms} e6 {41/9 17ms} 2. Nf3 {1/9 65ms} d5 {12/9 75ms} 3. Bb5 {1/9 27ms}
+Bd6 {3/9 38ms} 4. d3 {10/9 19ms} O-O {-9/9 67ms} 5. Bxc6 {16/9 11ms} bxc6 {-4/9 82ms}
+6. O-O {15/9 31ms} Qc7 {7/9 27ms} 7. e5 {-3/9 59ms} Be7 {10/9 67ms} 8. h3 {-6/9 75ms}
+f6 {9/9 42ms} 9. exf6 {2/9 78ms} Rxf6 {9/9 34ms} 10. b3 {11/9 22ms} Nf7 {4/9 58ms}
+11. Ne2 {18/9 26ms} e5 {0/9 17ms} 12. Qe1 {0/9 23ms} Bd6 {-4/9 49ms} 13. Bb2 {-6/9 49ms}
+d4 {-3/9 11ms} 14. b4 {14/9 17ms} Bd7 {7/9 13ms} 15. Ng3 {30/9 9ms} exf4 {-31/9 38ms}
+16. Ne4 {46/9 11ms} Rf5 {-60/9 43ms} 17. Qf2 {72/9 11ms} Ne5 {-43/9 8ms} 18. Nh4 {37/9 11ms}
+Rh5 {-114/9 10ms} 19. Nxd6 {86/9 4ms} Qxd6 {-61/9 14ms} 20. Qxf4 {81/9 19ms} Rf8 {-66/9 13ms}
+21. Qg3 {59/9 8ms} Rxf1+ {-53/9 3ms} 22. Rxf1 {68/9 7ms} c4 {-95/9 34ms} 23. Bc1 {72/9 11ms}
+h6 {-67/9 11ms} 24. Bf4 {108/9 17ms} cxd3 {-155/9 19ms} 25. cxd3 {108/9 2ms} c5 {-266/9 21ms}
+26. Re1 {259/9 4ms} Qe7 {-275/9 8ms} 27. Ng6 {272/9 4ms} Nxg6 {-273/9 5ms} 28. Rxe7 {272/9 6ms}
+Nxe7 {-252/9 9ms} 29. Bd2 {298/9 14ms} Rd5 {-292/9 9ms} 30. Bxh6 {322/9 11ms} Nf5 {-319/9 7ms}
+31. Qb8+ {323/9 9ms} Kh7 {-285/9 3ms} 32. Qb7 {348/9 13ms} Rd6 {-308/9 11ms} 33. Bf4 {356/9 5ms}
+Bc6 {-266/9 7ms} 34. Qc8 {378/9 14ms} Ne7 {-375/9 13ms} 35. Qg4 {377/9 7ms} Rg6 {-379/9 13ms}
+36. Qh4+ {394/9 6ms} Kg8 {-373/9 6ms} 37. Qxe7 {402/9 11ms} Bxg2 {-370/9 8ms} 38. Qe8+ {446/9 17ms}
+Kh7 {-360/9 5ms} 39. Qxg6+ {462/9 7ms} Kxg6 {-459/9 2ms} 40. Kxg2 {470/9 12ms} Kf5 {-495/9 13ms}
+41. Kf3 {516/9 14ms} cxb4 {-531/9 9ms} 42. axb4 {533/9 17ms} a6 {-538/9 16ms} 43. Bd6 {515/9 34ms}
+Ke6 {-526/9 8ms} 44. Bc7 {532/9 28ms} Kd5 {-559/9 13ms} 45. Bg3 {525/9 17ms} Ke6 {-568/9 10ms}
+46. Ke4 {555/9 21ms} Kf6 {-598/9 18ms} 47. Be5+ {570/9 18ms} Kg6 {-598/9 16ms} 48. Bxd4 {594/9 19ms}
+Kh6 {-615/9 18ms} 49. Be5 {587/9 15ms} g5 {-595/9 15ms} 50. d4 {628/9 35ms} Kg6 {-569/9 5ms}
+51. Bb8 {673/9 9ms} Kf7 {-609/9 28ms} 52. Bh2 {686/9 35ms} Ke7 {-618/9 11ms} 53. d5 {685/9 5ms}
+Kf6 {-628/9 25ms} 54. Bg3 {692/9 9ms} Kg6 {-621/9 18ms} 55. Be5 {718/9 5ms} Kf7 {-657/9 12ms}
+56. Kf5 {694/9 5ms} Ke7 {-697/9 9ms} 57. d6+ {731/9 7ms} Kd7 {-673/9 17ms} 58. Bg3 {700/9 9ms}
+Kc6 {-730/9 6ms} 59. Ke6 {838/9 3ms} a5 {-932/9 5ms} 60. bxa5 {857/9 2ms} Kb5 {-1064/9 9ms}
+61. d7 {1160/9 3ms} g4 {-1102/9 4ms} 62. hxg4 {1212/9 11ms} Kxa5 {-1214/9 13ms} 63. d8=Q+ {1207/9 4ms}
+Kb5 {-1217/9 17ms} 64. Qd3+ {1206/9 12ms} Kb6 {-1206/9 17ms} 65. Qb3+ {M14/9 2ms} Ka6 {-1208/9 8ms}
+66. Qa4+ {M6/9 0ms} Kb6 {-M5/9 5ms} 67. Bf2+ {M5/9 1ms} Kc7 {-M4/9 0ms} 68. Qd7+ {M4/9 1ms}
+Kb8 {-M3/9 1ms} 69. Bg3+ {M3/9 0ms} Ka8 {-M2/9 1ms} 70. Qc8+ {M2/9 0ms} Ka7 {-M1/9 0ms}
+71. Bf2# {M1/9 1ms} 1-0
+
+[Round "1.44"]
+[White "no_bishop_pair_advantage"]
+[Black "regular_model"]
+[Result "1-0"]
+[Termination "checkmate"]
+[FEN "r1bqkb1r/pp1ppppp/2n4n/2p5/4PP2/P7/1PPP2PP/RNBQKBNR w KQkq - 0 1"]
+[PlyCount "75"]
+
+1. Nc3 {-7/9 19ms} a6 {2/9 35ms} 2. Nf3 {6/9 11ms} f5 {-14/9 17ms} 3. d4 {36/9 8ms}
+fxe4 {-33/9 8ms} 4. Nxe4 {73/9 8ms} cxd4 {-42/9 16ms} 5. Neg5 {54/9 33ms} g6 {-23/9 36ms}
+6. Bd3 {67/9 16ms} d5 {-10/9 5ms} 7. Nxh7 {114/9 5ms} Rxh7 {32/9 2ms} 8. Bxg6+ {71/9 5ms}
+Rf7 {-58/9 11ms} 9. Ng5 {132/9 9ms} Qd6 {-75/9 5ms} 10. Qh5 {124/9 8ms} Qf6 {-101/9 7ms}
+11. Nxf7 {104/9 6ms} Nxf7 {-111/9 9ms} 12. O-O {137/9 13ms} Bd7 {-121/9 41ms} 13. Bd2 {192/9 6ms}
+Bg7 {-170/9 29ms} 14. Rae1 {222/9 24ms} Kf8 {-182/9 25ms} 15. g4 {184/9 15ms} d3 {-211/9 12ms}
+16. g5 {191/9 7ms} Qxb2 {-243/9 15ms} 17. f5 {219/9 7ms} Qd4+ {-222/9 6ms} 18. Kh1 {328/9 11ms}
+Nxg5 {-244/9 18ms} 19. c3 {286/9 10ms} Qf6 {-375/9 25ms} 20. Bxg5 {415/9 4ms} d2 {-455/9 15ms}
+21. Bxf6 {500/9 13ms} exf6 {-488/9 12ms} 22. Re2 {499/9 19ms} Ne7 {-489/9 13ms} 23. Rxe7 {512/9 7ms}
+Kxe7 {-506/9 13ms} 24. Qe2+ {561/9 3ms} Kd8 {-487/9 4ms} 25. Qxd2 {565/9 19ms} Bc6 {-446/9 3ms}
+26. Qf4 {531/9 2ms} Bf8 {-388/9 5ms} 27. Re1 {512/9 6ms} d4+ {-448/9 10ms} 28. Kg1 {494/9 11ms}
+Rc8 {-468/9 10ms} 29. c4 {490/9 6ms} Kd7 {-450/9 11ms} 30. Rd1 {530/9 7ms} Ra8 {-478/9 13ms}
+31. Bf7 {514/9 6ms} Bd6 {-539/9 6ms} 32. Rxd4 {568/9 6ms} Bd5 {-602/9 8ms} 33. Rxd5 {637/9 3ms}
+Rg8+ {-739/9 3ms} 34. Bxg8 {M5/9 3ms} Kc8 {-3691/9 1ms} 35. Qxd6 {M4/9 1ms} b5 {-M3/9 1ms}
+36. Qxa6+ {M3/9 1ms} Kb8 {-M2/9 0ms} 37. Qb6+ {M2/9 0ms} Kc8 {-M1/9 1ms} 38. Be6# {M1/9 0ms}
+1-0
+

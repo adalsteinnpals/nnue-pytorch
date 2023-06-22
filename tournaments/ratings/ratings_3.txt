@@ -1,0 +1,8 @@
+
+   # PLAYER                      :  RATING  POINTS  PLAYED   (%)
+   1 regular_model               :  2314.2    33.5      62    54
+   2 no_bishop_pair_advantage    :  2285.8    28.5      62    46
+
+White advantage = 0.00
+Draw rate (equal opponents) = 50.00 %
+
