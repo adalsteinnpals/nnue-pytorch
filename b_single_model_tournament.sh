@@ -1,10 +1,10 @@
 # declare ID variable
-ID=10
+ID=11
 stockfish_path=/home/ap/Stockfish
 nnue_path=/home/ap/nnue-pytorch
 ordo_path=../PycharmProjects/Ordo/ordo
 cli_path=../PycharmProjects/c-chess-cli/c-chess-cli
-depth=9
+depth=10
 games=500
 
 
@@ -21,14 +21,14 @@ if [ ! -d "tournaments/ratings" ]; then
 fi
 
 
-model=version_8_setting_3
+model=train_setting_3
 
 # make all engines in folder play against each other
-for file in serialized_models/$model/nn-epoch*.nnue
+for file in production_models/$model/serialized_models/nn-epoch*.nnue
 do
     engine_name=$(basename $file)
     # make string -engine cmd=$stockfish_path/src/stockfish name=$engine_name option.EvalFile=$nnue_path/serialized_models/$model/$engine_name depth=$depth
-    run_command="-engine cmd=$stockfish_path/src/stockfish name=$engine_name option.EvalFile=$nnue_path/serialized_models/$model/$engine_name depth=$depth"
+    run_command="-engine cmd=$stockfish_path/src/stockfish name=$engine_name option.EvalFile=$nnue_path/production_models/$model/serialized_models/$engine_name depth=$depth"
     # add run command to command string
     echo $run_command
     command="$command $run_command"

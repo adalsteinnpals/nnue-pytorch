@@ -894,6 +894,8 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
             // 2 = never only one with bishop pair
             // 3 = never only one with queen
             // 4 = never only one with knight pair
+            // 5 = same colored bishops
+            // 6 = opposite colored bishops
 
 
             // static thread_local double train_setting = 1;
@@ -920,6 +922,22 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
                 return (e.blackHasKnightPair() != e.whiteHasKnightPair());
             };
 
+        
+
+            // Return true if both players have same colored bishop only
+            auto same_color_bishop = [&]() {
+                return (e.blackHasWhiteSquareBishop() && e.whiteHasWhiteSquareBishop() && !e.blackHasBlackSquareBishop() && !e.whiteHasBlackSquareBishop()) || 
+                (!e.blackHasWhiteSquareBishop() && !e.whiteHasWhiteSquareBishop() && e.blackHasBlackSquareBishop() && e.whiteHasBlackSquareBishop());
+            };
+
+            // Return true if both players have opposite colored bishop only
+            auto opposite_color_bishop = [&]() {
+                return (e.blackHasWhiteSquareBishop() && !e.whiteHasWhiteSquareBishop() && !e.blackHasBlackSquareBishop() && e.whiteHasBlackSquareBishop()) || 
+                (!e.blackHasWhiteSquareBishop() && e.whiteHasWhiteSquareBishop() && e.blackHasBlackSquareBishop() && !e.whiteHasBlackSquareBishop());
+            };
+
+
+
 
             if (train_setting == 1)
                 if (both_have_queen())
@@ -941,6 +959,19 @@ std::function<bool(const TrainingDataEntry&)> make_skip_predicate(bool filtered,
                 if (only_one_has_knight_pair())
                     // print to terminal "throwing out using setting 4"
                     // std::cout << "throwing out using setting 4" << std::endl;
+                    return true;
+
+
+            if (train_setting == 5)
+                if (same_color_bishop())
+                    // print to terminal "throwing out using setting 5"
+                    // std::cout << "throwing out using setting 5" << std::endl;
+                    return true;
+
+            if (train_setting == 6)
+                if (opposite_color_bishop())
+                    // print to terminal "throwing out using setting 6"
+                    // std::cout << "throwing out using setting 6" << std::endl;
                     return true;
 
 

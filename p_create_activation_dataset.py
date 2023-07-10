@@ -68,27 +68,28 @@ def get_single_activation(model, forward_mode, feature_set, fens):
 @click.option('--start', default=0, help='Start index')
 @click.option('--length', default=100, help='Length of dataset')
 @click.option('--model_string', default="version_19_setting_0", help='Name of log for model')
-@click.option('--model_file', default="model_single_bucket", help='Name of log for model')
+@click.option('--model_file', default="model", help='Name of log for model')
 @click.option('--ckpt_name', default="epoch=499-step=3052000.ckpt", help='Name of log for model')
 def main(start, length, model_string, model_file, ckpt_name):
 
     if model_file == "model_single_bucket":
         import model_single_bucket as M
     elif model_file == "model":
-        import model as M
+        import model_get_activations as M
+    else:
+        raise Exception("model_file not recognized")
     
-    db_name = f"stockfish_data_fens_{model_string}"
-    dir_name = f"/media/ap/storage/stockfish_data/{db_name}"
-
-
+    dir_folder = f"production_models/{model_string}/activations"
+    dir_name = f"{dir_folder}/{ckpt_name.split('-')[0].replace('=', '_')}"
 
     # make dir if not exists
+    if not os.path.exists(dir_folder):
+        os.mkdir(dir_folder)
     if not os.path.exists(dir_name):
         os.mkdir(dir_name)
 
     # load df
-    concept_df_path = f"/media/ap/storage/stockfish_data/stockfish_data_fens_01/concept_df.pkl"
-    df = pd.read_pickle(concept_df_path)
+    df = pd.read_pickle("production_models/fen_df.pkl")
 
     # if start is larger than length of df, return
     if start > df.shape[0]:
@@ -100,17 +101,22 @@ def main(start, length, model_string, model_file, ckpt_name):
     feature_set = features.get_feature_set_from_name(features_name)
 
     nnue = M.NNUE(feature_set)
-    nnue.load_from_checkpoint(f'logs/lightning_logs/{model_string}/checkpoints/{ckpt_name}', feature_set=feature_set)
+    nnue = nnue.load_from_checkpoint(f'production_models/{model_string}/checkpoints/{ckpt_name}', feature_set=feature_set)
+    nnue = nnue.cuda()
+
+    #nnue = torch.load(f'production_models/{model_string}/checkpoints/{ckpt_name}')
+    #nnue.set_feature_set(feature_set)
+    #nnue = nnue.cuda()
 
     #nnue = torch.load('logs/default/version_11/checkpoints/epoch=499-step=3051999.ckpt')
 
     #print(nnue.keys())
     #nnue.set_feature_set(feature_set)
-    nnue = nnue.cuda()
+    
     print('running')
 
 
-    forward_modes = nnue.possible_forward_modes
+    forward_modes = nnue.possible_forward_modes + [100]
 
     input_size = 46592
 

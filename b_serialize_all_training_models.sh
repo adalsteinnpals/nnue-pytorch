@@ -1,11 +1,11 @@
 # serialize all models in folder
 
-folder=version_20
+folder=train_setting_4
 
-mkdir -p serialized_models/$folder
-for file in logs/lightning_logs/$folder/checkpoints/epoch=*.ckpt
+mkdir -p production_models/$folder/serialized_models
+for file in production_models/$folder/checkpoints/epoch=*.ckpt
 do
     epochnumber=$(basename $file .ckpt | cut -d'=' -f2)
     file_name="nn-epoch$epochnumber.nnue"
-    python serialize.py $file serialized_models/$folder/$file_name
+    python serialize.py $file production_models/$folder/serialized_models/$file_name
 done

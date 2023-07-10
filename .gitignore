@@ -12,3 +12,4 @@ models/
 .vscode/
 *.binpack
 production_models/
+tournaments/

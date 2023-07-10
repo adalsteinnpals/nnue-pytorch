@@ -4,6 +4,6 @@
 
 for i in "$@"
 do
-bash train_model.sh $i
+bash b_train_model.sh $i
 done
 

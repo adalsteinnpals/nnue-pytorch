@@ -73,20 +73,72 @@ def test_train_setting_4():
         assert not (pos_string.count('N') != 2 and pos_string.count('n') == 2)
 
 
+def test_train_setting_5():
+    """
+    When train_setting = 4, the dataloader should never return positions where players have same color bishop only.
+    """
+
+    train_setting = 5
+    dataloader = make_fen_batch_provider('../PycharmProjects/data/training_data.binpack', 1000, train_setting)
+
+    fen_batch = next(dataloader)
+    for fen in fen_batch:
+        board = chess.Board(fen)
+        # assert 
+        # check if all four cases are false
+        assert not (not white_has_white_bishop(board) and  not black_has_white_bishop(board) and white_has_black_bishop(board) and black_has_black_bishop(board) )
+        assert not (white_has_white_bishop(board) and black_has_white_bishop(board) and not white_has_black_bishop(board) and not black_has_black_bishop(board) )
+
+def test_train_setting_6():
+    """
+    When train_setting = 4, the dataloader should never return positions where players have same color bishop only.
+    """
+
+    train_setting = 6
+    dataloader = make_fen_batch_provider('../PycharmProjects/data/training_data.binpack', 1000, train_setting)
+
+    fen_batch = next(dataloader)
+    for fen in fen_batch:
+        board = chess.Board(fen)
+        # assert 
+        # check if all four cases are false
+        assert not (not white_has_white_bishop(board) and  black_has_white_bishop(board) and white_has_black_bishop(board) and not black_has_black_bishop(board) )
+        assert not (white_has_white_bishop(board) and not black_has_white_bishop(board) and not white_has_black_bishop(board) and black_has_black_bishop(board) )
 
 
+def white_has_white_bishop(board):
+    return any(chess.SquareSet(chess.BB_LIGHT_SQUARES) & chess.SquareSet(board.pieces(chess.BISHOP, chess.WHITE)))
+
+def white_has_black_bishop(board):
+    return any(chess.SquareSet(chess.BB_DARK_SQUARES) & chess.SquareSet(board.pieces(chess.BISHOP, chess.WHITE)))
+
+def black_has_white_bishop(board):
+    return any(chess.SquareSet(chess.BB_LIGHT_SQUARES) & chess.SquareSet(board.pieces(chess.BISHOP, chess.BLACK)))
+
+def black_has_black_bishop(board):
+    return any(chess.SquareSet(chess.BB_DARK_SQUARES) & chess.SquareSet(board.pieces(chess.BISHOP, chess.BLACK)))
 
 
 if __name__ == '__main__':
-    dataloader = make_fen_batch_provider('../PycharmProjects/data/training_data.binpack', 1000, 2)
+    dataloader = make_fen_batch_provider('../PycharmProjects/data/training_data.binpack', 1000, 5)
 
     fen_batch = next(dataloader)
-    for fen in fen_batch[:10]:
+    for fen in fen_batch[:100]:
         board = chess.Board(fen)
         print('-------------------')
-        if 'q' in fen: print('black has queen')
-        if 'Q' in fen: print('white has queen')
-        print('number of white bishops: ', fen.split(' ')[0].count('B'))
-        print('number of black bishops: ', fen.split(' ')[0].count('b'))
+
+
         print(fen)
         print(board)
+        print('white_has_white_bishop', white_has_white_bishop(board))
+        print('white_has_black_bishop', white_has_black_bishop(board))
+        print('black_has_white_bishop', black_has_white_bishop(board))
+        print('black_has_black_bishop', black_has_black_bishop(board))
+
+
+        #assert not (not white_has_white_bishop(board) and  not black_has_white_bishop(board) and white_has_black_bishop(board) and black_has_black_bishop(board) )
+        #assert not (white_has_white_bishop(board) and black_has_white_bishop(board) and not white_has_black_bishop(board) and not black_has_black_bishop(board) )
+        
+        assert not (not white_has_white_bishop(board) and  black_has_white_bishop(board) and white_has_black_bishop(board) and not black_has_black_bishop(board) )
+        assert not (white_has_white_bishop(board) and not black_has_white_bishop(board) and not white_has_black_bishop(board) and black_has_black_bishop(board) )
+        
